@@ -22,17 +22,19 @@ Read [STATUS.md](STATUS.md) first.
 
 1. [STATUS.md](STATUS.md) — what exists now and what is not claimed.
 2. [PRODUCT_MODEL.md](PRODUCT_MODEL.md) — Systead, Core, House, specialist systems, AuthorMachine, and Stokknes House.
-3. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behavior.
-4. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — layers, contracts, records, commands, knowledge, integrations, and recovery.
-5. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
-6. [PRE_ALPHA_PROGRAM.md](PRE_ALPHA_PROGRAM.md) — purpose and rules of the current phase.
-7. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — how the private build is being pressured and what counts as evidence.
-8. [RELEASE_READINESS.md](RELEASE_READINESS.md) — gates that must be passed before outside testing or release claims.
-9. [ROADMAP.md](ROADMAP.md) — staged direction, without invented dates.
-10. [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) — current transitional repository authority.
-11. [BRAND_AND_NAMING.md](BRAND_AND_NAMING.md) — locked working names and public language.
-12. [TERMINOLOGY.md](TERMINOLOGY.md) — definitions used across code, docs, and interface copy.
-13. [DECISION_REGISTER.md](DECISION_REGISTER.md) — explicit decisions and open questions.
+3. [PUBLIC_PRESENTATION.md](PUBLIC_PRESENTATION.md) — public explanation order, category model, layout rhythm, and product voice.
+4. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behavior.
+5. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — layers, contracts, records, commands, knowledge, integrations, and recovery.
+6. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
+7. [OWNERSHIP_AND_IP.md](OWNERSHIP_AND_IP.md) — current personal ownership and intended future company separation.
+8. [PRE_ALPHA_PROGRAM.md](PRE_ALPHA_PROGRAM.md) — purpose and rules of the current phase.
+9. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — how the private build is being pressured and what counts as evidence.
+10. [RELEASE_READINESS.md](RELEASE_READINESS.md) — gates that must be passed before outside testing or release claims.
+11. [ROADMAP.md](ROADMAP.md) — staged direction, without invented dates.
+12. [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) — current transitional repository authority.
+13. [BRAND_AND_NAMING.md](BRAND_AND_NAMING.md) — locked working names and public language.
+14. [TERMINOLOGY.md](TERMINOLOGY.md) — definitions used across code, docs, and interface copy.
+15. [DECISION_REGISTER.md](DECISION_REGISTER.md) — explicit decisions and open questions.
 
 ## Change rule
 

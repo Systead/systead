@@ -34,6 +34,12 @@ The register records product decisions that should not be reinterpreted casually
 | SYS-026 | A local model result is not canonical merely because it remained on-device. | Locked AI-authority decision |
 | SYS-027 | Private defaults discovered in Stokknes House must be separated before they become product defaults. | Locked generalization decision |
 | SYS-028 | Large repository flattening should not occur during initial stress testing without inventory, dependency mapping, migration, and rollback plans. | Active structural constraint |
+| SYS-029 | Public presentation leads with the human problem and product experience; heavier architecture language belongs lower on the page or in technical documentation. | Locked communication decision |
+| SYS-030 | Systead public styling must be visually distinct from Stokknes Publishing and should use an airy architectural workspace direction rather than dark literary branding. | Locked visual-direction decision |
+| SYS-031 | Wide public interface studies must be constrained, framed, and captioned rather than expanded raw across the browser. | Locked presentation decision |
+| SYS-032 | Until a Systead company is incorporated and registered, pre-incorporation Systead IP remains legally held by Marius Johan Stokknes, subject to third-party rights. | Current ownership decision |
+| SYS-033 | The intended future platform owner is Systead Systems S.L.U.; Stokknes Publishing S.L.U. is intended for publishing assets and operations, not ownership of the general platform. | Locked company-separation direction |
+| SYS-034 | Any future assignment or exclusive licence of pre-incorporation Systead IP must be documented in writing after the relevant company exists. | Locked transfer requirement |
 
 ## Open decisions
 

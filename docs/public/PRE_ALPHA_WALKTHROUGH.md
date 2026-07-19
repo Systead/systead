@@ -1,115 +1,107 @@
 # Systead pre-alpha walkthrough
 
-**Public status:** Running private pre-alpha; first-week stress test; not open for public testing.
+**Public status:** Running private pre-alpha · first-week stress test · not open for public testing.
 
-This walkthrough explains the basic operating model shown in the public-safe interface studies. It is not user documentation for an installable release.
+This walkthrough explains what the public-safe interface studies are trying to communicate. It is not user documentation for an installable release.
 
-## 1. Start in the House Command Centre
+## 1. Open the House and recover the situation
 
-A House Command Centre is intended to summarize operational state rather than merely display attractive metrics.
+The first screen should not punish the user with a wall of statistics.
 
-It should answer:
+It should answer ordinary but important questions:
 
-- What changed since the previous review?
-- What is currently canonical?
-- What requires human judgment?
-- What is blocked, and why?
-- Which actions are local only?
-- Which actions could affect an external system?
-- Is backup and recovery state healthy enough for the next risky operation?
+- What changed since I was last here?
+- What am I actually working on now?
+- What is waiting for my judgment?
+- What is blocked, stale, or beginning to go wrong?
+- Which proposed actions stay local?
+- Which ones could affect another person, account, service, or public destination?
+- Is it safe to continue, or should something be backed up or repaired first?
 
-The pre-alpha study shows four kinds of information:
+The House overview study combines:
 
-### Daily brief
+- a daily brief;
+- current work;
+- waiting decisions;
+- practical system signals;
+- stress-test status.
 
-A compact list of material changes and review needs, each linked to its evidence or records.
+The goal is orientation, not performance theatre.
 
-### Current work
+## 2. Open the thing, not another disconnected summary
 
-The active workstream and the next judgment required. Progress is not intended to imply a release date.
+A project, person, book, asset, file, or decision should carry its own useful context.
 
-### House signals
+That means the current state can remain connected to:
 
-Operational conditions such as active workstreams, unapproved external effects, and recovery tasks.
+- source material;
+- important history;
+- previous decisions;
+- related records;
+- unresolved questions;
+- evidence;
+- the next safe action.
 
-### Review queue
+Systead is intended to reduce the repeated work of reconstructing the same situation from several apps and old conversations.
 
-Proposals that cannot become canonical or execute until the operator accepts, revises, rejects, or resolves them.
+## 3. Review important changes before they become real
 
-## 2. Open a proposal rather than accepting a summary
+A proposed action should not say only “duplicate found” or “AI recommends this.”
 
-A review item should not say only “duplicate found” or “AI recommends this.”
+The review study shows the kind of information a material action should expose:
 
-The command-review study shows:
+- what the system wants to do;
+- why it wants to do it;
+- what source or rule produced the proposal;
+- which records or files will be affected;
+- whether anything will be deleted;
+- whether an outside service or public destination is involved;
+- the risk level;
+- backup and rollback expectations;
+- how success will be checked;
+- the exact scope being approved.
 
-- the exact intent;
-- why the proposal exists;
-- the source or rule;
-- affected records;
-- whether files are deleted;
-- whether external effects occur;
-- risk classification;
-- backup requirement;
-- rollback availability;
-- verification state;
-- approval controls.
+If the scope changes, the approval should no longer silently apply.
 
-Approval applies to the exact declared command. If scope changes after preview, new approval should be required.
-
-## 3. Execute through a controlled lifecycle
-
-The intended lifecycle is:
-
-1. propose;
-2. validate and preview;
-3. approve or reject;
-4. create a snapshot where required;
-5. execute through a declared adapter;
-6. verify the result;
-7. write audit history;
-8. close, rollback, or require corrective action.
-
-This model applies to local record changes and becomes more strict for publishing, sending, payment, deletion, synchronization, account, permission, or public-posting effects.
-
-## 4. Enter a specialist system without losing the common safety model
+## 4. Use a specialist product without losing the common foundations
 
 AuthorMachine by Systead is the first specialist product.
 
-The public book-cockpit study demonstrates domain-specific information:
+The book-cockpit study shows publishing-specific concerns:
 
 - manuscript and revision state;
-- canon and continuity signals;
-- edition control;
-- production pipeline;
-- style bible and decision history;
-- contradiction register;
-- release controls.
+- canon and continuity;
+- editions and formats;
+- production stages;
+- project knowledge and previous decisions;
+- open contradictions or proofing issues;
+- catalogue and release controls.
 
-AuthorMachine does not replace Core. It uses shared records, review, audit, recovery, contact, knowledge, and command contracts while adding publishing-specific logic.
+The publishing depth lives inside AuthorMachine. It still uses the shared House foundations for records, knowledge, contacts, review, privacy, audit, backup, and recovery.
 
-## 5. Keep public output separate from private work
+## 5. Keep the private proving environment private
 
-The private flagship contains real operational material. It is not used as a public demo database.
+The running flagship House contains real operational material. It is not the public demo database.
 
-The images in the repository are reconstructed with:
+The public studies use:
 
 - fictional project names;
 - synthetic records;
 - illustrative counts;
 - no private manuscript text;
 - no real contacts, amounts, addresses, accounts, or logs;
-- no claim that the exact layout is the current live build.
+- no claim that the exact visible layout matches the current private build.
 
 ## 6. Understand the current limit
 
-The presence of a running private build does not mean a safe outside-user package exists.
+A running private build is not the same as a safe outside-user package.
 
-Before public or closed testing, Systead still needs evidence around:
+Before closed or public testing, Systead still needs stronger evidence around:
 
 - clean installation or bootstrap;
-- migrations;
+- migrations and upgrades;
 - backup and restore;
-- removal;
+- removal and recovery;
 - diagnostics;
 - privacy boundaries;
 - security baseline;

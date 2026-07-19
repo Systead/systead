@@ -16,25 +16,42 @@ The images in `assets/img/pre-alpha/` are **public-safe interface studies**.
 - proof that every visible control is implemented;
 - proof of production readiness;
 - reliability or performance evidence;
-- copies of the private Stokknes House;
+- copies of the private flagship House;
 - public disclosure of actual stress-test records or telemetry.
+
+## Website display rules
+
+The studies are wide application interfaces. They should not be allowed to expand endlessly across a large browser window.
+
+Public pages should:
+
+- place them inside a clearly bounded product frame;
+- cap the featured image near `1040px` wide;
+- cap image height and use `object-fit: contain`;
+- use a two-column layout for secondary views on larger screens;
+- stack them cleanly on mobile;
+- avoid wrapping the entire image in a raw full-size link;
+- keep captions separate and readable;
+- preserve enough surrounding space that the page does not feel like a screenshot dump.
+
+The current website implementation follows these rules in `assets/css/site.css`.
 
 ## Included images
 
 ### `house-command-centre.png`
 
-Shows a representative House command-centre surface:
+Shows a representative House overview:
 
 - daily brief;
 - current work;
 - House signals;
 - review queue;
-- local/external-effect state;
+- local and external-effect state;
 - current stress-test status.
 
 ### `command-review.png`
 
-Shows the intended command-safety model:
+Shows the intended review-before-action model:
 
 - declared intent;
 - reason and source;
@@ -43,7 +60,7 @@ Shows the intended command-safety model:
 - risk;
 - backup and rollback;
 - approval bound to the proposal;
-- lifecycle from proposal to recovery.
+- verification and recovery.
 
 ### `authormachine-cockpit.png`
 
@@ -65,7 +82,7 @@ When reused publicly, include a caption or nearby statement equivalent to:
 
 ## Replacement with real screenshots
 
-A later real build screenshot may replace a study only after review for:
+A later real-build screenshot may replace a study only after review for:
 
 - personal names and aliases;
 - private project or book titles;
@@ -76,6 +93,6 @@ A later real build screenshot may replace a study only after review for:
 - tokens and identifiers;
 - notifications and browser chrome;
 - metadata in the exported image;
-- information combinations that reveal private history.
+- combinations of information that reveal private history.
 
 Real screenshots should identify the build version and remain accurate after meaningful UI changes.
