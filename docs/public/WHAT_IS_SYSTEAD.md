@@ -1,46 +1,52 @@
+
 # What is Systead?
 
-Systead is a private continuity system for memory, decisions, responsibility, and long-lived work.
-
-It is being built for the point where files, notes, messages, task lists, specialist applications, and personal memory no longer preserve enough of the situation.
+Systead is building **private continuity infrastructure** for people and small organisations whose work is too important to remain scattered across applications, folders, chats, services, scripts, and memory.
 
 A configured Systead environment is called a **House**.
 
-A House can keep projects, records, knowledge, decisions, responsibilities, selected specialist Programs, and controlled actions connected over time.
+The House keeps knowledge, decisions, responsibilities, files, relationships, and selected specialist Programs coherent over time.
+
+> **Programs solve particular domains. Systead preserves the whole.**
 
 ## The simple version
 
 Systead should help answer:
 
-- What matters now?
 - What changed?
 - What is current?
 - Why is it current?
-- What remains uncertain?
+- What remains uncertain or contradictory?
 - What depends on this?
-- What will the next action affect?
-- Can the result be checked and recovered?
+- What happens if it changes?
+- What requires human judgment?
+- Can the action be inspected, verified, and recovered?
+- Can the important meaning survive without Systead?
 
-## The three promises
+## What Systead is
 
-### Memory
+- the platform and broader product direction;
+- shared Core and Trust Kernel foundations;
+- the House and its calm human surfaces;
+- House Steward intelligence and controlled action;
+- optional specialist Programs;
+- declared Connectors;
+- recovery, migration, and Exit Kit capability.
 
-Keep source, standing, decisions, history, contradiction, and dependency attached to the work.
+## What Systead is not
 
-### Safety
+Systead is not merely a notes application, task manager, database builder, writing tool, AI chat wrapper, or cloud dashboard.
 
-Show intended effects, authority, risk, verification, and recovery before important changes occur.
+It may use, connect, import, or eventually replace parts of those categories. Its defining job is different:
 
-### Control
+> **Help the work remain coherent over time.**
 
-Keep the operator in charge and keep the House inspectable, portable, and local-first.
+## Program 01
 
-## Not only publishing
+The first specialist Program serves publishing. Its current internal working name is **AuthorMachine**.
 
-The first specialist Program serves publishing because publishing is a demanding proof domain.
-
-Systead itself is broader. The House and Core are intended to support long-lived work across personal, professional, household, creative, and small-organisational responsibilities.
+Publishing is the first proof domain—not the definition or limit of Systead. The final Program name, package, included features, pricing, licensing, and release identity remain undecided.
 
 ## Current maturity
 
-Systead is in private pre-alpha. A private flagship build exists and is used under real workload, but there is no supported public tester build yet.
+Systead is a running private pre-alpha under real daily stress testing. A private flagship House exists, but there is no supported public tester build yet.

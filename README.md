@@ -1,3 +1,4 @@
+
 <p align="center">
   <picture>
     <source srcset="assets/img/brand/systead-header.webp" type="image/webp">
@@ -6,205 +7,178 @@
 </p>
 
 <p align="center">
-  <strong>A private continuity system for memory, decisions, responsibility, and long-lived work.</strong>
+  <strong>Private continuity infrastructure for memory, decisions, responsibility, and long-lived work.</strong>
 </p>
 
 <p align="center">
-  <a href="#what-systead-is">What it is</a> ·
+  <a href="#the-first-60-seconds">60-second introduction</a> ·
+  <a href="#why-systead-exists">Why it exists</a> ·
   <a href="#the-product-model">Product model</a> ·
-  <a href="#the-three-promises">Core promises</a> ·
-  <a href="#program-01-publishing">Program 01</a> ·
+  <a href="#programs">Programs</a> ·
+  <a href="#vision">Vision</a> ·
   <a href="#current-status">Status</a> ·
-  <a href="#repository-map">Repository map</a> ·
   <a href="#documentation">Documentation</a>
 </p>
 
 ---
 
 > [!WARNING]
-> **Systead is in private pre-alpha.** A private flagship build is running under real daily use and stress testing, but there is no supported public installer, migration promise, security guarantee, compatibility contract, or release date yet.
+> **Systead is a running private pre-alpha.** A private flagship House exists and is under real daily stress testing. There is no supported public installer, tester package, stable migration contract, production-security guarantee, support commitment, or release date yet.
 
 > [!IMPORTANT]
-> **AuthorMachine is an internal working name.** It currently identifies Systead's first specialist publishing program and the private v10 line being generalized. The eventual public product name, package boundaries, included features, pricing, licensing, and release identity may change before release.
+> **AuthorMachine is an internal working name.** It currently identifies Program 01: Publishing and the private v10 proving line. The eventual release name, package, included features, pricing, licensing, and release identity remain undecided.
 
-# Systead
+# The first 60 seconds
 
-Systead is being built for work that has outgrown scattered files, notes, task lists, chats, dashboards, and human memory.
+## What is Systead?
 
-It creates a private **House**: an operator-owned environment where projects, records, knowledge, decisions, responsibilities, specialist programs, and controlled actions can stay connected over time.
+Systead is building the **House**: a private environment where knowledge, decisions, responsibilities, files, relationships, and specialist Programs can remain coherent over years.
 
-The goal is not to build a larger productivity dashboard.
+The simplest distinction is:
 
-The goal is to create a system that can answer questions ordinary tools usually leave to the user:
+> **Programs solve particular domains. Systead preserves the whole.**
 
-- What is currently true?
-- What source supports it?
-- What changed?
-- Why was this decision made?
-- What remains uncertain or contradictory?
-- What depends on this record?
-- What will happen if it changes?
-- What needs human judgment now?
-- Can the action be inspected, verified, and undone?
-- Can the House survive without Systead itself?
+Systead is the platform and broader product direction. A House is one operator's configured environment. Programs are optional specialist applications inside that House.
 
-The working north star is:
+## Why does it need to exist?
 
-> **The safest and most coherent private system for long-lived human work.**
+Important work is spread across tools that do not share memory, authority, provenance, or history.
 
-AuthorMachine—the current working name for the first publishing program—is the first serious evidence that this wider platform can be built.
+The task system knows what is due. The folder contains the file. The chat contains the reasoning. The specialist application understands one domain. The AI can generate or change material. The operator still has to remember how the whole situation fits together.
 
-## Table of contents
-
-- [What Systead is](#what-systead-is)
-- [Why it exists](#why-it-exists)
-- [The three promises](#the-three-promises)
-- [The product model](#the-product-model)
-- [What a House should feel like](#what-a-house-should-feel-like)
-- [Signature interactions](#signature-interactions)
-- [House Steward](#house-steward)
-- [Program 01: publishing](#program-01-publishing)
-- [The private v10 proving ground](#the-private-v10-proving-ground)
-- [Safety and authority](#safety-and-authority)
-- [Memory and canonical truth](#memory-and-canonical-truth)
-- [Portability and exit](#portability-and-exit)
-- [Current status](#current-status)
-- [Development direction](#development-direction)
-- [Repository map](#repository-map)
-- [Bringing the private v10 build into Systead](#bringing-the-private-v10-build-into-systead)
-- [Public and private boundaries](#public-and-private-boundaries)
-- [Documentation](#documentation)
-- [Brand, ownership, and working names](#brand-ownership-and-working-names)
-
-# What Systead is
-
-Systead is a **local-first continuity and operations platform**.
-
-Its purpose is to help an individual, household, independent professional, creator, or small owner-operated organisation preserve operational memory and act with more control.
-
-At full maturity, a House may bring together:
-
-- active work and projects;
-- files and source material;
-- people and practical relationships;
-- decisions and their evidence;
-- commitments, obligations, and review dates;
-- assets, services, and recurring responsibilities;
-- knowledge, manuals, research, and previous conclusions;
-- specialist programs for domains that need deeper workflows;
-- local intelligence that can observe, explain, propose, and prepare actions;
-- exports, backups, recovery points, and audit history.
-
-Systead is not intended to become one enormous screen where every part of life is visible at once.
-
-The visible product should remain calm. Complexity should appear only when the work requires it.
-
-## What Systead is not
-
-Systead is not simply:
-
-- a notes application;
-- a wiki;
-- a task manager;
-- a writing program;
-- a database builder;
-- an AI chat wrapper;
-- a cloud dashboard;
-- a replacement for professional legal, medical, financial, or publishing judgment;
-- a promise that every possible domain will become a built-in room.
-
-It may contain or connect capabilities found in those categories, but its defining job is different:
-
-> **Preserve continuity between memory, evidence, decisions, responsibility, and action.**
-
-# Why it exists
-
-The problem is not a shortage of software. The problem is fragmentation.
-
-A task manager may know what is due but not why the work exists. A folder may contain the file but not the decision that made it current. A chat may contain the explanation but not the lasting record. A specialist application may understand one domain but lose context at its boundary. An AI may produce a result without preserving exactly what it changed, why, or how to recover.
-
-The user becomes the integration layer.
+The operator has become the integration layer.
 
 Systead is built around a different assumption:
 
 > **The work should be able to remember itself.**
 
-A serious record should be able to retain its source, standing, history, uncertainty, dependencies, decisions, and available next actions rather than forcing the user to reconstruct the entire situation each time.
+## Who is it for?
 
-# The three promises
+Systead is intended for people and small organisations whose work accumulates context and consequence over years:
 
-## 1. Memory
+- independent professionals;
+- authors and publishers;
+- researchers and consultants;
+- creators managing complex bodies of work;
+- founders and owner-operators;
+- households carrying substantial administration;
+- small organisations needing continuity without enterprise infrastructure.
 
-The House should remember more than text.
+It is especially relevant to someone who says:
 
-It should retain:
+- “My work no longer fits inside one app.”
+- “I keep rebuilding context.”
+- “I want AI assistance without surrendering authority.”
+- “I need to know what is current and why.”
+- “I care what happens to these records years from now.”
 
-- what the current record is;
-- where it came from;
-- what replaced an older version;
-- which evidence supports it;
-- which claims remain uncertain;
-- which records disagree;
-- which decisions changed its standing;
-- when it was last reviewed or verified;
-- what depends on it.
+## What exists now?
 
-A note remembers what someone wrote.
+A private flagship House is running under real daily workload. It is being stress-tested for persistence, indexing, record integrity, command safety, backup, restore, recovery, and hidden assumptions tied to one operator or publishing workflow.
 
-Systead should remember **what the House currently believes, why it believes it, and where doubt remains**.
+The current private publishing line is commonly called **AuthorMachine v10** internally. It is evidence that a working system exists. It is not a public release contract.
 
-## 2. Safety
+# Why Systead exists
 
-Important operations should never hide behind vague buttons or invisible automation.
+## The root problem: fragmentation
 
-Material actions should declare:
+The problem is not that people lack software. The problem is that useful software usually stops at its own boundary.
 
-- intended outcome;
-- source and reasoning;
-- scope;
-- affected records;
-- outside destinations;
-- risk;
-- approval requirement;
-- verification method;
-- reversibility or recovery path.
+- A note can preserve text without preserving its authority.
+- A task can preserve an obligation without preserving the reason.
+- A file can exist without anyone knowing whether it is current.
+- A decision can survive while its evidence disappears.
+- A calendar can know when something happens without knowing what it depends on.
+- A chat can contain the explanation without becoming durable operational memory.
+- An AI can act faster than the operator can inspect or recover.
+- A specialist application can understand one domain and lose the rest of the House.
 
-Safety is not a warning dialog added at the end. It is part of the architecture.
+Systead aims to preserve continuity between those fragments.
 
-## 3. Control
+## Problems the House should address
 
-The operator remains the authority.
+### Version and standing uncertainty
 
-Systead may observe, explain, detect, compare, recommend, draft, and prepare. It must not quietly turn uncertainty into truth, publish private material, delete canonical sources, change obligations, or represent approval that was never given.
+The correct record exists, but its current standing is unclear.
 
-Control also means exit:
+The House should distinguish current, working, historical, imported, derived, disputed, superseded, quarantined, and archived information.
 
-- inspectable records;
-- understandable exports;
-- portable files;
-- documented manifests;
-- tested restore paths;
-- no mandatory cloud account as the owner of the House.
+### Decision amnesia
+
+The outcome remains while the reasoning disappears.
+
+A meaningful decision record should retain the problem, available options, evidence, rejected alternatives, constraints, expected consequences, responsible person, review date, resulting actions, and later outcome.
+
+### Context collapse after interruption
+
+After illness, overload, travel, changed work, or ordinary delay, the operator must reconstruct the situation from folders, messages, memory, and unfinished notes.
+
+Systead should support a defining interaction:
+
+> **Bring me back.**
+
+Reconstruct where I was, what changed, what remains unresolved, what became blocked, and what I should read first.
+
+### Unsafe intelligence and automation
+
+AI can help compare, explain, classify, draft, and propose. It can also quietly misread, overwrite, publish, move, or delete.
+
+Systead separates authority into observable stages rather than treating “intelligent” as permission.
+
+### Tool accumulation
+
+Every new tool may solve one problem while creating another account, database, data model, sync path, export format, and maintenance burden.
+
+Systead does not need to replace every mature tool immediately. It needs to own the continuity layer those tools usually leave behind.
+
+### Fragile digital estates
+
+Years of work can become dependent on one service, one device, one undocumented script, one developer, or one person's memory.
+
+A serious House should be designed to survive changing tools, changing AI models, failed devices, removed Programs, and eventually Systead itself being replaced.
+
+# The defining experiences
+
+Five interactions should explain Systead better than fifty feature cards.
+
+## Bring me back
+
+> “I have not touched this project in six weeks. Reconstruct where I was, what changed, what remains unresolved, and what I should read first.”
+
+## Why is this true?
+
+> “Show the source, decision history, uncertainty, contradictions, and most recent verification.”
+
+## What changes if I do this?
+
+> “Show every affected record, commitment, file, Program, destination, and automation before approval.”
+
+## Resolve this safely
+
+> “Preserve the current state, show the correction plan, execute only what was approved, verify the result, and retain recovery.”
+
+## What needs me?
+
+> “Surface blocked responsibilities, expiring commitments, unresolved conflicts, and decisions that require human judgment.”
 
 # The product model
 
 ```text
 Systead
-├── Trust Kernel / Core
-│   ├── identity and permissions
+├── Core / Trust Kernel
+│   ├── identity and authority
 │   ├── canonical records and provenance
 │   ├── decisions and evidence
 │   ├── commands and approval
-│   ├── audit, verification, and recovery
 │   ├── privacy and boundary controls
+│   ├── audit, verification, and recovery
 │   └── export and portability contracts
 ├── House
 │   ├── calm starting surfaces
-│   ├── rooms and desks
-│   ├── operator configuration
-│   ├── local knowledge and records
-│   ├── selected programs and utilities
-│   └── declared connectors
+│   ├── Rooms and Desks
+│   ├── operator-owned records and configuration
+│   ├── selected Programs and utilities
+│   └── declared Connectors
 ├── House Steward
 │   ├── observe
 │   ├── explain
@@ -214,382 +188,320 @@ Systead
 │   ├── stage
 │   └── verify approved actions
 ├── Programs
-│   └── Program 01: publishing
-│       └── current internal working name: AuthorMachine
-└── Private proving grounds
-    └── Stokknes House / private v10 build
+│   └── Program 01: Publishing
+├── Connectors
+└── Exit Kit
 ```
 
-## Systead Core
+## Systead
 
-Core is the generic foundation shared by every House and specialist program.
+The platform, ecosystem, brand, and broader future-company direction.
 
-Its responsibilities include:
+Systead defines the shared rules for memory, authority, evidence, safety, recovery, Programs, connectors, and exit.
 
-- stable identifiers and typed records;
-- canonical standing and lifecycle state;
-- provenance and source references;
-- duplicate and conflict handling;
-- decisions, evidence, and review state;
-- command proposals and authority checks;
-- execution adapters and verification;
-- audit and recovery references;
-- privacy classifications and destination controls;
-- local storage and migration contracts;
-- backup, export, restore, and exit manifests;
-- program, module, and connector boundaries.
+## Core and Trust Kernel
 
-Core must not assume that the operator is an author, publisher, Norwegian, Spanish resident, one-person business, or the owner of the private Stokknes environment.
+The non-negotiable foundation:
 
-## House
+- identity and permissions;
+- canonical standing and provenance;
+- decisions and evidence;
+- authority and command review;
+- privacy boundaries;
+- audit and verification;
+- recovery and portability.
 
-A **House** is the operator's configured Systead environment.
+## A House
 
-It is not a second parent product. It is not merely a visual theme. It is the lived system created from Core, selected rooms, local records, permissions, programs, workflows, and preferences.
+One operator's configured private environment.
 
-Two Houses can share Systead Core while looking and behaving differently because their responsibilities are different.
+The House is what the operator experiences. It can contain Today, active work, selected Rooms, Desks, records, knowledge, relationships, practical responsibilities, Programs, and declared connectors.
+
+A House can remain small. It must not require every possible Room or Program.
 
 ## Rooms
 
-A **Room** is a broad area of responsibility.
-
-Possible examples include:
-
-- Today;
-- Work;
-- Projects;
-- Knowledge;
-- Files;
-- Contacts;
-- Household;
-- Assets;
-- Administration;
-- Finance;
-- Health;
-- Archive.
-
-These are possible product categories, not a promise that every House starts with all of them.
+Broad areas of responsibility inside the House, such as Work, Knowledge, Household, Contacts, or Administration.
 
 ## Desks
 
-A **Desk** is a focused working surface inside a Room.
+Focused operational surfaces inside Rooms.
 
-Examples may include Contact Desk, Project Desk, Asset Desk, Animal Desk, Decision Desk, or Publishing Desk.
+## House Steward
 
-A Desk should display and act on shared canonical records. It should not create a private copy of truth that drifts away from the rest of the House.
+The working name for the intelligence and controlled-action layer.
+
+The Steward should behave less like an unbounded chatbot and more like an inspectable private steward that can always show its evidence, authority, scope, and result.
 
 ## Programs
 
-A **Program** is a deep specialist application built on the same Core.
+Optional specialist applications inside the House.
 
-Programs may add:
+Programs can be deep and opinionated. They cannot own the person's general memory, bypass Core safety, silently access unrelated Rooms, or trap the House in undocumented structures.
 
-- domain records;
-- specialist terminology;
-- dedicated cockpits;
-- production pipelines;
-- domain-specific checks;
-- specialist imports and exports;
-- scoped intelligence;
-- domain integrations.
+Core rule:
 
-A Program does not own the person or replace the House. It cooperates through shared contracts.
-
-## Utilities
-
-Utilities provide reusable capabilities such as search, capture, export, backup, restore, indexing, conversion, or controlled publication.
+> **Programs are replaceable. The House is durable. No Program owns the person.**
 
 ## Connectors
 
-Connectors provide explicit access to outside services. They must declare what they can read, what they can write, what leaves the House, and what happens when the service is unavailable.
+Declared access to outside tools, services, models, destinations, and synchronization paths.
+
+A connector must not become invisible authority.
+
+## Exit Kit
+
+Human-readable and machine-readable export, manifests, checksums, restore tools, migration documentation, and ordinary-file fallbacks where possible.
 
 # What a House should feel like
 
-The private build may be dense because it contains years of accumulated reality. The public product cannot begin there.
+The private flagship is dense because it carries accumulated real-world complexity. Public Systead needs progressive disclosure.
 
-A new House should open with a small, calm surface:
+## Depth 1: Calm starting surface
+
+A new operator should initially see:
 
 - what changed;
-- what needs attention;
-- what is active;
-- what is waiting for judgment;
+- what matters today;
+- active work;
+- something waiting for review;
 - quick capture;
 - search;
-- selected rooms.
+- selected areas.
 
-Depth should appear progressively.
+## Depth 2: Working Rooms
 
-## Layer 1: calm surface
+Inside a Room, the House may reveal:
 
-The person sees what matters now without being asked to understand schemas, provenance graphs, command contracts, or recovery manifests.
+- records;
+- relationships;
+- timelines;
+- source material;
+- decisions;
+- state and dependencies;
+- next actions;
+- relevant tools.
 
-## Layer 2: working rooms
+## Depth 3: Machinery underneath
 
-When entering a Room or Program, the person can reach records, timelines, files, dependencies, decisions, open questions, and useful tools.
+Advanced surfaces may expose:
 
-## Layer 3: machinery
-
-Advanced and sensitive surfaces expose:
-
-- canonical standing;
 - provenance;
-- conflict resolution;
+- canonical ownership;
+- conflicts;
+- schemas;
+- commands;
+- authority;
 - automation rules;
-- command previews;
-- permissions;
-- connectors;
-- audit history;
+- audit;
 - recovery;
-- indexing and system health.
+- indexing;
+- system health.
 
-Nothing important is hidden forever. It is revealed when it becomes relevant.
+Nothing useful needs to be removed. It needs to be layered.
 
-# Signature interactions
+# Who Systead is for
 
-Systead should be known for a small number of unusually useful interactions rather than an enormous checklist of generic features.
+## High-fit audiences
 
-## Bring me back
+### Independent professionals and owner-operators
 
-> I have not touched this project in six weeks. Reconstruct where I was, what changed, what remains unresolved, and what I should read first.
+People who personally carry client context, decisions, obligations, files, history, and operational continuity.
 
-The House should use project history, decisions, files, changes, open questions, and recent dependencies to rebuild context without pretending certainty where records are incomplete.
+### Creators with long-lived bodies of work
 
-## Why is this true?
+Authors, publishers, designers, researchers, and other creators managing versions, rights, releases, evidence, relationships, and correction history.
 
-> Show the source, decision history, confidence, contradictions, and most recent verification.
+### Complex households
 
-The answer should not be a confident paragraph without evidence.
+Homes carrying assets, documents, services, maintenance, recurring administration, and shared practical memory.
 
-## What changes if I do this?
+### Small owner-operated organisations
 
-> Show every affected record, workflow, commitment, edition, and automation before I approve the change.
+Small groups that need continuity and controlled sharing without enterprise bureaucracy or a surveillance-first data model.
 
-This is consequence awareness rather than a generic confirmation dialog.
+## Not currently for
 
-## Resolve this safely
+Systead is not currently positioned as:
 
-> Prepare the correction, preserve the current state, show the plan, execute the approved operation, and verify the result.
+- a casual notes app;
+- a social workspace;
+- a mature large-team collaboration platform;
+- an enterprise ERP replacement;
+- a fully autonomous AI operator;
+- a supported hosted cloud service;
+- a public production release.
 
-The House should not collapse preparation, authority, execution, and verification into one opaque click.
+# Differentiation
 
-## What needs me?
+Systead should not try to win by claiming more checkboxes than existing tools.
 
-The starting briefing should surface:
+Its intended advantage is the combination of:
 
-- blocked responsibilities;
-- expiring commitments;
-- unresolved contradictions;
-- decisions waiting for human judgment;
-- safe actions already prepared;
-- significant changes since the last visit.
+- canonical memory;
+- decision continuity;
+- provenance and uncertainty;
+- consequence-aware controlled action;
+- cross-Program continuity;
+- time-aware reconstruction;
+- operator authority;
+- recovery and exit.
 
-It should not merely reproduce every task in a longer list.
+| Existing category | Usually provides | Systead should add |
+|---|---|---|
+| Notes and knowledge tools | Information and links | Current standing, provenance, contradiction, responsibility, and continuity |
+| Project management | Tasks, status, and deadlines | Decision history, evidence, dependency, and cross-domain consequence |
+| AI assistants | Answers and generated work | Governed context, authority limits, verification, and recovery |
+| Specialist software | Depth in one domain | Cooperation with the rest of the House |
+| Dashboards | A snapshot of state | Why the state exists, what changed, and what requires judgment |
+| Custom scripts | Tailored automation | Inspectable power without permanent maintenance chaos |
+| Cloud workspaces | Convenience and collaboration | Local control, durable export, and reduced platform dependence |
 
-# House Steward
+The strongest short distinction is:
 
-**House Steward** is the working name for Systead's intelligence and assistance layer.
+> **Other tools help create or organise information. Systead helps the work remain coherent over time.**
 
-It should behave less like a chatbot and more like a careful private steward that can show its work.
+# Programs
 
-Its authority ladder is:
+Programs are only one layer of Systead.
 
-1. **Observe** — read within granted scope without changing state.
-2. **Explain** — summarize findings with sources and uncertainty.
-3. **Detect** — surface conflicts, missing evidence, drift, risk, or neglected work.
-4. **Reconstruct** — rebuild context from House history.
-5. **Propose** — recommend a change and explain why.
-6. **Stage** — prepare the full operation for review.
-7. **Execute safely** — perform only approved, scoped, reversible actions.
-8. **Verify** — check the expected result and report mismatches.
+They add specialist records, workflows, interfaces, tools, imports, exports, and scoped intelligence. They inherit shared Core contracts instead of rebuilding authority, privacy, audit, recovery, and portability independently.
 
-Higher-risk operations require stronger, fresher authority.
+## Program 01: Publishing
 
-A useful Steward says:
+The first specialist Program serves authors and publishing operations.
 
-> Three files appear to be duplicate editions. Here is the evidence. I recommend keeping this one as canonical and moving the exact duplicates to quarantine. Nothing has been changed.
+Its current internal working name is **AuthorMachine**.
 
-It should not say:
+The name identifies the private v10 line and current development discussions. It is not locked as the public release name.
 
-> I cleaned your files.
+Publishing is a strong proving domain because it includes:
 
-# Program 01: publishing
-
-Systead's first deep specialist Program is for authors and publishing operations.
-
-The current internal working name is **AuthorMachine**. This name is not yet locked as the final public release identity.
-
-Until release naming is decided, repository documentation may refer to it as:
-
-- **Program 01: Publishing** when describing its architectural role;
-- **AuthorMachine** when referring to the current private/internal code line, interface, or v10 heritage;
-- **the publishing Program** in general public prose.
-
-## Why publishing is the first Program
-
-Publishing is an unusually demanding proof domain because it combines:
-
-- long-lived creative projects;
-- many files and versions;
+- long-lived projects;
+- many file versions;
 - canon and continuity;
-- research and evidence;
-- creative and commercial decisions;
+- research and decisions;
+- rights and contracts;
 - editions and formats;
-- rights and metadata;
-- production pipelines;
-- collaborators and contacts;
-- release operations;
+- production stages;
+- contacts and outreach;
+- public releases;
 - post-release corrections.
 
-A serious publishing Program can pressure-test memory, canonical truth, decisions, workflows, controlled automation, and recovery without defining the limits of Systead.
-
-## Current intended areas
-
-The current private build and product direction include or explore:
+Current private-build direction includes or explores:
 
 - project and book cockpits;
 - manuscript and revision state;
-- canon, continuity, timelines, characters, locations, objects, and rules;
-- style bibles and project constraints;
-- decision, contradiction, plot-hole, and proofing registers;
-- edition-specific production state;
-- formats, metadata, pricing, rights, catalogue, and release state;
-- launch, ARC, reviewer, contact, and outreach operations;
-- publishing knowledge and source evidence;
-- reviewable AI assistance;
-- approved exports and declared publishing destinations.
+- canon, continuity, characters, locations, timelines, and rules;
+- contradiction, plot-hole, proofing, and decision registers;
+- edition-specific production;
+- metadata, pricing, rights, and catalogue;
+- ARC, reviewer, contact, and release operations;
+- source-aware assistance;
+- controlled exports and destinations.
 
-This list describes the current direction, not a final release contract. Individual features may move into Core, remain private experiments, be renamed, be removed, or ship later.
+This is a direction map, not a final release checklist.
 
-## Architectural rule
+The final public name, package boundaries, included features, pricing, licence, supported platforms, and release identity remain undecided.
 
-When the publishing Program reveals a capability useful outside publishing, the generic contract should move into Systead Core.
+## Future Programs
 
-Examples:
+The architecture should allow additional specialist Programs. Possible domains may be discussed to test whether the platform model generalises.
 
-- generic decision history belongs in Core;
-- publishing canon rules belong in the Program;
-- generic Contact records belong in Core or a shared Room;
-- ARC and reviewer workflows belong in the Program;
-- generic command review belongs in Core;
-- KDP-specific publication adapters belong in the Program or a connector.
+Such examples are not announced products until formally named, scoped, approved, and added to the roadmap.
 
-# The private v10 proving ground
+# House Steward and controlled intelligence
 
-The working Stokknes v10 environment is the private flagship and proving ground from which Systead is being generalized.
+House Steward should follow an authority ladder.
 
-It is valuable because it is not a clean demo. It contains enough real complexity to expose weak assumptions:
+## 1. Observe
 
-- old and new files;
-- duplicated and conflicting information;
-- many project types;
-- private records;
-- publishing operations;
-- personal and household domains;
-- real workflows and interruptions;
-- imperfect historical structure.
+Read within declared scope without changing state.
 
-That makes it useful for stress testing.
+## 2. Explain
 
-It also makes it dangerous to publish directly.
+Show evidence, assumptions, uncertainty, and conflict.
 
-The private v10 build is **not**:
+## 3. Propose
 
-- the default public House;
-- a public seed database;
-- a promise that every private feature will ship;
-- proof that every visible control is implemented safely;
-- permission to upload private records, manuscripts, credentials, logs, or personal configuration to this public repository.
+Recommend a bounded change and explain why.
 
-Reusable capabilities must be extracted from private data, generalized, documented, and tested with synthetic fixtures.
+## 4. Stage
 
-# Safety and authority
+Prepare the exact operation, affected records, destinations, verification, and recovery path.
 
-Systead uses a staged action model for material operations.
+## 5. Execute
 
-```text
-Observe → Explain → Propose → Preview → Approve → Execute → Verify → Audit → Recover
-```
+Perform only the operation permitted at the approved authority level.
 
-Not every action requires every stage. Risk determines the required depth.
+## 6. Verify
 
-## Example authority levels
+Check the result, report partial failure, preserve evidence, and retain recovery.
 
-| Level | Typical behavior |
-|---|---|
-| Observe | Read records and detect changes within granted scope. |
-| Explain | Summarize or compare without modifying state. |
-| Propose | Recommend a change and show evidence. |
-| Stage | Prepare exact files, records, destinations, and effects. |
-| Execute | Perform an approved reversible operation. |
-| Sensitive execution | Require explicit fresh confirmation, stronger verification, and a recovery plan. |
+The existence of intelligence does not create permission.
 
-## Sensitive operations
+# Canonical memory and decision continuity
 
-Examples include:
+## Canonical standing
 
-- deletion of canonical records or sources;
-- publication or external sending;
-- payment or account changes;
-- permissions and credentials;
-- legal, medical, financial, or contractual commitments;
-- identity merges;
-- rights changes;
-- release-state changes;
-- operations whose rollback is incomplete or impossible.
+For meaningful information, the House should be able to answer:
 
-No Program or connector should bypass Core authority rules merely because it has domain-specific logic.
-
-# Memory and canonical truth
-
-A House should distinguish between:
-
-- canonical record;
-- source file;
-- historical snapshot;
-- working draft;
-- imported claim;
-- derived value;
-- interpretation;
-- estimate;
-- unresolved conflict;
-- archived or superseded state.
-
-The purpose is not to pretend the system has one perfect truth.
-
-The purpose is to prevent different kinds of information from becoming indistinguishable.
+- Is this current?
+- What source supports it?
+- What replaced the previous version?
+- Does another record disagree?
+- Who or what depends on it?
+- When was it last reviewed?
+- Is it fact, interpretation, estimate, inference, or unresolved claim?
 
 ## Decision continuity
 
-A serious decision record may include:
+A Decision Ledger should reconstruct why a choice made sense at the time, not merely list the outcome.
 
-- the question;
-- options considered;
+A decision may retain:
+
+- problem;
+- options;
 - evidence;
-- constraints;
 - rejected alternatives;
+- constraints;
 - expected consequences;
-- responsible person;
-- resulting actions;
+- responsible operator;
 - review date;
-- later evidence about whether it worked.
+- resulting actions;
+- later outcome.
 
-The House should preserve why a decision made sense at the time, not only the final sentence.
+# Consequence-aware action
 
-## Time-aware reconstruction
+Before material change, Systead should be able to show:
 
-Long-term direction includes the ability to ask:
+1. intended change;
+2. supporting evidence;
+3. affected records;
+4. likely consequences;
+5. external destinations;
+6. required authority;
+7. verification method;
+8. reversibility or recovery path.
 
-- What did the House consider current on a given date?
-- What changed since the last working session?
-- When did two records begin to conflict?
-- Which file was canonical before the present edition?
-- Which decisions were still open before a project stalled?
+A generic “Are you sure?” dialog is not enough for serious work.
 
-This is closer to operational continuity than ordinary version history.
+# Time-aware reconstruction
+
+A mature House should support questions such as:
+
+- What did the House consider current on this date?
+- What changed since I last worked here?
+- Which decisions were still open?
+- When did these records begin contradicting each other?
+- Which file was canonical before the current edition?
+- What happened immediately before this project stalled?
+
+This is not merely version history. It is continuity across time.
 
 # Portability and exit
 
-Systead should be designed as though the software may eventually disappear.
+Systead should be designed as though the application may disappear.
 
 A complete House export should aim to be:
 
@@ -598,263 +510,245 @@ A complete House export should aim to be:
 - documented;
 - checksummed;
 - internally linked;
-- restorable;
-- understandable without a mandatory hosted account;
-- usable as ordinary files where practical.
+- understandable without running Systead;
+- restorable into a clean installation;
+- usable as ordinary files where possible.
 
-Expected baseline formats may include Markdown, JSON, CSV, ordinary folders, manifests, calendar and contact standards, and specialist formats where relevant.
+The promise is not that every specialist capability can be reproduced without Systead. The promise is that the operator's important records and relationships should not become unintelligible hostages.
 
-Program-specific import/export may include publishing and knowledge tools, but no particular integration is promised until implemented and tested.
+# Vision
 
-The trust question is:
+## Working company-level vision
 
-> Can the important meaning of this House be recovered years later without trusting the original cloud service, AI provider, or developer?
+> **Every serious person should be able to build institutional memory without having to become an institution.**
+
+At full maturity, Systead could become private continuity infrastructure for an individual, household, independent professional, or owner-operated organisation.
+
+Not merely productivity software, but a combination of:
+
+- memory infrastructure;
+- decision infrastructure;
+- operational control;
+- private intelligence;
+- continuity planning;
+- durable digital estate;
+- specialist Programs that cooperate without owning the person.
+
+## Vision horizons
+
+### Horizon 1: Private proving ground
+
+Prove one complex House can remain useful, coherent, inspectable, recoverable, and extensible under real pressure.
+
+### Horizon 2: Calm public foundation
+
+Allow another operator to install Systead, understand the House, import real work, use a Program, recover from failure, and leave with their information intact.
+
+### Horizon 3: Broader personal House
+
+Support several long-lived domains without collapsing into an everything-dashboard.
+
+### Horizon 4: Household and owner-operated organisation
+
+Introduce controlled sharing, roles, and continuity without weakening ownership or boundaries.
+
+### Horizon 5: Durable ecosystem
+
+Support Programs, Connectors, migration, private deployment, and long-term continuity around stable Core contracts.
+
+These are direction horizons, not dates or release promises.
+
+## Product discipline
+
+The risk is obvious: Systead could become a beautiful digital mansion with two hundred rooms that nobody understands how to enter.
+
+The answer is not to reduce the ambition. It is to contain it through architecture, progressive disclosure, and release boundaries.
+
+> **Five useful surfaces first. Depth when requested. Machinery when necessary.**
+
+# Systead principles
+
+1. The operator owns the House.
+2. No destructive action happens silently.
+3. Important conclusions expose their evidence.
+4. Uncertainty is represented rather than hidden.
+5. Canonical records remain challengeable and traceable.
+6. Programs cannot bypass Core safety.
+7. Private information does not cross boundaries accidentally.
+8. Automation remains inspectable and interruptible.
+9. The House remains exportable and recoverable.
+10. AI assists judgment; it does not impersonate certainty.
+11. Public claims remain narrower than private ambition.
 
 # Current status
 
-**Maturity:** private pre-alpha
-**Public access:** closed
-**Active work:** private flagship stress test, architecture extraction, documentation, and product separation
-**Release date:** not announced
+**Status date:** 19 July 2026
+**Development label:** Running private pre-alpha
+**Public testing:** Closed
 
-| Area | Current position |
-|---|---|
-| Running build | A private flagship House is operating under real daily workload. |
-| Stress test | Early testing focuses on failure discovery, duplicate truth, confusing states, broken paths, migrations, boundaries, and recovery. |
-| Public installer | Not available. |
-| Onboarding | Not ready for outside users. |
-| Security | No production-grade guarantee or completed independent audit is claimed. |
-| Public examples | Synthetic or deliberately sanitized only. |
-| Product naming | Systead is the platform brand. AuthorMachine remains an internal working name for Program 01. |
-| Feature list | Directional, not contractual. |
-| Licensing | No blanket public software licence unless a component explicitly states otherwise. |
-| Support | No public support commitment yet. |
+## What exists
 
-## Current stress-test priorities
+- a running private flagship House;
+- broader House and command-centre surfaces;
+- local records and operational data;
+- searchable source material;
+- decisions and review queues;
+- command and safety concepts;
+- backup, recovery, audit, and portability foundations;
+- shared Rooms, Desks, and modules;
+- Program 01: Publishing;
+- a public repository and documentation layer;
+- a public product site.
 
-- abrupt shutdown during writes;
-- partial or corrupt files;
-- renamed and moved directories;
-- duplicate and near-duplicate sources;
-- failed indexing and AI processes;
-- unavailable network services;
-- invalid imports;
-- large libraries;
-- deleted or missing source references;
-- restore onto another machine;
-- command reversal and correction;
-- schema migration without data loss;
-- export that remains understandable outside Systead.
+## What is happening now
 
-Pre-alpha software is allowed to be unfinished. It is not allowed to quietly destroy or misrepresent important information.
+- real-workload stress testing;
+- startup and persistence testing;
+- duplicate, contradiction, and canonical-standing review;
+- private v10 characterization;
+- Core, House, and Program separation;
+- recovery and export hardening;
+- synthetic fixture creation;
+- public product and architecture documentation.
 
-# Development direction
+## What does not exist yet
 
-## Phase 0 — Private proving ground
-
-- Run the existing House under real workload.
-- Find data-integrity and recovery failures.
-- Document actual behavior rather than imagined behavior.
-- Separate private facts from reusable architecture.
-
-## Phase 1 — Core extraction
-
-- Remove Stokknes-specific assumptions.
-- Establish generic records and boundaries.
-- Define House, Room, Desk, Program, Utility, and Connector contracts.
-- Replace private fixtures with synthetic examples.
-- Establish canonical migration and export tests.
-
-## Phase 2 — Calm product shell
-
-- Today surface;
-- search;
-- capture;
-- guided House setup;
-- understandable empty states;
-- progressive disclosure;
-- visible system health;
-- basic recovery and export.
-
-## Phase 3 — Program 01 extraction
-
-- Separate publishing-specific records and workflows;
-- package the current v10 heritage behind Program contracts;
-- establish import paths;
-- create safe synthetic starter projects;
-- document which features are implemented, experimental, or planned;
-- decide final release naming later.
-
-## Phase 4 — Closed pre-alpha
-
-- very small number of outside users;
-- assisted installation and onboarding;
-- issue capture and local diagnostics;
-- no broad availability promise;
-- migration and recovery drills.
-
-## Phase 5 — Alpha readiness
-
-- repeatable installer;
-- upgrade and rollback path;
-- tested export and restore;
-- public manual;
-- accessibility baseline;
-- security scope and threat model;
-- support and compatibility boundaries.
-
-## Later directions
-
-- companion mobile surfaces;
-- controlled shared rooms or read-only views;
-- plugin and Program SDK;
-- additional specialist Programs;
-- encrypted self-hosted synchronization;
-- broader import and exit tooling.
-
-These are directions, not release promises.
-
-# Repository map
-
-The repository is transitional while the private working system is generalized.
-
-```text
-/
-├── README.md                         Main public and technical introduction
-├── index.html                        Public Systead product page
-├── assets/
-│   ├── css/                          Public site styling
-│   └── img/
-│       ├── brand/                    Header, compact mark, and icon assets
-│       └── pre-alpha/                Public-safe synthetic interface studies
-├── profile/                          GitHub organization profile source
-├── docs/
-│   └── public/                       Public explanations, status, screenshots, FAQ
-└── Application/                      Authoritative implementation bootstrap
-    ├── apps/                         User-facing application shells
-    ├── packages/                     Shared Core packages
-    ├── modules/                      Optional capabilities
-    ├── programs/                     Specialist Program direction and packages
-    ├── config/                       Local and synthetic configuration templates
-    ├── docs/
-    │   └── canonical/                Product, architecture, safety, status, and decisions
-    ├── scripts/                      Validation and bootstrap helpers
-    ├── tests/                        Automated and acceptance-test scaffolding
-    ├── releases/                     Future release manifests and packages
-    └── archive/                      Retired material not loaded by the product
-```
-
-The actual repository may not yet contain every planned directory. The canonical repository structure document controls deliberate restructuring rather than letting uploads define architecture by accident.
+- supported public installer;
+- stable outside-user migration and upgrade path;
+- stable public API or schema contract;
+- production-grade security guarantee;
+- completed independent security review;
+- mature collaboration;
+- complete accessibility validation;
+- support response commitment;
+- final Program 01 name;
+- final feature contract;
+- announced release date.
 
 # Bringing the private v10 build into Systead
 
-Do **not** upload the private v10 directory directly to public `main` without an intake pass.
+The private v10 build should not be copied directly into public `main`.
 
-The safe sequence is:
+Required intake path:
 
-1. Create a protected local snapshot and checksum manifest.
-2. Identify secrets, credentials, tokens, private logs, contacts, manuscripts, financial/legal/medical records, and personal configuration.
-3. Keep the untouched source snapshot outside the public repository.
-4. Create an extraction branch or private staging repository.
-5. Classify each component as Core, House surface, shared module, publishing Program, connector, private configuration, fixture, or archive.
-6. Replace private records with synthetic fixtures.
-7. Remove machine-specific paths and hidden dependencies.
-8. Document startup, persistence, migrations, external effects, and recovery.
-9. Add tests around discovered behavior before refactoring it.
-10. Merge generalized components deliberately rather than preserving the accidental private folder layout.
+```text
+Untouched private snapshot
+        ↓
+Private intake workspace
+        ↓
+Secret and privacy scan
+        ↓
+Behaviour characterization
+        ↓
+Core / House / Program classification
+        ↓
+Synthetic fixtures and tests
+        ↓
+Reviewed extraction commits
+        ↓
+Public repository
+```
 
-See:
+The private build must be treated as:
 
-- [Private v10 Intake and Generalization](Application/docs/canonical/PRIVATE_V10_INTAKE.md)
-- [Platform and Program Architecture](Application/docs/canonical/PLATFORM_AND_PROGRAM_ARCHITECTURE.md)
-- [Public and Private Boundaries](Application/docs/canonical/PUBLIC_PRIVATE_BOUNDARIES.md)
+- evidence of working behaviour;
+- a source of architecture and requirements;
+- a stress-test environment;
+- a private customer configuration;
+- a source of accidental assumptions that must be identified.
 
-# Public and private boundaries
+It must not be treated as a clean public product tree merely because it runs.
 
-Public repository material may contain:
+Read:
 
-- architecture;
-- product documentation;
-- generic schemas;
-- synthetic fixtures;
-- sanitized interface studies;
-- public brand assets;
-- non-sensitive test data;
-- public release tooling.
+- [`Application/docs/canonical/PRIVATE_V10_INTAKE.md`](Application/docs/canonical/PRIVATE_V10_INTAKE.md)
+- [`Application/docs/canonical/V10_HANDOFF_BRIEF.md`](Application/docs/canonical/V10_HANDOFF_BRIEF.md)
+- [`Application/docs/canonical/PROGRAM_01_PUBLISHING.md`](Application/docs/canonical/PROGRAM_01_PUBLISHING.md)
 
-It must not contain by default:
+# Repository map
 
-- private House databases;
-- real contacts or relationship history;
-- credentials, tokens, cookies, or secrets;
-- unpublished manuscripts unless explicitly intended for publication;
-- financial, legal, medical, or private administrative records;
-- private messages or mail exports;
-- raw private logs;
-- personal machine paths that reveal sensitive structure;
-- Stokknes House configuration presented as a universal default.
+```text
+/
+├── README.md
+├── index.html
+├── why.html
+├── house.html
+├── programs.html
+├── vision.html
+├── principles.html
+├── assets/
+│   ├── css/
+│   └── img/
+├── docs/
+│   └── public/
+├── profile/
+└── Application/
+    ├── docs/
+    │   └── canonical/
+    └── programs/
+        └── publishing/
+```
 
-Access to data does not equal permission to publish it.
+The repository remains transitional. Root public presentation, canonical documentation, private v10 intake, and implementation extraction must not be confused with one another.
 
 # Documentation
 
-## Start here
+## Public orientation
 
-1. [Canonical Documentation Index](Application/docs/canonical/README.md)
-2. [Product North Star](Application/docs/canonical/PRODUCT_NORTH_STAR.md)
-3. [Systead Constitution](Application/docs/canonical/SYSTEAD_CONSTITUTION.md)
-4. [Product Model](Application/docs/canonical/PRODUCT_MODEL.md)
-5. [Platform and Program Architecture](Application/docs/canonical/PLATFORM_AND_PROGRAM_ARCHITECTURE.md)
-6. [House Steward](Application/docs/canonical/HOUSE_STEWARD.md)
-7. [Program 01: Publishing](Application/docs/canonical/PROGRAM_01_PUBLISHING.md)
-8. [Working Names and Release Identity](Application/docs/canonical/WORKING_NAMES_AND_RELEASE_IDENTITY.md)
-9. [Private v10 Intake](Application/docs/canonical/PRIVATE_V10_INTAKE.md)
-10. [Private v10 Handoff Brief](Application/docs/canonical/V10_HANDOFF_BRIEF.md)
-11. [Operating Principles](Application/docs/canonical/OPERATING_PRINCIPLES.md)
-12. [System Architecture](Application/docs/canonical/SYSTEM_ARCHITECTURE.md)
-13. [Stress-test Protocol](Application/docs/canonical/STRESS_TEST_PROTOCOL.md)
-14. [Release Readiness](Application/docs/canonical/RELEASE_READINESS.md)
-15. [Roadmap](Application/docs/canonical/ROADMAP.md)
-16. [Ownership and IP](Application/docs/canonical/OWNERSHIP_AND_IP.md)
+- [Why Systead](docs/public/WHY_SYSTEAD.md)
+- [The House](docs/public/THE_HOUSE.md)
+- [Programs](docs/public/PROGRAMS.md)
+- [Vision](docs/public/VISION.md)
+- [Principles](docs/public/PRINCIPLES.md)
+- [Who it is for](docs/public/WHO_IT_IS_FOR.md)
+- [Status and scope](docs/public/STATUS_AND_SCOPE.md)
 
-## Public explanations
+## Canonical product direction
 
-- [What is Systead?](docs/public/WHAT_IS_SYSTEAD.md)
-- [Programs and the Publishing Program](docs/public/PROGRAMS.md)
-- [Status and Scope](docs/public/STATUS_AND_SCOPE.md)
-- [Pre-alpha Walkthrough](docs/public/PRE_ALPHA_WALKTHROUGH.md)
-- [Screenshot Notes](docs/public/SCREENSHOTS.md)
-- [FAQ](docs/public/FAQ.md)
+- [Canonical documentation index](Application/docs/canonical/README.md)
+- [Company and platform vision](Application/docs/canonical/COMPANY_VISION.md)
+- [Problems and use cases](Application/docs/canonical/PROBLEMS_AND_USE_CASES.md)
+- [Audience and fit](Application/docs/canonical/AUDIENCE_AND_FIT.md)
+- [Product north star](Application/docs/canonical/PRODUCT_NORTH_STAR.md)
+- [Product model](Application/docs/canonical/PRODUCT_MODEL.md)
+- [Platform versus Programs](Application/docs/canonical/PLATFORM_VS_PROGRAMS.md)
+- [Differentiation](Application/docs/canonical/DIFFERENTIATION.md)
+- [Systead constitution](Application/docs/canonical/SYSTEAD_CONSTITUTION.md)
+- [House Steward](Application/docs/canonical/HOUSE_STEWARD.md)
+- [Program 01](Application/docs/canonical/PROGRAM_01_PUBLISHING.md)
+- [Current status](Application/docs/canonical/STATUS.md)
+- [Roadmap](Application/docs/canonical/ROADMAP.md)
+
+## Private v10 and release discipline
+
+- [Private v10 intake](Application/docs/canonical/PRIVATE_V10_INTAKE.md)
+- [V10 handoff brief](Application/docs/canonical/V10_HANDOFF_BRIEF.md)
+- [Stress-test protocol](Application/docs/canonical/STRESS_TEST_PROTOCOL.md)
+- [Release readiness](Application/docs/canonical/RELEASE_READINESS.md)
+- [Public/private boundaries](Application/docs/canonical/PUBLIC_PRIVATE_BOUNDARIES.md)
 
 # Brand, ownership, and working names
 
-**Systead** is the active parent platform and brand.
+Systead is the product and brand name.
 
-The public brand assets in this repository include:
+Current copyright remains:
 
-- a wide flagship header;
-- a compact wordmark;
-- an emblem and icon set.
+> **© 2026 Marius Johan Stokknes.**
 
-Use the flagship header for major introductions and the compact mark for navigation, app surfaces, repository identity, and profiles. See [Brand Asset Usage](Application/docs/canonical/BRAND_ASSET_USAGE.md).
+The intended future company direction is Systead Systems, subject to actual formation, legal review, written IP arrangements, and later decisions.
 
-## Current legal position
+Stokknes Publishing is a separate publishing direction and proving customer. It should not accidentally become the owner or definition of the general Systead platform.
 
-Until a separate company legally exists and receives the relevant rights through written documentation, copyrightable Systead work created personally remains held personally, subject to third-party rights and licences.
+AuthorMachine remains an internal working name until a release identity is deliberately selected and cleared.
 
-Current public footer form:
+# Final orientation
 
-> © 2026 Marius Johan Stokknes. Systead is the product and brand name.
+Systead is not being built as a larger productivity dashboard or a writing application that may later grow sideways.
 
-The intended future platform company is **Systead Systems S.L.U.** Stokknes Publishing is intended for publishing operations and should not accidentally become the owner of the general Systead platform merely because publishing is the first proving domain.
+It is being built as the House: private continuity infrastructure where knowledge, decisions, responsibility, files, relationships, and specialist Programs can remain coherent over years.
 
-See [Ownership and IP](Application/docs/canonical/OWNERSHIP_AND_IP.md).
+Publishing is the first evidence that one Program can become deep.
 
----
+It is only one Program.
 
-- Website: [systead.com](https://systead.com)
-- GitHub: [github.com/Systead](https://github.com/Systead)
-
-Copyright © 2026 Marius Johan Stokknes. Systead is the product and brand name.
-
-No blanket public software licence has been granted unless a specific file or component explicitly states otherwise.
+> **The platform is Systead. The lived environment is the House. Programs provide specialist depth. The operator remains the authority.**

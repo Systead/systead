@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Systead/systead/main/assets/img/brand/systead-compact-logo.png" alt="Systead" width="520">
 </p>
@@ -6,40 +7,42 @@
 
 **Local intelligence. Built for home.**
 
-Systead is a private continuity system for memory, decisions, responsibility, and long-lived work.
+Systead is building private continuity infrastructure for people and small organisations whose work is too important to remain scattered across apps, folders, chats, services, and memory.
 
-It is being built around three promises:
+A configured Systead environment is called a **House**.
 
-- **Memory** — keep current standing, source, decisions, history, uncertainty, and dependencies connected.
-- **Safety** — show scope, consequences, authority, verification, and recovery before material action.
-- **Control** — keep the operator in charge and keep the House inspectable, portable, and local-first.
+The House keeps knowledge, decisions, responsibilities, files, relationships, and selected specialist Programs coherent over time.
 
-## Product model
+> **Programs solve particular domains. Systead preserves the whole.**
 
-- **Systead Core / Trust Kernel** — identity, canonical records, provenance, decisions, commands, privacy, audit, recovery, and exit.
-- **House** — the operator's configured environment.
-- **Rooms and Desks** — calm human surfaces for different responsibilities.
-- **House Steward** — working name for the observe/explain/propose/stage/verify intelligence layer.
-- **Programs** — deep specialist applications built on the same Core.
+## Why it exists
 
-## Program 01: Publishing
+The task system knows what is due. The folder contains the file. The chat contains the explanation. The specialist application understands one domain. The operator still has to remember how the whole situation fits together.
 
-The first specialist Program serves authors and publishing operations.
+Systead aims to preserve:
 
-Its current internal working name is **AuthorMachine**. The final public release name, package, feature boundaries, licensing, and release identity remain undecided.
+- current standing and provenance;
+- decision reasoning and evidence;
+- uncertainty and contradiction;
+- dependency and consequence;
+- controlled action and recovery;
+- long-term portability and exit.
 
-Publishing is the first proof domain—not the limit of Systead.
+## Program 01
+
+The first specialist Program serves publishing. Its current internal working name is **AuthorMachine**.
+
+The final release name, package, included features, pricing, licensing, and release identity remain undecided. Publishing is the first proving domain—not the definition or limit of Systead.
 
 ## Status
 
-Systead is a **running private pre-alpha** under real daily stress testing.
+Systead is a **running private pre-alpha** under real daily stress testing. There is no supported public installer, tester package, production-security guarantee, or release date yet.
 
-There is currently no supported public installer, tester package, production-security guarantee, final Program 01 name, or release date.
-
-- [Main repository](https://github.com/Systead/systead)
 - [Website](https://systead.com)
-- [Product north star](https://github.com/Systead/systead/blob/main/Application/docs/canonical/PRODUCT_NORTH_STAR.md)
-- [Platform and Program architecture](https://github.com/Systead/systead/blob/main/Application/docs/canonical/PLATFORM_AND_PROGRAM_ARCHITECTURE.md)
-- [Status and scope](https://github.com/Systead/systead/blob/main/docs/public/STATUS_AND_SCOPE.md)
+- [Repository](https://github.com/Systead/systead)
+- [Why Systead](https://systead.com/why.html)
+- [The House](https://systead.com/house.html)
+- [Programs](https://systead.com/programs.html)
+- [Vision](https://systead.com/vision.html)
 
 © 2026 Marius Johan Stokknes. Systead is the product and brand name.
