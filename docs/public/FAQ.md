@@ -30,7 +30,11 @@ Not currently. The first phase is private and intentionally focused on breaking 
 
 ## What is AuthorMachine?
 
-AuthorMachine by Systead is the first specialist product. It is designed to keep the moving parts around a book connected: manuscript state, canon, continuity, editions, production, metadata, catalogue, release work, publishing contacts, and reviewable assistance.
+AuthorMachine is the **current internal working name** for Systead's first specialist publishing Program and the private v10 line being generalized.
+
+It is intended to keep the moving parts around a book connected: manuscript state, canon, continuity, editions, production, metadata, catalogue, release work, publishing contacts, and reviewable assistance.
+
+The final public release name, package, feature boundaries, licence, and pricing have not been decided.
 
 ## Does AI run everything automatically?
 
@@ -69,7 +73,11 @@ No. The intended separation is:
 - **Systead Systems S.L.U.** — future home of the Systead platform, software, brand, and technology IP.
 - **Stokknes Publishing S.L.U.** — future publishing company for books, catalogues, editions, and publishing operations.
 
-The publishing company may use AuthorMachine, but should not own the general platform merely because publishing was the first proving domain.
+The publishing company may use the publishing Program under its eventual release name, but should not own the general platform merely because publishing was the first proving domain.
+
+## Is Systead only for authors?
+
+No. Publishing is the first specialist Program because it is a demanding proof domain. Systead itself is intended as a broader private continuity system for long-lived personal, professional, household, creative, and small-organisational work.
 
 ## When will Systead release?
 

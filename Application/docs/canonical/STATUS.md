@@ -2,73 +2,76 @@
 
 **Status date:** 19 July 2026
 **Development label:** Running private pre-alpha
-**Active phase:** First-week stress test
+**Active phase:** Early private stress testing and architecture extraction
 **Public testing:** Closed
 
 ## One-sentence public status
 
-> Systead is a running private pre-alpha currently being stress-tested under real daily workload; it is not yet available as a supported tester build.
+> Systead is a running private pre-alpha being stress-tested under real daily workload; it is not yet available as a supported tester build.
 
 ## What exists
 
-A private Systead environment is running in the flagship proving ground and is being used as an operational system rather than only a static concept or website mock-up.
+A private flagship House is running as an operational system rather than only a concept, website, or static interface study.
 
-Current work includes, at varying levels of completeness:
+The private line currently combines, at varying maturity:
 
-- a configurable House and command-centre direction;
+- broader House and command-centre surfaces;
 - local records and linked operational data;
 - searchable knowledge and source material;
-- proposals and review queues;
-- command declarations and safety concepts;
-- audit, backup, recovery, and portability foundations;
-- shared desks and modules;
-- AuthorMachine publishing workflows;
+- decisions and review queues;
+- command and safety concepts;
+- backup, recovery, audit, and portability foundations;
+- shared Desks and modules;
+- the first specialist publishing Program;
 - a public repository and public-safe documentation layer;
-- a static public website describing the product honestly.
+- a public product site.
 
-This list describes active product territory. It does not claim every item is complete, stable, tested, or enforced across all paths.
+The current private publishing line is commonly called **AuthorMachine v10** internally. This is a working implementation name, not a locked public release identity.
+
+The presence of a capability in the private build does not mean it is complete, generalized, safe for outside data, documented, or promised for release.
 
 ## What is happening now
 
-The private build is in its first week of stress testing under normal daily workload.
+Current work is trying to expose:
 
-The purpose is to find:
-
-- broken assumptions that only worked in a demo flow;
+- broken assumptions that only worked in one operator's environment;
 - duplicate or contradictory records;
 - confusing labels and states;
-- fragile startup, migration, indexing, and restoration behavior;
+- fragile startup, migration, indexing, and restoration behaviour;
 - commands that cannot explain their effects or recovery path;
-- partial failures that leave system state ambiguous;
+- partial failures that leave state ambiguous;
 - unsafe private/public boundary crossings;
 - external effects without clear destinations or authority;
 - generic infrastructure contaminated by publishing-specific or Stokknes-specific assumptions;
-- interfaces that show information but fail to support the next safe decision.
+- interfaces that show information but fail to support the next safe decision;
+- places where private v10 behaviour must be characterized before refactoring.
 
 ## What does not exist yet
 
-There is currently no claim of:
+There is no current claim of:
 
 - a public tester package;
 - a supported installer or uninstaller;
-- a stable upgrade and migration path for outside users;
+- a stable outside-user upgrade path;
 - stable public APIs or schemas;
 - production-grade security hardening;
 - a completed threat model or independent security review;
-- hardened multi-user, team, or enterprise isolation;
+- hardened collaboration or enterprise isolation;
 - complete accessibility validation;
 - cross-platform compatibility guarantees;
 - support response commitments;
 - final pricing or licensing;
+- a final name for Program 01;
+- a final feature contract;
 - a public release date.
 
 ## Why the label is pre-alpha
 
-“Pre-alpha” is accurate because the system exists and runs, but the product contract around installation, migration, recovery, compatibility, privacy, security, support, and public onboarding has not yet been proven.
+The private system exists and runs. The public product contract around installation, migration, recovery, compatibility, privacy, security, onboarding, support, and naming has not yet been proven.
 
-“Alpha foundation in preparation” understates the current reality because a live private build is already being used.
+Calling it a concept would understate reality.
 
-“Alpha,” “beta,” “early access,” or “ready for testers” would overstate readiness because outside-user recovery, installation, documentation, and safety gates have not been passed.
+Calling it alpha, beta, early access, or ready for testers would overstate readiness.
 
 ## Public claim rules
 
@@ -76,22 +79,23 @@ Public material may say:
 
 - a private build exists;
 - it is used under real daily workload;
-- first-week stress testing is active;
-- AuthorMachine is the first specialist product;
-- public-safe images use synthetic or sanitized data;
-- interfaces and feature boundaries remain provisional.
+- stress testing is active;
+- Systead is broader than the publishing Program;
+- publishing is Program 01 and the first proof domain;
+- AuthorMachine is the current internal working name;
+- final release naming and feature scope may change;
+- public-safe images use synthetic or deliberately sanitized data.
 
-Public material must not say, without new evidence:
+Public material must not say without new evidence:
 
-- “secure,” “fully private,” or “production-ready” as an unqualified guarantee;
-- “autonomous” in a way that implies independent authority;
-- “tested” without defining the test and result;
-- “stable” for outside users;
-- “coming soon” with an implied date;
-- “open source” unless the licensing decision is explicitly changed;
-- “zero data leaves your device” if optional external integrations are enabled;
-- performance, reliability, accuracy, or recovery percentages without a documented measurement method.
+- secure, fully private, encrypted, production-ready, or autonomous as unqualified guarantees;
+- tested without defining the test and result;
+- stable for outside users;
+- coming soon with an implied date;
+- open source unless licensing is explicitly changed;
+- zero data leaves the device when optional external services can be enabled;
+- performance, reliability, accuracy, or recovery percentages without documented measurement.
 
-## Next status transition
+## Next credible transition
 
-The next credible public label is **private alpha candidate** or **closed technical alpha** only after the relevant readiness gates in [RELEASE_READINESS.md](RELEASE_READINESS.md) are satisfied and documented.
+The next credible label is **closed technical pre-alpha** or **private alpha candidate** only after the relevant readiness gates are satisfied and documented.

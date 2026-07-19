@@ -63,9 +63,9 @@ The review study shows the kind of information a material action should expose:
 
 If the scope changes, the approval should no longer silently apply.
 
-## 4. Use a specialist product without losing the common foundations
+## 4. Use a specialist Program without losing the common foundations
 
-AuthorMachine by Systead is the first specialist product.
+The first specialist Program serves publishing. Its current internal working name is **AuthorMachine**; the eventual public release name and package may change.
 
 The book-cockpit study shows publishing-specific concerns:
 
@@ -77,7 +77,7 @@ The book-cockpit study shows publishing-specific concerns:
 - open contradictions or proofing issues;
 - catalogue and release controls.
 
-The publishing depth lives inside AuthorMachine. It still uses the shared House foundations for records, knowledge, contacts, review, privacy, audit, backup, and recovery.
+The publishing depth lives inside Program 01. It still uses the shared House foundations for records, knowledge, contacts, review, privacy, audit, backup, and recovery.
 
 ## 5. Keep the private proving environment private
 

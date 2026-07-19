@@ -3,41 +3,45 @@
 **Status:** Directional, gate-based roadmap
 **Dates:** Not promised
 
-The roadmap is intentionally staged by evidence and risk. It does not assign public dates before the private build’s installation, migration, recovery, privacy, and security boundaries are understood.
+The roadmap is ordered by trust and dependency rather than marketing urgency.
 
-## Phase 0 — Canonical correction and public boundary
+Systead is built as the broader platform now. Program 01: Publishing is the first focused proof and likely first route to adoption, not the definition of the platform.
 
-**Current state:** Active / largely established
+## Phase 0 — Product truth and public boundary
+
+**Current state:** Active / substantially established
 
 Objectives:
 
-- lock the Systead → Core → House → specialist-system hierarchy;
-- establish AuthorMachine by Systead as the first specialist product;
-- define Stokknes House as private proving ground, not demo data;
-- correct public README, website, profile, and status wording;
-- publish synthetic pre-alpha interface studies;
-- centralize canonical architecture, safety, naming, and privacy documentation;
-- inventory repository duplication and structural conflicts.
+- lock Systead as parent platform;
+- establish the private continuity-system north star;
+- define Trust Kernel, Core, House, Rooms, Desks, Programs, Utilities, and Connectors;
+- define Memory + Safety + Control as the central promise;
+- state that AuthorMachine is an internal working name;
+- keep Stokknes House/private v10 as proving ground, not demo data;
+- correct README, website, profile, and canonical docs;
+- establish brand assets and public-safe image rules.
 
 Exit evidence:
 
-- public claims match canonical status;
-- required canonical documents exist;
-- public images are synthetic or approved;
-- obvious private/public boundary risks are removed.
+- public and canonical claims agree;
+- working names are labelled;
+- private/public boundary docs exist;
+- platform breadth is clear before Program 01 depth.
 
-## Phase 1 — First private stress-test cycle
+## Phase 1 — Private stress-test cycle
 
-**Current state:** Active; week one
+**Current state:** Active
 
 Objectives:
 
-- use the build under real daily workload;
+- use the private build under real workload;
 - record P0–P4 issues;
-- test startup, indexing, records, review, commands, backup, and recovery;
-- identify confusing states and hidden manual workarounds;
-- find private and publishing-specific assumptions embedded in generic paths;
-- demonstrate at least one scoped backup and restore path;
+- test startup, persistence, indexing, records, decisions, commands, backup, and recovery;
+- identify hidden manual workarounds;
+- test abrupt failure and partial state;
+- find private and publishing assumptions in generic paths;
+- demonstrate scoped backup, restore, export, and recovery evidence;
 - prioritize hardening over feature sprawl.
 
 Exit evidence:
@@ -45,149 +49,189 @@ Exit evidence:
 - issue inventory;
 - P0/P1 risk picture;
 - recovery evidence;
+- known-failure register;
 - next-cycle priorities;
-- updated decision register.
+- updated decision records.
 
-## Phase 2 — Core extraction and clean-House bootstrap
+## Phase 2 — Private v10 intake and characterization
 
 Objectives:
 
-- extract generic records, knowledge, review, command, audit, and recovery contracts;
-- isolate AuthorMachine-specific logic;
-- isolate Stokknes-specific configuration and data;
+- preserve an untouched private snapshot;
+- create checksum and component inventories;
+- map startup, data, external effects, secrets, and dependencies;
+- characterize important behaviour before refactoring;
+- classify components as Core, House, Room, Desk, Program, Utility, Connector, private configuration, fixture, or archive;
+- establish private exclusions and synthetic replacements.
+
+Exit evidence:
+
+- required v10 intake documents;
+- no direct private dump to public main;
+- hidden dependencies identified;
+- private data and secrets separated;
+- extraction map approved.
+
+## Phase 3 — Trust Kernel and Core extraction
+
+Objectives:
+
+- establish identity and authority contracts;
+- extract canonical record and provenance models;
+- define decision and evidence records;
+- establish command proposal, approval, verification, and recovery contracts;
+- define privacy and destination controls;
 - create synthetic House fixtures;
 - initialize a clean House without private paths or records;
-- define module registration, migration, export, and removal behavior;
-- add validation for naming, boundaries, secrets, and required docs.
+- validate Program/module registration and removal behaviour.
 
 Exit evidence:
 
 - clean synthetic House runs;
-- selected modules load through declared contracts;
-- no private proving-ground dependency is required;
-- generic and specialist boundaries are testable.
+- Core does not require publishing or private configuration;
+- selected records and commands pass contract tests;
+- export and recovery surfaces exist for enabled scope.
 
-## Phase 3 — Storage, migration, backup, and restore hardening
+## Phase 4 — Calm House shell
+
+Objectives:
+
+- Today surface;
+- quick capture;
+- universal search;
+- guided House creation;
+- selected starting Rooms;
+- understandable empty states;
+- progressive disclosure;
+- review queue;
+- visible system health and recovery entry points.
+
+Exit evidence:
+
+- a new operator can enter without understanding internal architecture;
+- advanced machinery remains reachable but not dumped on first launch;
+- the House can stay small.
+
+## Phase 5 — Storage, migration, backup, restore, and Exit Kit
 
 Objectives:
 
 - explicit schema versions;
-- migration tests;
-- pre-migration snapshots;
-- conflict and duplicate policies;
+- migration tests and pre-migration snapshots;
+- duplicate and conflict policies;
 - backup manifests and integrity checks;
 - restore into a clean location;
-- House portability export;
-- audit and recovery records;
-- quarantine behavior for suspicious or duplicate material.
+- human-readable and machine-readable House export;
+- checksums and excluded-secret reports;
+- quarantine behaviour;
+- time-aware reconstruction foundations.
 
 Exit evidence:
 
 - repeatable migration and restore drills;
-- documented exclusions;
-- recovery from representative failure;
-- original state protected during failed restore.
+- export readable outside Systead;
+- representative failure recovery;
+- original state protected during failed operations.
 
-## Phase 4 — Command and external-effect hardening
+## Phase 6 — House Steward and command hardening
 
 Objectives:
 
-- consistent command object model;
-- risk classification by effect class;
-- preview and approval binding;
+- authority ladder;
+- source-aware explanation;
+- conflict and drift detection;
+- project reconstruction;
+- consequence preview;
+- staged commands;
 - adapter isolation;
 - idempotency and retry rules;
 - verification and partial-failure handling;
 - audit completeness;
-- dry-run adapters for publishing, email, sync, and other external effects;
 - high-risk actions disabled by default.
 
 Exit evidence:
 
 - selected command classes pass safety tests;
 - external payloads and destinations are visible;
-- unauthorized or broadened execution is blocked;
-- recovery or corrective guidance exists.
+- broadened or unauthorized execution is blocked;
+- recovery or corrective guidance exists;
+- model output cannot silently become canonical.
 
-## Phase 5 — AuthorMachine product extraction
+## Phase 7 — Program 01 extraction
 
 Objectives:
 
-- book and project cockpit contracts;
-- canon, continuity, style bible, decision log, contradiction, and proofing records;
-- edition-specific production state;
-- catalogue, rights, metadata, price, and release models;
-- launch, ARC, reviewer, contact, and outreach workflows;
-- approved export packages;
-- publishing integrations behind explicit adapters;
-- synthetic demonstration project.
+- separate publishing records and workflows from Core;
+- establish book/project cockpit contracts;
+- define manuscript, canon, continuity, edition, production, catalogue, rights, metadata, and release models;
+- create synthetic publishing projects;
+- place publishing integrations behind declared Connectors;
+- classify each private feature by maturity;
+- decide release name only after scope and clearance review.
 
 Exit evidence:
 
-- AuthorMachine operates in a clean synthetic House;
-- publishing-specific behavior does not contaminate Core;
-- public demo contains no private Stokknes records or manuscripts;
-- release operations remain reviewable and bounded.
+- Program 01 operates in a clean synthetic House;
+- publishing terminology does not contaminate Core;
+- public demo contains no private records or manuscripts;
+- release operations remain reviewable and bounded;
+- working-name status remains visible until changed deliberately.
 
-## Phase 6 — Packaging and closed technical alpha candidate
+## Phase 8 — Closed outside testing
 
 Objectives:
 
-- supported installation or bootstrap path for a narrow platform scope;
-- visible build and schema versions;
-- clean uninstall or removal procedure;
-- diagnostics export with safe defaults;
-- documented limitations;
-- tester consent and data-handling rules;
+- narrow supported installation path;
+- build and schema versions;
 - update and rollback path;
-- selected security baseline and threat model;
-- small closed technical tester group.
+- safe diagnostics export;
+- documented limitations;
+- tester data rules;
+- small assisted user group;
+- recovery drills outside the developer's primary environment.
 
 Exit evidence:
 
-- readiness gates for the scoped alpha are passed;
+- scoped readiness gates passed;
 - no unresolved P0/P1 issue in enabled scope;
 - support capacity exists;
-- backup and restore are proven outside the developer’s primary environment.
+- backup, restore, and exit proven on another machine.
 
-## Phase 7 — Public alpha foundations
+## Phase 9 — Alpha foundations
 
-Possible later objectives:
+Possible objectives:
 
-- broader platform compatibility;
-- update distribution;
-- documentation and onboarding;
+- broader compatibility;
+- public manual and onboarding;
 - accessibility hardening;
-- privacy policy and telemetry decision;
+- privacy and telemetry decisions;
 - vulnerability handling;
 - licensing and contribution model;
 - public issue workflow;
-- stable migration expectations for alpha data;
-- clearer packaging between Systead Core, desktop House, and AuthorMachine.
+- defined migration expectations;
+- clear packaging between Core, House, Steward, and Program 01.
 
-## Phase 8 — Mobile and additional specialist systems
+## Later directions
 
-Only after desktop/Core boundaries are stable:
+Only after Core and desktop boundaries are stable:
 
-- Android companion or application strategy;
-- secure local or user-controlled synchronization;
-- additional specialist systems;
-- optional team or multi-user authority model;
-- plugin ecosystem;
-- hosted services that do not erase local ownership.
+- mobile companion for Today, capture, search, reading, and approvals;
+- controlled shared Rooms or read-only views;
+- encrypted self-hosted synchronization;
+- Program and plugin SDK;
+- additional specialist Programs;
+- optional organisation authority models.
 
 ## Roadmap exclusions
 
-The roadmap does not currently promise:
+This roadmap does not promise:
 
-- a release date;
-- an app-store date;
+- dates;
+- final Program 01 naming;
+- every private v10 feature;
 - mobile parity;
 - enterprise support;
-- cloud hosting;
+- hosted cloud service;
 - subscription pricing;
 - open-source licensing;
-- a plugin marketplace;
-- broad integration coverage.
-
-Those decisions require evidence, legal review, capacity, and a clearer product boundary.
+- autonomous control over sensitive operations.

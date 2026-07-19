@@ -45,7 +45,7 @@ Intended future home for:
 
 - Systead platform software;
 - Systead Core;
-- AuthorMachine software and product IP;
+- Program 01 publishing software and current AuthorMachine working-name product IP;
 - Systead brand and marks;
 - Systead.com and platform domains;
 - reusable schemas, documentation, interface systems, and technology assets;
@@ -62,7 +62,7 @@ Intended future home for:
 - ISBN, metadata, distribution, launch, and catalogue activity;
 - publishing revenue and costs.
 
-Stokknes Publishing may be a customer, operator, proving environment, or licence-holder of AuthorMachine. It should not own the general Systead platform merely because publishing was the first specialist domain.
+Stokknes Publishing may be a customer, operator, proving environment, or licence-holder of Program 01 under its eventual release identity. It should not own the general Systead platform merely because publishing was the first specialist domain.
 
 ## Incorporation trigger
 
@@ -106,7 +106,7 @@ A future assignment or licence schedule should identify at least:
 - product and architecture documentation;
 - logos, icons, visual systems, and interface studies;
 - website source and public copy;
-- AuthorMachine product assets;
+- Program 01 publishing assets, including current AuthorMachine working-name assets;
 - test fixtures and synthetic datasets;
 - trademarks or applications, if any;
 - third-party components and their licences;
@@ -156,4 +156,4 @@ Review this document when:
 - a collaborator or contractor contributes substantial work;
 - outside investment, licensing, sale, or due diligence becomes realistic;
 - a public software licence is considered;
-- AuthorMachine is commercially separated from the private proving environment.
+- Program 01 is commercially separated from the private proving environment and released under a deliberately decided identity.

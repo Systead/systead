@@ -13,7 +13,7 @@ It is not a marketing preview and not an invitation to collect users before inst
 The program must answer:
 
 - Does the running system support real work rather than only prepared demonstrations?
-- Can it preserve canonical truth across desks and specialist systems?
+- Can it preserve canonical truth across desks and specialist Programs?
 - Can proposed actions explain and limit their effects?
 - Can failures be understood and recovered?
 - Can private proving-ground logic be separated from reusable product logic?
@@ -65,7 +65,7 @@ The first phase focuses on:
 8. partial failure and recovery messaging;
 9. backup, export, and restore evidence;
 10. private/public separation;
-11. AuthorMachine-to-Core extraction;
+11. Program 01 / AuthorMachine-to-Core extraction;
 12. repository and documentation consistency.
 
 ## 4. Evidence classes

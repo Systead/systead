@@ -142,7 +142,7 @@ Test:
 - specialist commands using Core;
 - missing dependency;
 - version mismatch;
-- AuthorMachine flow in a clean synthetic House.
+- Program 01 publishing flow in a clean synthetic House.
 
 Expected:
 

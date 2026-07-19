@@ -15,7 +15,10 @@ Required before wider promotion of the repository:
 - screenshots and fixtures are synthetic or deliberately approved;
 - licensing boundaries are clear;
 - public links resolve;
-- archived material cannot be mistaken for current implementation.
+- archived material cannot be mistaken for current implementation;
+- AuthorMachine and other working names are qualified as provisional;
+- no untouched private v10 source tree has been pushed directly into public main;
+- Program 01 features are labelled by maturity rather than implied as a final release contract.
 
 ## Gate 1 — Clean bootstrap
 
@@ -102,7 +105,9 @@ Required before non-developer testers:
 - destructive and external actions are not visually ambiguous;
 - keyboard navigation and essential accessibility have been checked;
 - errors explain what changed and what did not;
-- onboarding does not require private developer knowledge.
+- onboarding does not require private developer knowledge;
+- the first surface remains calm and useful without exposing full system machinery;
+- progressive disclosure has been tested with someone who did not build the private House.
 
 ## Gate 8 — Support and diagnostics
 
@@ -125,7 +130,8 @@ A closed technical alpha may begin only when:
 - a clean install/bootstrap, representative workflow, backup, restore, and removal have been demonstrated;
 - tester data boundaries and consent are documented;
 - the tester population is small enough to support responsibly;
-- the label and limitations are published honestly.
+- the label and limitations are published honestly;
+- the release identity for any included Program is deliberately decided or clearly retained as a technical working label.
 
 ## Gate 10 — Later public alpha or beta
 

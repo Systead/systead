@@ -64,7 +64,9 @@ Shows the intended review-before-action model:
 
 ### `authormachine-cockpit.png`
 
-Shows the first specialist product with fictional publishing data:
+The filename and visible label use the internal working name. They do not lock the public release name.
+
+Shows Program 01 with fictional publishing data. The frame uses the current internal working name, AuthorMachine:
 
 - project state;
 - canon signals;
@@ -96,3 +98,8 @@ A later real-build screenshot may replace a study only after review for:
 - combinations of information that reveal private history.
 
 Real screenshots should identify the build version and remain accurate after meaningful UI changes.
+
+
+## Private v10 screenshots
+
+Private working-build screenshots may later be added only when they are deliberately sanitized and clearly labelled as **internal working-build evidence**, not release screenshots. They must state that the release name, layout, feature package, and individual capabilities remain subject to change.

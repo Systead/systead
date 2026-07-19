@@ -5,121 +5,171 @@
 
 ## Purpose
 
-This document defines how Systead should present itself publicly without becoming either:
+Systead should present as a distinct serious product without becoming:
 
 - a vague lifestyle brand;
-- a wall of architecture language;
-- a dark Stokknes Publishing reskin;
+- a wall of system architecture;
+- a Stokknes Publishing reskin;
 - a cramped feature catalogue;
 - a screenshot dump;
-- launch theatre for a product that is still pre-alpha.
+- a writing application pretending to be a platform;
+- release theatre for private pre-alpha software.
 
-## The order of explanation
+## Primary public statement
+
+> **Systead is a private continuity system for memory, decisions, responsibility, and long-lived work.**
+
+Supporting line:
+
+> **It remembers. It explains. It acts carefully.**
+
+Tagline:
+
+> **Local intelligence. Built for home.**
+
+## Explanation order
 
 Public pages should explain Systead in this order:
 
-1. **Human situation** — what is difficult today.
-2. **Product promise** — what Systead helps the person understand or do.
-3. **Experience** — what opening and using a House should feel like.
-4. **Product categories** — the main kinds of work it brings together.
-5. **Visible proof** — public-safe pre-alpha views and concrete examples.
-6. **Specialist products** — beginning with AuthorMachine.
-7. **Features** — more detailed capabilities.
-8. **System foundations** — Core, commands, records, privacy, audit, recovery, and integrations.
-9. **Honest status** — what exists, what is unproven, and what is unavailable.
+1. human situation;
+2. Memory + Safety + Control;
+3. what returning to a House should feel like;
+4. signature interactions;
+5. House, Rooms, and Programs;
+6. visible public-safe evidence;
+7. Program 01 as first deep proof;
+8. feature depth;
+9. Trust Kernel/Core, commands, privacy, audit, recovery, and exit;
+10. honest status and provisional naming.
 
-Do not open with architecture unless the page is explicitly written for developers.
+Do not open with schemas or architecture unless the page is explicitly for developers.
 
-## Public category model
+## Breadth rule
 
-The primary public categories are:
+The public story must show that Systead is broader than publishing.
 
-- **Today** — change, attention, review, risk, and next actions.
+A public gallery should eventually contain:
+
+- House overview;
+- decisions and evidence;
+- a practical non-publishing area such as Contacts, Assets, or Household operations;
+- controlled action review;
+- Program 01 publishing depth.
+
+Program 01 should demonstrate how deep one Program can become, not define the boundaries of the House.
+
+## Program 01 naming rule
+
+Public prose should use:
+
+- **publishing Program** for ordinary explanation;
+- **Program 01: Publishing** for architecture and roadmap;
+- **AuthorMachine** only with clear working-name qualification.
+
+Suggested line:
+
+> The first specialist Program serves publishing. Its current internal working name is AuthorMachine; its final release name and feature package are still being decided.
+
+## Product categories
+
+Primary public categories:
+
+- **Today** — change, attention, review, risk, and next safe actions.
 - **Work** — projects, obligations, files, dependencies, and decisions.
-- **Knowledge** — notes, sources, research, evidence, and history.
-- **Practical life** — contacts, assets, services, maintenance, and recurring responsibilities.
-- **Specialist rooms** — deeper products such as AuthorMachine.
+- **Knowledge** — sources, research, manuals, evidence, and history.
+- **Practical House** — contacts, assets, services, maintenance, and recurring responsibilities.
+- **Programs** — deeper specialist applications, beginning with publishing.
 
 These are product-facing categories, not rigid database boundaries.
 
-Technical categories such as Core, records, command contracts, audit, adapters, and schemas belong under an “Under the floorboards,” “Under the hood,” architecture, or developer section.
+## Signature interactions
+
+Use concrete experiences:
+
+- Bring me back.
+- Why is this true?
+- What changes if I do this?
+- Resolve this safely.
+- What needs me?
+
+These are more useful than long generic feature lists.
 
 ## Layout rhythm
 
-Systead pages should alternate between different editorial structures rather than repeating equal card grids.
+Recommended structures:
 
-Recommended structures include:
-
-- a broad hero with one strong idea;
-- a narrow narrative section;
+- flagship dark brand masthead;
+- generous human product hero;
+- narrow narrative sections;
 - wide category rows;
-- one featured product image followed by two smaller secondary views;
+- one featured product image and smaller secondary views;
 - two-column editorial text;
-- a restrained feature grid lower on the page;
-- a dark technical section that visually signals the shift into system detail;
-- simple status rows instead of large marketing counters.
+- restrained feature grids lower on the page;
+- dark technical section signalling machinery;
+- simple status rows;
+- clear links to public documentation.
 
 Avoid:
 
-- four or six equal cards in every section;
-- long walls of tiny labels;
-- oversized screenshots with no frame or explanation;
+- repeated equal card grids;
+- tiny labels everywhere;
+- oversized raw screenshots;
 - cramped captions;
-- visual language borrowed from the Stokknes author brand;
-- excessive badges, pills, gradients, glows, or decorative analytics.
+- neon AI visuals;
+- fake metrics;
+- competitive comparison tables as the main identity;
+- presenting private v10 screens as release screenshots.
 
 ## Image sizing
 
-Wide product images must not expand indefinitely with the browser width.
-
-Default rules:
-
-- featured frame maximum width: approximately `1040px`;
-- featured image maximum height: approximately `640px`;
-- compact image maximum height: approximately `360px` on desktop;
+- flagship masthead: responsive, capped by page width, no forced crop of the wordmark;
+- featured product frame: maximum approximately `1040px`;
+- featured screenshot height: maximum approximately `640px`;
+- secondary screenshot height: approximately `360px` desktop;
 - use `object-fit: contain`;
-- include a subtle application frame or browser bar;
-- remove raw image links from the entire image surface;
-- keep captions outside the frame;
-- place secondary studies in a two-column pair when space allows;
-- stack all studies on smaller screens.
+- keep captions outside frames;
+- do not wrap giant raw-image links around screenshots;
+- stack cleanly on small screens.
 
-## Voice examples
+## Voice levels
 
-### Product-first
+### Human
 
-> The problem is not that we lack tools. It is that none of them know the whole situation.
+> You should not have to rebuild the whole situation every time you return to important work.
 
-### Feature-level
+### Product
 
-> Keep a project connected to its files, decisions, source material, open questions, and next safe action.
+> Systead keeps current records, decisions, evidence, open questions, and safe next actions connected.
 
-### System-level
+### Feature
 
-> Modules link canonical records rather than creating drifting copies, and material commands declare scope, authority, verification, and recovery.
+> Open a Project and see its files, decisions, dependencies, history, and unresolved conflicts.
 
-Each sentence is valid. The error is using the third one where the first should be.
+### System
+
+> Programs operate through canonical records, scoped commands, authority checks, audit, verification, and recovery contracts.
+
+All four are valid. The error is using System language before the visitor understands the human problem.
 
 ## Relationship to Stokknes
 
-Systead and Stokknes Publishing may share standards of quality, seriousness, and originality, but should not share the same public atmosphere.
+Systead may share seriousness and originality with Stokknes Publishing but must remain its own identity.
 
-Systead should not depend on:
+Do not depend on:
 
-- dark author photography;
+- author photography;
 - noir or literary mystery;
-- manuscript or book-cover styling;
-- heraldic cues;
+- manuscript styling;
+- heraldry;
 - personal mythology;
-- pain, chaos, smoke, scars, or autobiographical implication;
-- the Stokknes Publishing House mark as a visual shortcut.
+- pain, smoke, scars, chaos, or autobiography.
 
-Systead should instead communicate:
+Systead should communicate:
 
-- structure;
+- continuity;
 - ownership;
 - memory;
 - calm control;
-- practical depth;
 - durable architecture;
-- a private place that can grow with the work.
+- private depth;
+- a place that can grow without becoming a prison.

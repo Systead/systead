@@ -3,7 +3,7 @@
 **Status:** Canonical
 **Effective:** 19 July 2026
 
-These principles define expected product behavior. They apply to Core, Houses, modules, specialist systems, integrations, automation, AI assistance, imports, exports, and public tooling unless an explicitly documented exception is approved.
+These principles define expected product behavior. They apply to Core, Houses, modules, specialist Programs, integrations, automation, AI assistance, imports, exports, and public tooling unless an explicitly documented exception is approved.
 
 ## 1. Local-first by default
 

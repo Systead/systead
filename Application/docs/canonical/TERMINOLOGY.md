@@ -6,147 +6,173 @@
 
 ### Systead
 
-The parent platform, brand, and universal operating architecture.
+The parent brand, platform, and universal continuity architecture.
+
+### Trust Kernel
+
+The non-negotiable Core layer governing identity, authority, provenance, decisions, commands, privacy, audit, verification, recovery, and portability.
 
 ### Systead Core
 
-The generic local-first foundation for canonical records, storage, knowledge, commands, review, audit, boundaries, integrations, export, backup, and recovery.
+The generic shared foundation used by Houses and Programs.
 
 ### House
 
-One operator’s configured Systead environment, including data, terminology, desks, modules, workflows, permissions, integrations, and history.
+One operator's configured Systead environment.
+
+### Room
+
+A broad human-facing area of responsibility inside a House.
 
 ### Desk
 
-A practical operational surface grouping records, decisions, queues, and commands around an area of responsibility. A Desk does not own a duplicate copy of shared truth.
+A focused operational surface inside a Room.
+
+### Program
+
+A deep specialist application built on Systead Core.
 
 ### Module
 
-An optional bounded capability adding records, views, commands, rules, imports, or integrations through declared contracts.
+A bounded optional capability that is smaller or more reusable than a Program.
 
-### Specialist system
+### Utility
 
-A major purpose-built domain product using Systead Core and adding domain-specific records, workflows, views, and integrations.
+A reusable operation such as search, import, export, backup, restore, conversion, checksum, or diagnostics.
 
-### AuthorMachine by Systead
+### Connector
 
-The first specialist product, focused on publishing operations.
+A declared bridge to an outside service or system.
+
+### Exit Kit
+
+The shared export, manifest, restore, and portability surface.
+
+### House Steward
+
+Working name for the intelligence and assistance layer. The name is provisional.
+
+## Publishing terms
+
+### Program 01: Publishing
+
+Stable architectural label for the first specialist Program.
+
+### AuthorMachine
+
+Internal working name for Program 01 and the private v10 publishing line. Not a locked public release name.
 
 ### Stokknes House
 
-The private flagship and proving ground. It is not a public product or demo database.
+Private flagship and proving ground. Not a public product, template, or demo database.
 
-## Data terms
+## Information terms
 
 ### Canonical record
 
-The accepted current House record for an entity or state, linked through a stable identity and appropriate provenance.
+The record currently recognized by the House as authoritative for a defined identity or question, subject to correction and supersession.
 
-### Proposed record
+### Source
 
-A candidate change or new record awaiting review before becoming canonical.
-
-### Derived record
-
-A calculated or generated result linked to declared sources and rules. It is not automatically canonical.
+Material from which a claim, record, decision, or derived value originates.
 
 ### Provenance
 
-Information explaining where a record, claim, or decision came from.
+The trace connecting information to origin, import, decision, derivation, migration, or user entry.
 
-### Source file
+### Working state
 
-An original file used as evidence or input. An index or extracted text does not replace the source file’s authority automatically.
+Editable or provisional material not yet recognized as canonical.
+
+### Historical snapshot
+
+A preserved representation of earlier state.
+
+### Derived value
+
+Information computed from other records rather than entered as primary source truth.
 
 ### Conflict
 
-Two or more sources or accepted states that cannot all remain true under the current model.
+Two or more records or claims that cannot all be accepted as current without review.
 
-### Duplicate candidate
+### Uncertainty
 
-Records or files that may represent the same entity or content but require deterministic matching or review.
-
-### Quarantine
-
-A logged isolated state used when material is suspicious, corrupted, duplicate, unsafe, or unresolved. Quarantine is not permanent deletion.
-
-### Archive
-
-Retained inactive or superseded material. Archived does not mean public or safe to delete.
+A declared limitation in evidence, freshness, completeness, interpretation, or confidence.
 
 ## Action terms
 
 ### Proposal
 
-A suggested record change, decision, or command that has not yet received required authority.
-
-### Command
-
-A declared operation with intent, scope, parameters, risk, authority, effects, verification, audit, and recovery information.
-
-### External effect
-
-A consequence leaving the House or changing an external system, including publishing, sending, payment, synchronization, account changes, public posting, or remote deletion.
+A reviewable statement of intended change, evidence, scope, effects, risk, and recovery.
 
 ### Preview
 
-A representation of the exact records, files, payloads, destinations, and likely effects before execution.
+A representation of the exact records, files, payloads, destinations, and consequences expected before execution.
 
-### Approval
+### Authority
 
-Explicit human authority for the declared command and scope. Approval is not a general permission for later broadened actions.
+Permission granted to a person, Program, Steward operation, or Connector for a defined scope and effect.
+
+### Command
+
+A declared operation that may change state or produce an external effect.
 
 ### Verification
 
-Evidence that the executed result matches the expected result.
+Evidence that the intended result occurred, or that a mismatch or partial failure exists.
 
-### Audit
+### Audit record
 
-Append-oriented history explaining what occurred, when, why, from which source, and under whose authority.
+A durable record of what happened, why, under whose authority, and with what result.
 
-### Rollback
+### Recovery
 
-A defined operation returning state to a previous usable version where exact reversal is possible.
-
-### Corrective action
-
-A documented safe response when exact rollback is impossible or failed.
+Rollback, restore, quarantine, correction, or compensating action after unwanted or failed state change.
 
 ## Maturity terms
 
-### Pre-alpha
-
-A running or partially running build whose architecture, installation, migration, recovery, privacy, security, compatibility, and public support contract are still being proven.
-
-### Private pre-alpha
-
-A pre-alpha used only in the private proving environment or by the development operator.
-
-### Closed technical alpha
-
-A later narrowly scoped build offered to a small technically capable tester group after selected readiness gates pass.
-
 ### Interface study
 
-A reconstructed or synthetic visual showing intended behavior. It is not necessarily a screenshot of the exact running build.
+A reconstructed or synthetic visual showing intended behaviour. Not necessarily a screenshot of the exact running build.
 
-### Synthetic data
+### Working-private
 
-Artificial records created for tests, documentation, screenshots, or demos and not derived in an identifying way from private data.
+Implemented or exercised in the private proving ground but not generalized or promised publicly.
+
+### Characterized
+
+Current behaviour has been documented or tested sufficiently to refactor deliberately.
+
+### Generalizing
+
+Being separated from private data and moved toward reusable Core or Program contracts.
+
+### Synthetic demo
+
+Public-safe demonstration using artificial records.
+
+### Closed pre-alpha
+
+Outside access limited to a very small assisted group with no stable-product promise.
+
+### Alpha candidate
+
+A scoped build approaching defined outside-user readiness gates.
 
 ## Avoided ambiguous terms
 
 ### Dashboard
 
-May be used for a specific view, but not as the whole product definition. Systead is an operating environment, not merely a dashboard.
+May describe one view, but not the whole product. Systead is not merely a dashboard.
 
 ### Automation
 
-Must identify the exact command, authority, and effect. Avoid using “automation” as a blanket explanation.
+Must identify trigger, authority, command, effect, verification, and recovery.
 
 ### Sync
 
-Must identify source, destination, direction, conflict behavior, and external effects.
+Must identify source, destination, direction, conflict behaviour, and external effect.
 
 ### AI
 
@@ -154,4 +180,8 @@ Must distinguish model assistance from canonical authority and external action.
 
 ### Secure / private
 
-Must state scope and evidence. Avoid as absolute unqualified promises.
+Must state scope and evidence. Avoid absolute promises.
+
+### AuthorMachine release
+
+Avoid until a final name and scope are deliberately decided. Use Program 01 or internal working name with qualification.

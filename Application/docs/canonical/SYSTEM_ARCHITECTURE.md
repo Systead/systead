@@ -11,7 +11,7 @@ The architecture must support multiple domains without turning every domain into
 
 The central architectural rule is:
 
-> Shared truth lives in canonical records. Desks and specialist systems provide domain views and actions over that truth through declared contracts.
+> Shared truth lives in canonical records. Desks and specialist Programs provide domain views and actions over that truth through declared contracts.
 
 ## 2. Logical layers
 
@@ -21,7 +21,7 @@ The central architectural rule is:
 │ Command Centre · Desks · Cockpits · Review · Search · Setup  │
 ├──────────────────────────────────────────────────────────────┤
 │ Specialist systems and optional modules                      │
-│ AuthorMachine · domain records · workflows · integrations    │
+│ Program 01 (working name: AuthorMachine) · domain workflows   │
 ├──────────────────────────────────────────────────────────────┤
 │ Systead Core services                                        │
 │ Records · Knowledge · Commands · Review · Audit · Recovery   │
@@ -375,7 +375,7 @@ The current running build may combine responsibilities that the canonical archit
 
 Known classes of architectural work include:
 
-- extracting generic Core behavior from AuthorMachine and Stokknes-specific code;
+- extracting generic Core behaviour from Program 01 / AuthorMachine working code and Stokknes-specific configuration;
 - clarifying record authority and provenance;
 - making command effects consistently declarative;
 - proving backup and restore behavior;
