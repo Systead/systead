@@ -144,3 +144,17 @@ Validation should eventually check:
 - Program/Core dependency direction;
 - archive exclusion;
 - export and recovery documentation for enabled scope.
+
+
+## Public website pages
+
+The root static site currently includes:
+
+- `index.html` — platform and company-level front door;
+- `why.html` — problems, audience, and differentiation;
+- `house.html` — the lived House model;
+- `programs.html` — Program contract and Program 01;
+- `vision.html` — long-term direction and maturity horizons;
+- `principles.html` — constitution and authority model.
+
+These pages present Systead before Program 01. They must remain public-safe and must not embed private flagship data.

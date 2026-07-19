@@ -1,48 +1,33 @@
+
 # Program 01: Publishing
 
 **Current internal working name:** AuthorMachine
-**Final public release name:** Undecided
-**Current state:** Private v10 heritage awaiting controlled intake and generalization
+**Release name:** Undecided
+**Maturity:** Private proving line / extraction target
 
-This directory is the intended architectural home for the specialist publishing Program after extraction from the private proving environment.
+Program 01 provides deep publishing capability inside a Systead House.
 
-It should not become a raw copy of the Stokknes v10 directory.
+It is the first proof domain because publishing combines long-lived projects, manuscript versions, canon, research, decisions, rights, editions, production, contacts, release, and correction history.
 
-## Intended contents
+It does not define Systead.
 
-```text
-publishing/
-├── README.md
-├── package or program manifest
-├── records/
-├── migrations/
-├── commands/
-├── views/
-├── imports/
-├── exports/
-├── connectors/
-├── fixtures/
-├── tests/
-└── docs/
-```
+## Working boundaries
 
-The actual implementation language and package layout remain subject to repository inventory.
+Likely publishing-specific areas include:
 
-## Intake rule
+- book and project cockpits;
+- manuscript and revision state;
+- canon and continuity;
+- characters, locations, timelines, rules, contradictions, and plot holes;
+- edition-specific production;
+- metadata, pricing, rights, catalogue, and release;
+- ARC, reviewer, outreach, and publishing contacts;
+- publishing platform adapters and controlled exports.
 
-Before private v10 code enters this path:
+Shared areas such as identity, generic contacts, decisions, commands, provenance, audit, recovery, and export contracts belong in Systead Core or shared House services.
 
-1. preserve the untouched source snapshot;
-2. scan for secrets and private data;
-3. inventory components and behaviour;
-4. classify generic behaviour into Core;
-5. replace private records with synthetic fixtures;
-6. define migrations, commands, permissions, exports, and recovery;
-7. add characterization and contract tests;
-8. label feature maturity.
+## Naming and scope warning
 
-See:
+The private v10 build is commonly called AuthorMachine. The eventual public name, package, supported platforms, included features, pricing, licensing, and release identity remain undecided.
 
-- [Program 01 canonical scope](../../docs/canonical/PROGRAM_01_PUBLISHING.md)
-- [Private v10 intake](../../docs/canonical/PRIVATE_V10_INTAKE.md)
-- [V10 handoff brief](../../docs/canonical/V10_HANDOFF_BRIEF.md)
+Private feature presence does not create a public release promise.

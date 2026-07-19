@@ -22,21 +22,26 @@ Read [STATUS.md](STATUS.md) first.
 ## Core reading order
 
 1. [STATUS.md](STATUS.md) — what exists now and what is not claimed.
-2. [PRODUCT_NORTH_STAR.md](PRODUCT_NORTH_STAR.md) — the category, target, promises, and signature experiences.
-3. [SYSTEAD_CONSTITUTION.md](SYSTEAD_CONSTITUTION.md) — enforceable product laws.
-4. [PRODUCT_MODEL.md](PRODUCT_MODEL.md) — Systead, Trust Kernel, Core, House, Rooms, Desks, Programs, and private proving ground.
-5. [PLATFORM_AND_PROGRAM_ARCHITECTURE.md](PLATFORM_AND_PROGRAM_ARCHITECTURE.md) — separation between shared continuity and specialist depth.
-6. [HOUSE_STEWARD.md](HOUSE_STEWARD.md) — intelligence, authority ladder, proposal, execution, and verification behaviour.
-7. [PROGRAM_01_PUBLISHING.md](PROGRAM_01_PUBLISHING.md) — first specialist Program and current AuthorMachine working-name scope.
-8. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
-9. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
-10. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
-11. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
-12. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
-13. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
-14. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
-15. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
-16. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
+2. [COMPANY_VISION.md](COMPANY_VISION.md) — the broader platform and future-company direction.
+3. [PROBLEMS_AND_USE_CASES.md](PROBLEMS_AND_USE_CASES.md) — the human and operational failures Systead addresses.
+4. [AUDIENCE_AND_FIT.md](AUDIENCE_AND_FIT.md) — who should recognise the problem and who is not the current target.
+5. [PRODUCT_NORTH_STAR.md](PRODUCT_NORTH_STAR.md) — the category, target, promises, and signature experiences.
+6. [SYSTEAD_CONSTITUTION.md](SYSTEAD_CONSTITUTION.md) — enforceable product laws.
+7. [PRODUCT_MODEL.md](PRODUCT_MODEL.md) — Systead, Trust Kernel, Core, House, Rooms, Desks, Programs, and private proving ground.
+8. [PLATFORM_VS_PROGRAMS.md](PLATFORM_VS_PROGRAMS.md) — the durable House and replaceable Program distinction.
+9. [PLATFORM_AND_PROGRAM_ARCHITECTURE.md](PLATFORM_AND_PROGRAM_ARCHITECTURE.md) — separation between shared continuity and specialist depth.
+10. [DIFFERENTIATION.md](DIFFERENTIATION.md) — category boundaries and defensible product distinction.
+11. [HOUSE_STEWARD.md](HOUSE_STEWARD.md) — intelligence, authority ladder, proposal, execution, and verification behaviour.
+12. [PROGRAM_01_PUBLISHING.md](PROGRAM_01_PUBLISHING.md) — first specialist Program and current AuthorMachine working-name scope.
+13. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
+14. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
+15. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
+16. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
+17. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
+18. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
+19. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
+20. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
+21. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
 
 ## Product and public presentation
 

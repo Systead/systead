@@ -1,30 +1,18 @@
+
 # Systead Programs
 
-Programs are deep specialist applications built on Systead Core.
+Programs are optional specialist applications operating inside a House.
 
-A Program may add domain records, dedicated workflows, cockpits, imports, exports, intelligence, and external Connectors. It must not bypass Core identity, authority, privacy, audit, recovery, or portability contracts.
+They provide domain depth while inheriting shared Systead contracts for authority, provenance, decisions, privacy, audit, recovery, and export.
 
-## Current Program registry
+Canonical rule:
 
-| Program | Status | Public name |
-|---|---|---|
-| Program 01: Publishing | Private pre-alpha / extraction target | Undecided. Current internal working name: AuthorMachine. |
+> **Programs solve particular domains. Systead preserves the whole.**
 
-## Program requirements
+Programs are replaceable. The House is durable. No Program owns the person.
 
-Each Program should eventually declare:
+Current Program registry:
 
-- namespace;
-- domain record types;
-- schema versions and migrations;
-- Core dependencies;
-- commands and external effects;
-- permissions and authority levels;
-- imports and exports;
-- Connectors;
-- removal behaviour;
-- privacy classifications;
-- synthetic fixtures;
-- maturity and release status.
+- [`publishing/`](publishing/README.md) — Program 01: Publishing; current internal working name: AuthorMachine.
 
-See [Platform and Program Architecture](../docs/canonical/PLATFORM_AND_PROGRAM_ARCHITECTURE.md).
+Future Program examples remain design probes unless formally approved and added to the canonical roadmap.

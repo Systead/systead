@@ -66,3 +66,25 @@ The register records product decisions that should not be reinterpreted casually
 | OPEN-011 | Mobile architecture | Deferred until desktop/Core boundaries stabilize. |
 | OPEN-012 | Final public name for Program 01 | AuthorMachine remains the internal working name; release identity undecided. |
 | OPEN-013 | Final public name for House Steward | Working name only; authority model remains canonical. |
+
+
+## DEC-2026-07-19-PLATFORM-FIRST — Present Systead before its Programs
+
+**Status:** Accepted
+**Decision:** Public presentation must lead with Systead's platform purpose, human problems, House, audience, and vision. Specialist Programs appear later as optional depth.
+**Reason:** Program 01 is currently the most visible implementation but is only a small part of the intended platform. Allowing it to define the public story would misclassify Systead as publishing software.
+**Consequences:** Homepage, README, public docs, profile copy, and future demos must preserve the platform-first hierarchy.
+
+## DEC-2026-07-19-COMPANY-VISION — Record the broader company direction separately from release scope
+
+**Status:** Accepted
+**Decision:** Systead may document its long-term company and platform vision, including private institutional memory and continuity services, while explicitly separating vision from roadmap, incorporation status, and release promises.
+**Reason:** The project needs a coherent reason and direction broader than current Program features without overpromising unbuilt products.
+**Consequences:** Vision documents use maturity horizons and disclaimer language; examples of future Programs remain design probes until formally approved.
+
+## DEC-2026-07-19-PROGRAM-DURABILITY — Programs are replaceable; the House is durable
+
+**Status:** Accepted
+**Decision:** Programs may provide deep specialist capability but cannot own the operator's general memory, bypass Core safety, or make unrelated House records unusable when removed.
+**Reason:** Systead's continuity promise depends on the House outlasting individual Programs.
+**Consequences:** Program APIs, storage, permissions, export, and uninstall behaviour must be evaluated against this rule.

@@ -4,6 +4,21 @@
 **Effective:** 19 July 2026
 **Maturity:** Pre-alpha; implementation remains under extraction and stress test
 
+## Primary distinction
+
+Systead is the platform, brand, ecosystem, and broader future-company direction.
+
+A House is one operator's configured private environment.
+
+Programs are optional specialist applications inside the House. They are important, but they are not the centre or definition of Systead.
+
+> **Programs solve particular domains. Systead preserves the whole.**
+
+Durability rule:
+
+> **Programs are replaceable. The House is durable. No Program owns the person.**
+
+
 ## 1. Systead
 
 **Systead** is the parent brand, platform, and universal operating architecture.
