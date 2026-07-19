@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "0.1.0",
+  "houseId": "demo-house",
+  "name": "Demo House",
+  "locale": "en-GB",
+  "currency": "EUR",
+  "privacy": {
+    "defaultVisibility": "private",
+    "telemetry": false,
+    "safeMode": true
+  },
+  "modules": [
+    "work",
+    "money",
+    "contact-desk",
+    "knowledge",
+    "system"
+  ],
+  "records": []
+}

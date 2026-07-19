@@ -1,0 +1,34 @@
+# Local and private configuration
+.env
+.env.*
+!.env.example
+*.local
+config/private-boundary-denylist.local.txt
+config/house.local.json
+private/
+secrets/
+exports/
+backups/
+logs/
+
+# Build and package output
+node_modules/
+dist/
+build/
+coverage/
+*.zip
+*.tar
+*.gz
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+*.old
+~*

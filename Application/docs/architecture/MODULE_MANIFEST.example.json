@@ -1,0 +1,17 @@
+{
+  "id": "example-module",
+  "name": "Example Module",
+  "version": "0.1.0",
+  "status": "alpha",
+  "routes": [],
+  "recordTypes": [],
+  "commands": [],
+  "knowledge": [],
+  "dependencies": {
+    "systeadCore": ">=0.1.0"
+  },
+  "privacy": {
+    "defaultVisibility": "private",
+    "supportsRedactedExport": true
+  }
+}

@@ -1,0 +1,6 @@
+# Copy to private-boundary-denylist.local.txt and add private names, paths,
+# project titles, email addresses, domains, and identifiers that must never
+# enter a public Systead package. The .local file is ignored by Git.
+PRIVATE_NAME_EXAMPLE
+PRIVATE_PATH_EXAMPLE
+PRIVATE_PROJECT_EXAMPLE

@@ -1,0 +1,13 @@
+name: Validate root
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate structure and product boundary
+        run: bash scripts/validate-root.sh
