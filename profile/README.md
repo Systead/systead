@@ -2,12 +2,13 @@
 
 **Local-first command systems. Operator-owned, explainable, and reversible.**
 
-Systead is building a configurable command environment called a **House**—one place to run work, knowledge, money, and specialist systems without surrendering control of data or decisions.
+Systead is building a configurable private command environment called a **House**—one place to run work, knowledge, money, household operations, and specialist systems without surrendering control of data or decisions.
 
-## In development
+## Product architecture
 
-- **Systead Core** — local records, commands, review, safety, audit, and knowledge.
-- **Systead House** — the configurable command centre.
+- **Systead** — the parent platform and universal architecture.
+- **Systead Core** — local records, knowledge, commands, review, safety, audit, and recovery.
+- **House** — the operator's configured Systead environment.
 - **AuthorMachine by Systead** — the first specialist product, focused on publishing operations.
 
 ## Principles
@@ -16,8 +17,9 @@ Systead is building a configurable command environment called a **House**—one 
 - AI proposes; humans approve.
 - Important actions are visible, logged, and reversible.
 - Private data is not silently turned into public output.
-- No forced cloud or telemetry.
+- No forced cloud, telemetry, publishing, payment, or external communication.
+- Export, backup, and recovery remain under operator control.
 
-> Current status: private Alpha preparation. Public repositories and releases will appear here when their boundaries and recovery systems are proven.
+> **Current status:** Alpha foundation in preparation. Public releases will follow only after product boundaries, recovery systems, and private-data protections have been proven.
 
-Website: **https://systead.com**
+Website: [systead.com](https://systead.com)
