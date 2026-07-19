@@ -1,114 +1,193 @@
-# Systead roadmap
+# Roadmap
 
-**Status:** Working roadmap
-**Updated:** 2026-07-19
+**Status:** Directional, gate-based roadmap
+**Dates:** Not promised
 
-The roadmap is ordered by dependency and proof, not by marketing urgency. Dates are intentionally omitted until the Alpha baseline is measurable.
+The roadmap is intentionally staged by evidence and risk. It does not assign public dates before the private build’s installation, migration, recovery, privacy, and security boundaries are understood.
 
-## Phase 0 — Canon and repository correction
+## Phase 0 — Canonical correction and public boundary
 
-- lock product hierarchy and naming;
-- identify canonical documentation;
-- document public/private boundaries;
-- clarify repository authority and website deployment;
-- remove conflicting public wording;
-- establish decision records and status reporting;
-- verify no private data or secrets are present in Git history.
+**Current state:** Active / largely established
 
-**Exit condition:** A new contributor can explain Systead, House, Core, AuthorMachine, and Stokknes House without contradiction.
+Objectives:
 
-## Phase 1 — Core foundation
+- lock the Systead → Core → House → specialist-system hierarchy;
+- establish AuthorMachine by Systead as the first specialist product;
+- define Stokknes House as private proving ground, not demo data;
+- correct public README, website, profile, and status wording;
+- publish synthetic pre-alpha interface studies;
+- centralize canonical architecture, safety, naming, and privacy documentation;
+- inventory repository duplication and structural conflicts.
 
-- stable record identifiers and schemas;
-- local storage and migrations;
-- attachments and source references;
-- canonical relationship model;
-- audit history;
-- archive and deletion states;
-- backup, export, and restore baseline.
+Exit evidence:
 
-**Exit condition:** A clean House can be created, backed up, exported, restored, and inspected without private proving-ground dependencies.
+- public claims match canonical status;
+- required canonical documents exist;
+- public images are synthetic or approved;
+- obvious private/public boundary risks are removed.
 
-## Phase 2 — Command and review safety
+## Phase 1 — First private stress-test cycle
 
-- command declaration contract;
-- risk levels and confirmation rules;
-- preview and affected-record reporting;
-- execution and verification states;
-- audit events;
-- rollback and recovery tasks;
-- review queues for AI and automation proposals.
+**Current state:** Active; week one
 
-**Exit condition:** Material actions cannot bypass declared effects, approval, verification, and audit.
+Objectives:
 
-## Phase 3 — Knowledge and conflict handling
+- use the build under real daily workload;
+- record P0–P4 issues;
+- test startup, indexing, records, review, commands, backup, and recovery;
+- identify confusing states and hidden manual workarounds;
+- find private and publishing-specific assumptions embedded in generic paths;
+- demonstrate at least one scoped backup and restore path;
+- prioritize hardening over feature sprawl.
 
-- local indexing of supported files;
-- source provenance and freshness;
-- duplicate and near-duplicate detection;
-- conflict reports and review tasks;
-- quarantine workflow for obvious exact duplicates;
-- no automatic permanent deletion of canonical source files;
-- searchable links between knowledge and operational records.
+Exit evidence:
 
-**Exit condition:** Knowledge findings remain traceable and uncertain findings cannot silently become truth.
+- issue inventory;
+- P0/P1 risk picture;
+- recovery evidence;
+- next-cycle priorities;
+- updated decision register.
 
-## Phase 4 — House configuration
+## Phase 2 — Core extraction and clean-House bootstrap
 
-- configurable desks and navigation;
-- local terminology and module selection;
-- privacy classes and permissions;
-- workflow and review policies;
-- import/export profiles;
-- optional integration configuration;
-- clean synthetic demonstration House.
+Objectives:
 
-**Exit condition:** A new House can be configured without editing private source code or inheriting Stokknes data.
+- extract generic records, knowledge, review, command, audit, and recovery contracts;
+- isolate AuthorMachine-specific logic;
+- isolate Stokknes-specific configuration and data;
+- create synthetic House fixtures;
+- initialize a clean House without private paths or records;
+- define module registration, migration, export, and removal behavior;
+- add validation for naming, boundaries, secrets, and required docs.
 
-## Phase 5 — AuthorMachine extraction
+Exit evidence:
 
-- define AuthorMachine domain contracts;
-- separate generic Core capabilities from publishing-specific logic;
-- book and project cockpits;
-- canon, continuity, style, decisions, and contradiction review;
-- edition and production pipelines;
-- catalogue, rights, launch, ARC, and publishing-contact workflows;
-- approved website and publishing exports;
-- synthetic publishing fixtures and acceptance tests.
+- clean synthetic House runs;
+- selected modules load through declared contracts;
+- no private proving-ground dependency is required;
+- generic and specialist boundaries are testable.
 
-**Exit condition:** AuthorMachine runs as a reusable specialist product inside a clean House.
+## Phase 3 — Storage, migration, backup, and restore hardening
 
-## Phase 6 — Recovery and portability proof
+Objectives:
 
-- interrupted-command recovery;
-- version migration tests;
-- module disable and removal tests;
-- clean uninstall and retained-data behavior;
-- documented data locations;
-- full export and re-import;
-- corruption and partial-failure exercises;
-- privacy and secret scanning in packaging.
+- explicit schema versions;
+- migration tests;
+- pre-migration snapshots;
+- conflict and duplicate policies;
+- backup manifests and integrity checks;
+- restore into a clean location;
+- House portability export;
+- audit and recovery records;
+- quarantine behavior for suspicious or duplicate material.
 
-**Exit condition:** Failure and exit are designed, tested, and documented.
+Exit evidence:
 
-## Phase 7 — Private Alpha
+- repeatable migration and restore drills;
+- documented exclusions;
+- recovery from representative failure;
+- original state protected during failed restore.
 
-- limited controlled installations;
-- telemetry remains opt-in and unnecessary for core use;
-- structured issue and recovery reporting;
-- installation, update, backup, restore, and removal validation;
-- security review appropriate to the actual architecture;
-- licensing and distribution boundaries finalized.
+## Phase 4 — Command and external-effect hardening
 
-**Exit condition:** The system survives real use without relying on hidden manual rescue or private developer state.
+Objectives:
 
-## Phase 8 — Public boundary decision
+- consistent command object model;
+- risk classification by effect class;
+- preview and approval binding;
+- adapter isolation;
+- idempotency and retry rules;
+- verification and partial-failure handling;
+- audit completeness;
+- dry-run adapters for publishing, email, sync, and other external effects;
+- high-risk actions disabled by default.
 
-- decide which repositories and components become public;
-- publish only approved source and synthetic examples;
-- release notes and support boundaries;
-- versioned installers or packages;
-- migration and recovery documentation;
-- clear statement of guarantees and non-guarantees.
+Exit evidence:
 
-**Exit condition:** Public release claims match tested reality.
+- selected command classes pass safety tests;
+- external payloads and destinations are visible;
+- unauthorized or broadened execution is blocked;
+- recovery or corrective guidance exists.
+
+## Phase 5 — AuthorMachine product extraction
+
+Objectives:
+
+- book and project cockpit contracts;
+- canon, continuity, style bible, decision log, contradiction, and proofing records;
+- edition-specific production state;
+- catalogue, rights, metadata, price, and release models;
+- launch, ARC, reviewer, contact, and outreach workflows;
+- approved export packages;
+- publishing integrations behind explicit adapters;
+- synthetic demonstration project.
+
+Exit evidence:
+
+- AuthorMachine operates in a clean synthetic House;
+- publishing-specific behavior does not contaminate Core;
+- public demo contains no private Stokknes records or manuscripts;
+- release operations remain reviewable and bounded.
+
+## Phase 6 — Packaging and closed technical alpha candidate
+
+Objectives:
+
+- supported installation or bootstrap path for a narrow platform scope;
+- visible build and schema versions;
+- clean uninstall or removal procedure;
+- diagnostics export with safe defaults;
+- documented limitations;
+- tester consent and data-handling rules;
+- update and rollback path;
+- selected security baseline and threat model;
+- small closed technical tester group.
+
+Exit evidence:
+
+- readiness gates for the scoped alpha are passed;
+- no unresolved P0/P1 issue in enabled scope;
+- support capacity exists;
+- backup and restore are proven outside the developer’s primary environment.
+
+## Phase 7 — Public alpha foundations
+
+Possible later objectives:
+
+- broader platform compatibility;
+- update distribution;
+- documentation and onboarding;
+- accessibility hardening;
+- privacy policy and telemetry decision;
+- vulnerability handling;
+- licensing and contribution model;
+- public issue workflow;
+- stable migration expectations for alpha data;
+- clearer packaging between Systead Core, desktop House, and AuthorMachine.
+
+## Phase 8 — Mobile and additional specialist systems
+
+Only after desktop/Core boundaries are stable:
+
+- Android companion or application strategy;
+- secure local or user-controlled synchronization;
+- additional specialist systems;
+- optional team or multi-user authority model;
+- plugin ecosystem;
+- hosted services that do not erase local ownership.
+
+## Roadmap exclusions
+
+The roadmap does not currently promise:
+
+- a release date;
+- an app-store date;
+- mobile parity;
+- enterprise support;
+- cloud hosting;
+- subscription pricing;
+- open-source licensing;
+- a plugin marketplace;
+- broad integration coverage.
+
+Those decisions require evidence, legal review, capacity, and a clearer product boundary.

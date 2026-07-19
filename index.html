@@ -4,88 +4,230 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Systead — Local-first command systems</title>
-  <meta name="description" content="Systead is a local-first command platform for work, knowledge, money, household operations, and specialist systems under human control.">
+  <meta name="description" content="Systead is a local-first command platform for running records, projects, knowledge, review, automation, and specialist workflows under human control.">
+  <meta name="theme-color" content="#0b0e0d">
+  <meta property="og:title" content="Systead — Local-first command systems">
+  <meta property="og:description" content="A running private pre-alpha for operator-owned, explainable, and reversible command environments.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://systead.com/">
+  <meta property="og:image" content="https://systead.com/assets/img/pre-alpha/house-command-centre.png">
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-  <header class="wrap">
-    <nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <nav class="wrap" aria-label="Primary navigation">
       <div class="wordmark">SYSTEAD</div>
-      <div class="status">Alpha foundation in preparation</div>
+      <div class="nav-links">
+        <a href="#system">System</a>
+        <a href="#pre-alpha">Pre-alpha views</a>
+        <a href="#control">Control model</a>
+        <a href="#status">Status</a>
+        <a href="https://github.com/Systead/systead">Repository</a>
+      </div>
+      <div class="status">Private pre-alpha · stress test week 1</div>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <div class="wrap hero">
       <div>
         <div class="eyebrow">Local-first command systems</div>
         <h1>Run the work.<br>Keep the judgment.</h1>
-        <p class="lead">Systead brings records, projects, knowledge, money, review, automation, and specialist systems into one controlled House—without surrendering ownership of your data or decisions.</p>
+        <p class="lead">Systead brings records, projects, knowledge, review, automation, and specialist systems into one controlled House—without quietly taking ownership of the operator’s data or decisions.</p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/Systead/systead">View the repository</a>
-          <a class="button" href="#model">Understand the model</a>
+          <a class="button primary" href="#pre-alpha">See the pre-alpha</a>
+          <a class="button" href="https://github.com/Systead/systead">View the repository</a>
         </div>
+        <p class="hero-note">The system is running privately and is currently being stress-tested under real daily workload. It is not available for public testing yet.</p>
       </div>
-      <div class="hero-art">
-        <img class="mark" src="assets/img/systead-mark-a.png" alt="Working Systead logo candidate">
+      <div class="hero-art" aria-hidden="true">
+        <img class="mark" src="assets/img/systead-mark-a.png" alt="">
       </div>
     </div>
 
+    <div class="status-strip" role="note" aria-label="Current development status">
+      <div class="wrap">
+        <div class="status-label">Current build state</div>
+        <div class="status-copy"><strong>Running private pre-alpha.</strong> The first-week stress test is focused on failure discovery, data boundaries, review gates, recovery behavior, and the separation of reusable Core from private proving-ground configuration.</div>
+        <div class="status-date">Updated 19 July 2026</div>
+      </div>
+    </div>
+
+    <section id="system">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">What Systead is</div>
+            <h2>Not another dashboard. An owned operating environment.</h2>
+          </div>
+          <p class="section-copy">A dashboard shows information. A House connects the records, rules, evidence, commands, review states, and recovery paths required to run ongoing work without creating five conflicting versions of the truth.</p>
+        </div>
+
+        <div class="grid four">
+          <article class="card"><span class="number">01</span><h3>Canonical records</h3><p>People, projects, assets, publications, decisions, obligations, and other entities are linked through stable records rather than copied into isolated modules.</p></article>
+          <article class="card"><span class="number">02</span><h3>Operational knowledge</h3><p>Manuals, source files, evidence, history, style rules, and decisions remain searchable and connected to the work they explain.</p></article>
+          <article class="card"><span class="number">03</span><h3>Reviewable commands</h3><p>Material actions declare their source, intended effect, scope, risk, confirmation requirement, verification step, and recovery route.</p></article>
+          <article class="card"><span class="number">04</span><h3>Specialist systems</h3><p>Domain products use the same Core contracts while adding purpose-built records and workflows. AuthorMachine is the first.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pre-alpha">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Pre-alpha interface views</div>
+            <h2>Enough to show the system. Not enough to pretend it is finished.</h2>
+          </div>
+          <p class="section-copy">These public-safe interface studies reconstruct the current product direction with synthetic data. They communicate the operating model without exposing private House records, manuscripts, contacts, finances, or stress-test telemetry.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="figure">
+            <a href="assets/img/pre-alpha/house-command-centre.png"><img src="assets/img/pre-alpha/house-command-centre.png" alt="Pre-alpha Systead House command centre showing a daily brief, current work, review queue, local status, and stress-test focus."></a>
+            <figcaption><div><strong>House Command Centre</strong>A daily operational view of changes, pending judgments, workstreams, safety signals, and blocked external effects.</div><div class="figure-note">Synthetic data<br>Representative interface study</div></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <a href="assets/img/pre-alpha/command-review.png"><img src="assets/img/pre-alpha/command-review.png" alt="Pre-alpha Systead command review screen showing intent, reason, affected records, risk, approval, verification, and recovery."></a>
+            <figcaption><div><strong>Command Review Gate</strong>A material action is kept as a proposal until its intent, evidence, affected records, risk, authority, verification, and rollback path are visible.</div><div class="figure-note">Synthetic data<br>No command executed</div></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <a href="assets/img/pre-alpha/authormachine-cockpit.png"><img src="assets/img/pre-alpha/authormachine-cockpit.png" alt="Pre-alpha AuthorMachine book cockpit showing project state, canon signals, edition control, production pipeline, knowledge, and release controls."></a>
+            <figcaption><div><strong>AuthorMachine Book Cockpit</strong>The first specialist product connects manuscript state, canon, decisions, editions, production, catalogue, and release control without turning publishing-specific logic into the universal platform.</div><div class="figure-note">Fictional project<br>No private manuscript data</div></figcaption>
+          </figure>
+        </div>
+
+        <div class="image-disclaimer"><strong>These are not release screenshots.</strong> They are public-safe pre-alpha interface studies based on the running private build. Layout, terminology, feature boundaries, and workflows may change as stress testing exposes what is unclear, unsafe, or too specific to the proving environment.</div>
+      </div>
+    </section>
+
     <section id="model">
       <div class="wrap">
-        <div class="eyebrow">Product model</div>
-        <h2>One platform. One owned environment. Specialist systems where they belong.</h2>
-        <div class="grid">
-          <article class="card"><h3>Systead</h3><p>The parent platform and universal architecture for operator-owned command systems.</p></article>
-          <article class="card"><h3>House</h3><p>The operator's configured environment, built from linked canonical records, commands, knowledge, and selected modules.</p></article>
-          <article class="card"><h3>Specialist systems</h3><p>Purpose-built operational products that use the same safety, review, audit, and recovery foundation.</p></article>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Canonical product model</div>
+            <h2>One parent platform. One configured House. Specialist systems where they belong.</h2>
+          </div>
+          <p class="section-copy">The names are deliberately separated so the platform does not become trapped inside its first use case or confused with one private environment.</p>
+        </div>
+
+        <div class="model-diagram" aria-label="Systead product hierarchy">
+          <div class="model-row"><div class="model-key">Systead</div><div class="model-value">The parent brand, platform, and universal operating architecture.</div></div>
+          <div class="model-row child"><div class="model-key">Systead Core</div><div class="model-value">Generic records, storage, knowledge, commands, review, safety, audit, integration contracts, export, backup, and recovery.</div></div>
+          <div class="model-row child"><div class="model-key">House</div><div class="model-value">One operator’s configured environment: terminology, selected desks, modules, workflows, permissions, data, and optional integrations.</div></div>
+          <div class="model-row child"><div class="model-key">AuthorMachine</div><div class="model-value">The first specialist product, focused on publishing operations and built on shared Systead foundations.</div></div>
+          <div class="model-row private"><div class="model-key">Stokknes House</div><div class="model-value">The private flagship and proving ground. Reusable architecture may be extracted; its personal records and configuration are never distributed as demo data.</div></div>
         </div>
       </div>
     </section>
 
     <section id="control">
       <div class="wrap">
-        <div class="eyebrow">Controlled execution</div>
-        <h2>Propose. Preview. Approve. Verify. Recover.</h2>
-        <div class="grid">
-          <article class="card"><h3>Command</h3><p>Material actions declare their source, reason, scope, risk, affected records, confirmation requirement, and recovery path before execution.</p></article>
-          <article class="card"><h3>Knowledge</h3><p>Manuals, evidence, decisions, history, and searchable context remain connected to the work they explain.</p></article>
-          <article class="card"><h3>Review</h3><p>AI and automation may prepare proposals. The operator decides what becomes canonical truth or an executed action.</p></article>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Controlled execution</div>
+            <h2>AI may prepare the work. Authority remains explicit.</h2>
+          </div>
+          <p class="section-copy">The system is designed around declared effects rather than vague automation. Higher-risk actions require stronger evidence, clearer previews, narrower authority, and a usable recovery path.</p>
         </div>
-      </div>
-    </section>
 
-    <section id="principles">
-      <div class="wrap">
-        <div class="eyebrow">Principles</div>
-        <h2>Built for control, not dependency.</h2>
-        <div class="grid">
-          <article class="card"><h3>Local-first</h3><p>The system remains useful without a mandatory cloud account. External integrations are explicit and optional.</p></article>
-          <article class="card"><h3>Explainable</h3><p>Recommendations and actions show their source, reason, uncertainty, and likely consequences.</p></article>
-          <article class="card"><h3>Reversible</h3><p>History, export, backup, verification, rollback, and recovery are part of the product architecture.</p></article>
+        <div class="lifecycle" aria-label="Command lifecycle">
+          <article class="lifecycle-item"><h3>Propose</h3><p>State the intended change, source, reason, assumptions, and confidence.</p></article>
+          <article class="lifecycle-item"><h3>Preview</h3><p>Show affected records, files, destinations, integrations, and likely consequences.</p></article>
+          <article class="lifecycle-item"><h3>Approve</h3><p>Obtain the required human authority for the declared risk and exact scope.</p></article>
+          <article class="lifecycle-item"><h3>Execute</h3><p>Perform only the operation that was previewed and approved.</p></article>
+          <article class="lifecycle-item"><h3>Verify</h3><p>Check the expected result and report mismatches or partial failure.</p></article>
+          <article class="lifecycle-item"><h3>Audit</h3><p>Record what changed, when, why, from which source, and under whose authority.</p></article>
+          <article class="lifecycle-item"><h3>Recover</h3><p>Rollback, restore, quarantine, or perform a documented corrective action.</p></article>
         </div>
       </div>
     </section>
 
     <section id="author-machine">
       <div class="wrap">
-        <div class="eyebrow">First specialist product</div>
-        <h2>AuthorMachine by Systead</h2>
-        <p class="lead">A publishing-operations environment for projects, manuscripts, canon, continuity, production, catalogue, rights, release control, publishing knowledge, and reviewable automation.</p>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">First specialist product</div>
+            <h2>AuthorMachine by Systead</h2>
+          </div>
+          <p class="section-copy">AuthorMachine is where the architecture is being forced to survive a real, difficult domain: long-running creative projects, many files and editions, contradictory notes, release operations, external publishing systems, and decisions that must remain traceable.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card"><h3>Book and project cockpits</h3><p>Canonical project state, next decisions, risks, open issues, evidence, and production readiness in one operational view.</p></article>
+          <article class="card"><h3>Canon and continuity</h3><p>Character, timeline, location, style, decision, contradiction, and plot-hole records linked to their source material.</p></article>
+          <article class="card"><h3>Edition and production control</h3><p>Separate manuscript, proof, edition, format, metadata, catalogue, rights, pricing, and release states instead of treating every exported file as truth.</p></article>
+          <article class="card"><h3>Publishing operations</h3><p>Launch rooms, ARC and reviewer workflows, publishing contacts, release checklists, approved exports, and external destinations.</p></article>
+          <article class="card"><h3>Reviewable assistance</h3><p>AI can compare, summarize, classify, draft, detect conflicts, and prepare changes—but does not silently overwrite canon or publish work.</p></article>
+          <article class="card"><h3>Generalization pressure</h3><p>Capabilities useful outside publishing are extracted into Core. Publishing assumptions remain inside AuthorMachine.</p></article>
+        </div>
       </div>
     </section>
 
     <section id="status">
       <div class="wrap">
-        <div class="eyebrow">Current status</div>
-        <h2>Foundation before promises.</h2>
-        <p class="lead">Systead is in Alpha preparation. Product boundaries, recovery systems, portability, private-data protections, and the reusable extraction of AuthorMachine are being defined before public release.</p>
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Current development status</div>
+            <h2>The build exists. The product promise is still being earned.</h2>
+          </div>
+          <p class="section-copy">Pre-alpha is the correct label because the system is running privately, but its architecture, migration behavior, error handling, installation path, security posture, and public boundaries have not yet been proven for outside users.</p>
+        </div>
+
+        <table class="truth-table">
+          <thead><tr><th>Area</th><th>Current honest status</th></tr></thead>
+          <tbody>
+            <tr><td>Running system</td><td>A private build is operating in the flagship proving environment and is being used under real daily workload.</td></tr>
+            <tr><td>Stress testing</td><td>Week one is focused on exposing broken assumptions, confusing states, partial failures, fragile migrations, duplicate truth, unsafe shortcuts, and recovery gaps.</td></tr>
+            <tr><td>Public testing</td><td>Not open. There is no supported tester package, onboarding flow, public installer, or compatibility promise.</td></tr>
+            <tr><td>Data and privacy</td><td>Public material uses synthetic or deliberately sanitized examples. Private House data is not public demo content.</td></tr>
+            <tr><td>Security</td><td>No claim of production-grade security, formal audit, hardened multi-user isolation, or complete threat-model coverage.</td></tr>
+            <tr><td>Licensing</td><td>No blanket public software licence is granted unless a specific component explicitly states otherwise.</td></tr>
+            <tr><td>Release date</td><td>Not announced. Readiness gates matter more than inventing a date before recovery, portability, and boundaries have been proven.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="compact">
+      <div class="wrap">
+        <div class="callout">
+          <h3>What the first stress-test phase is trying to break</h3>
+          <div class="check-list">
+            <div class="check-item">Conflicting records, duplicates, stale references, and modules that clone truth instead of linking it.</div>
+            <div class="check-item">Commands that cannot clearly explain their scope, evidence, side effects, verification, or recovery route.</div>
+            <div class="check-item">Imports and indexes that confuse private source material with public output or reusable fixtures.</div>
+            <div class="check-item">Publishing-specific assumptions leaking into Core and private Stokknes configuration leaking into product defaults.</div>
+            <div class="check-item">Failures that leave the operator unsure what changed, what did not change, and what the next safe action is.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="compact">
+      <div class="wrap links-panel">
+        <div>
+          <div class="eyebrow">Documentation and development</div>
+          <h2>Follow the architecture, not launch theatre.</h2>
+          <p class="lead">The repository contains the working product model, operating principles, privacy boundaries, architecture, pre-alpha program, stress-test protocol, roadmap, and public walkthrough.</p>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Systead/systead">Open GitHub</a>
+          <a class="button" href="https://github.com/Systead/systead/tree/main/Application/docs/canonical">Canonical docs</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">Systead is in Alpha foundation preparation. Features, availability, licensing, security guarantees, and release dates are not final.</div>
+    <div class="wrap footer-row">
+      <div>Systead is a running private pre-alpha. Features, interfaces, availability, security guarantees, licensing, support, and release dates are not final.</div>
+      <div><a href="https://github.com/Systead">GitHub</a> · <a href="https://systead.com">Systead.com</a> · © 2026 Marius Johan Stokknes</div>
+    </div>
   </footer>
 </body>
 </html>
