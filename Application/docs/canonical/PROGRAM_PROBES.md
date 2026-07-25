@@ -3,29 +3,9 @@
 **Status:** Approved directions for architecture testing
 **Release standing:** Unscheduled; not available for public use
 
-These probes test whether Systead's House and Program boundaries generalize beyond Publishing and Shared Home. Approval as a probe does not create a release promise, public name, delivery date, or feature commitment.
+These probes test whether Systead's House and Program boundaries generalize beyond the first focus Programs: Publishing, Shared Home, and Property Steward. Approval as a probe does not create a release promise, public name, delivery date, or feature commitment.
 
-## Probe 03 — Property Steward
-
-**Internal codename:** Keystone
-**Primary side:** owner, owner-occupier, or small rental operator
-
-Possible profiles:
-
-- Owner-occupier;
-- Single-property landlord;
-- Small rental operator;
-- Heritage-property steward.
-
-Possible depth:
-
-- property and tenancy standing;
-- documents, inspections, obligations, and renewals;
-- maintenance, vendors, visits, costs, and evidence;
-- inventory, condition, keys, and access;
-- communication and handover history.
-
-Property Steward may reuse bounded modules with Shared Home. It may not silently expose resident records, reinterpret resident evidence, provide legal advice, collect rent, or exercise landlord authority.
+Property Steward / Keystone has moved from this probe list into focused **Program 03**. Its current contract lives in [PROGRAM_03_PROPERTY.md](PROGRAM_03_PROPERTY.md).
 
 ## Probe 04 — Archive & Legacy
 

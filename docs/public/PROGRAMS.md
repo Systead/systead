@@ -32,6 +32,34 @@ Publishing is the first proving domain because it combines long-lived projects, 
 
 It demonstrates how deep a Program can become. It does not define the limits of Systead.
 
-## Future Programs
+## Program 02: Shared Home
 
-The architecture should support additional specialist domains. Examples may be discussed to test the model, but they are not announced products or release commitments until explicitly approved and documented.
+Shared Home is the resident-side focus Program for solo homes, families, co-renters, shared households, and renters.
+
+Its internal pre-alpha codename is **Hearth**. It focuses on people, agreements, services, shared costs, maintenance evidence, inventory, responsibility, and handover without claiming payment, legal, surveillance, or landlord authority.
+
+## Program 03: Property Steward
+
+Property Steward is the owner-side focus Program for owner-occupiers, small landlords, and property stewards.
+
+Its internal pre-alpha codename is **Keystone**. It focuses on properties, units, tenancies, condition, inspections, maintenance, vendors, documents, obligations, costs, and handover.
+
+Shared Home and Property Steward may refer to the same building or maintenance issue only through explicit links and visible authority. A resident's household is not the owner's asset register.
+
+## Commercial direction
+
+The intended product shelf is:
+
+- a useful free Systead application and local House;
+- optional specialist Programs purchased once;
+- a one-time full-suite option;
+- no monthly subscription or consultancy dependency;
+- readable export and continued local use for the purchased build.
+
+Nothing is currently available for public download, purchase, or supported use. Price, licence terms, final names, and Program boundaries remain undecided.
+
+## Future Program probes
+
+Archive & Legacy / **Chronicle** and Animal Care / **Sanctuary** are approved architecture probes. Research, collections, restoration, fieldwork, community operations, and creative production remain wilder lower-priority probes.
+
+They are not announced products or release commitments.

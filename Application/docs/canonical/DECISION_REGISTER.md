@@ -50,13 +50,14 @@ The register records product decisions that should not be reinterpreted casually
 | SYS-042 | The primary active tagline is “Local intelligence. Built for home.” | Active working brand decision |
 | SYS-043 | The private proving sequence is Pre-alpha 00 First House, Pre-alpha 01 Folio / Publishing House, and Pre-alpha 02 Hearth / Shared Home. | Active pre-alpha decision |
 | SYS-044 | The founding-alpha commercial direction is a one-time licence to the purchased build, with no monthly subscription or consultancy requirement. | Active packaging decision |
-| SYS-045 | Publishing House and Shared Home are working public alpha labels; neither label changes the durable House/replaceable Program architecture. | Active naming decision |
-| SYS-046 | Commercial proof is staggered: build Pre-alpha 00 once, take Publishing House through the first paid candidate, then bring Shared Home through the same foundation. | Active sequencing decision |
+| SYS-045 | Publishing House, Shared Home, and Property Steward are working public pre-alpha labels; none changes the durable House/replaceable Program architecture. | Active naming decision |
+| SYS-046 | Commercial proof is staggered: build Pre-alpha 00 once, then take Publishing House, Shared Home, and Property Steward through the same foundation in sequence. | Active sequencing decision |
 | SYS-047 | Current public maturity is private pre-alpha; no public download, tester package, or supported public use exists. | Locked current-status decision |
-| SYS-048 | Shared Home remains resident-side; owner-side property operations are a sibling Program probe that may reuse bounded modules without sharing authority by default. | Active architecture decision |
+| SYS-048 | Shared Home remains resident-side; focused Program 03 Property Steward is the owner-side sibling and may reuse bounded modules without sharing authority by default. | Active architecture decision |
 | SYS-049 | First House, Folio, Hearth, Keystone, Chronicle, and Sanctuary are internal pre-alpha codenames, not cleared release brands. | Provisional internal naming decision |
 | SYS-050 | Archive & Legacy and Animal Care are approved product directions for architecture probing but are not scheduled releases. | Active exploration decision |
 | SYS-051 | The intended product shelf begins with a genuinely useful free Systead application and House foundation; specialist Programs are optional one-time purchases. | Active packaging direction |
+| SYS-052 | The delivery target is one canonical local Windows House with an optional explicitly paired, revocable Android companion over local Wi-Fi; the browser run is only a proving prototype. | Active delivery direction |
 
 ## Open decisions
 
@@ -98,12 +99,12 @@ The register records product decisions that should not be reinterpreted casually
 **Reason:** Systead's continuity promise depends on the House outlasting individual Programs.
 **Consequences:** Program APIs, storage, permissions, export, and uninstall behaviour must be evaluated against this rule.
 
-## DEC-2026-07-25-ALPHA-SEQUENCE — Prove the House through two immediate Programs
+## DEC-2026-07-25-ALPHA-SEQUENCE — Prove the House through three focus Programs
 
 **Status:** Accepted
-**Decision:** The private proving sequence proceeds through Pre-alpha 00 First House, Pre-alpha 01 Folio / Publishing House, and Pre-alpha 02 Hearth / Shared Home. The homepage may present both Programs immediately after the platform promise.
-**Reason:** Publishing is the fastest internally proven commercial wedge, while Shared Home makes the same continuity model legible to co-renters, families, solo households, and renters. Showing both prevents either domain from being mistaken for the whole platform.
-**Consequences:** This supersedes only the late-page placement requirement in DEC-2026-07-19-PLATFORM-FIRST. Systead remains the parent platform; both Programs remain subordinate to the House and Trust Kernel.
+**Decision:** The private proving sequence proceeds through Pre-alpha 00 First House, Pre-alpha 01 Folio / Publishing House, Pre-alpha 02 Hearth / Shared Home, and Pre-alpha 03 Keystone / Property Steward. The homepage may present all three Programs immediately after the platform promise.
+**Reason:** Publishing is the fastest internally proven commercial wedge. Shared Home makes the continuity model legible to residents, while Property Steward proves the owner-side market and the system's ability to share bounded property records without collapsing authority.
+**Consequences:** This supersedes only the late-page placement requirement in DEC-2026-07-19-PLATFORM-FIRST. Systead remains the parent platform; all three Programs remain subordinate to the House and Trust Kernel.
 
 ## DEC-2026-07-25-FOUNDING-LICENCE — Sell a durable build, not access or advice
 
@@ -112,17 +113,17 @@ The register records product decisions that should not be reinterpreted casually
 **Reason:** This matches the local-first ownership promise and creates a direct revenue path without introducing recurring-service obligations before the product boundary is stable.
 **Consequences:** The site may state the model but not a price, lifetime-update entitlement, support promise, or release date until those terms are proven and recorded.
 
-## DEC-2026-07-25-STAGGERED-PROGRAMS — One foundation, two commercial proofs
+## DEC-2026-07-25-STAGGERED-PROGRAMS — One foundation, three commercial proofs
 
 **Status:** Accepted direction
-**Decision:** Publishing House and Shared Home are both active starting Programs, but they are not developed as two independent full products in parallel. Pre-alpha 00 proves the shared House loop. Publishing House proceeds through the first paid-candidate path because it is closest to the existing private proving line. Shared Home follows through the same Core and House contracts, beginning with a narrow resident-side continuity scope.
-**Reason:** This reaches a credible paid build sooner, reuses the strongest existing evidence, and prevents two simultaneous support, migration, and recovery burdens from overwhelming a solo operator.
-**Consequences:** Shared Home remains visible and actively specified. Its first commercial scope prioritizes renter, co-rent, household responsibility, maintenance evidence, services, shared costs, and handover—not payments, legal administration, surveillance, or broad property management.
+**Decision:** Publishing House, Shared Home, and Property Steward are active focus Programs, but they are not developed as independent full products in parallel. Pre-alpha 00 proves the shared House loop. Publishing House proceeds through the first paid-candidate path because it is closest to the existing private proving line. Shared Home follows through the same contracts with a narrow resident-side scope. Property Steward follows as the bounded owner-side sibling.
+**Reason:** This reaches a credible paid build sooner, reuses the strongest existing evidence, and prevents simultaneous support, migration, and recovery burdens from overwhelming a solo operator.
+**Consequences:** All three remain visible and actively specified. Delivery is staggered, and each first scope excludes payments, legal authority, surveillance, and enterprise administration.
 
 ## DEC-2026-07-25-RESIDENT-OWNER-SPLIT — Share property contracts, not authority
 
 **Status:** Accepted direction
-**Decision:** Shared Home serves residents. Property Steward is the working owner-side sibling Program probe. They may reuse Property Record, Maintenance & Evidence, Inventory & Condition, Documents, and Tenancy & Handover modules, but neither receives access to the other's records without explicit linking and visibility.
+**Decision:** Shared Home serves residents. Property Steward is focused Program 03 and the working owner-side sibling. They may reuse Property Record, Maintenance & Evidence, Inventory & Condition, Documents, and Tenancy & Handover modules, but neither receives access to the other's records without explicit linking and visibility.
 **Reason:** Residents and owners may describe the same physical property while having different incentives, obligations, private evidence, and authority. Treating them as interchangeable roles would weaken trust and make permissions harder to explain.
 **Consequences:** An owner-occupier or operator may install both Programs in one House. Cross-Program links must be declared, reviewable, exportable, and removable.
 
@@ -136,6 +137,13 @@ The register records product decisions that should not be reinterpreted casually
 ## DEC-2026-07-25-FREE-HOUSE-PAID-PROGRAMS — Keep ownership free; sell specialist depth
 
 **Status:** Accepted direction
-**Decision:** The intended public product shelf begins with a free Systead application that creates a useful local House. Publishing House, Shared Home, and later specialist Programs are optional one-time purchases. Profiles and required Desks ship with their Program rather than becoming microtransactions.
+**Decision:** The intended public product shelf begins with a free Systead application that creates a useful local House. Publishing House, Shared Home, Property Steward, and later specialist Programs are optional one-time purchases. Profiles and required Desks ship with their Program rather than becoming microtransactions.
 **Reason:** A free House must prove Systead's category and allow durable continuity before asking someone to buy a vertical. Paid Programs have understandable domain outcomes and can fund development without charging rent on the operator's own records.
 **Consequences:** Capture, generic records, search, decisions, review, backup, restore, privacy, readable export, and access to existing data may not be crippled to force a Program sale. The exact software licence remains open until formally published.
+
+## DEC-2026-07-25-LOCAL-DESKTOP-COMPANION — One canonical House, nearby phone access
+
+**Status:** Accepted working direction
+**Decision:** The intended first delivery is an installable local Windows House with durable local storage. An Android companion may be explicitly paired over the same local Wi-Fi for narrowly permissioned capture and consultation. The desktop remains canonical; local access is off by default, revocable, encrypted, and reviewable. A PWA companion should prove the workflow before a native Android package is justified.
+**Reason:** This preserves local ownership, keeps the first product operable without a cloud account, and avoids maintaining separate desktop, Android, and web products before the real phone workflow is proven.
+**Consequences:** The current browser run is labelled as a prototype. Desktop storage, backup, recovery, device identity, pairing, permission scope, and audit must be designed before LAN access is enabled. Hosted synchronization remains optional later work.

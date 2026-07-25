@@ -42,7 +42,7 @@ The following names are internal navigation aids for proving runs and architectu
 | Pre-alpha 00 | House Loop | **First House** | Active private proving run |
 | Pre-alpha 01 | Publishing House | **Folio** | First commercial candidate |
 | Pre-alpha 02 | Shared Home | **Hearth** | Second active domain proof |
-| Program probe 03 | Property Steward | **Keystone** | Owner-side architecture probe |
+| Pre-alpha 03 | Property Steward | **Keystone** | Third focus Program / owner-side proof |
 | Program probe 04 | Archive & Legacy | **Chronicle** | Approved direction / unscheduled probe |
 | Program probe 05 | Animal Care | **Sanctuary** | Approved direction / unscheduled probe |
 

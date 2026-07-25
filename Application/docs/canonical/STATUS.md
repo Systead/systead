@@ -25,6 +25,7 @@ The private line currently combines, at varying maturity:
 - backup, recovery, audit, and portability foundations;
 - shared Desks and modules;
 - the first specialist publishing Program;
+- a separate synthetic local pre-alpha run exercising Publishing, Shared Home, and Property Steward as focus Programs;
 - a public repository and public-safe documentation layer;
 - a public product site.
 
@@ -46,7 +47,8 @@ Current work is trying to expose:
 - external effects without clear destinations or authority;
 - generic infrastructure contaminated by publishing-specific or Stokknes-specific assumptions;
 - interfaces that show information but fail to support the next safe decision;
-- places where private v10 behaviour must be characterized before refactoring.
+- places where private v10 behaviour must be characterized before refactoring;
+- boundaries between resident-side Shared Home and owner-side Property Steward.
 
 ## What does not exist yet
 

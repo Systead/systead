@@ -43,9 +43,9 @@ The public status must state that Systead is a private pre-alpha and is not curr
 
 ## Program placement
 
-Program 01 and Program 02 may appear near the top as the current proof domains, provided the page first states the platform promise and makes their relationship to the shared House explicit.
+Programs 01, 02, and 03 may appear near the top as the current focus domains, provided the page first states the platform promise and makes their relationship to the shared House explicit.
 
-The current internal name AuthorMachine must always be labelled provisional if used in public material. Publishing House and Shared Home are working public alpha labels rather than locked final product names.
+The current internal name AuthorMachine must always be labelled provisional if used in public material. Publishing House, Shared Home, and Property Steward are working public pre-alpha labels rather than locked final product names.
 
 ## Commercial-language rule
 

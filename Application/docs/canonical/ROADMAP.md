@@ -5,7 +5,7 @@
 
 The roadmap is ordered by trust and dependency rather than marketing urgency.
 
-Systead is built as the broader platform now. Program 01: Publishing and Program 02: Shared Home are the first focused proofs and likely first routes to adoption, not the definition of the platform.
+Systead is built as the broader platform now. Program 01: Publishing, Program 02: Shared Home, and Program 03: Property Steward are the first focused proofs and likely first routes to adoption, not the definition of the platform.
 
 ## Private pre-alpha run
 
@@ -14,12 +14,13 @@ The thin product sequence is:
 1. **Pre-alpha 00 — First House / House Loop:** Today, capture, search, review, records, export, and recovery entry.
 2. **Pre-alpha 01 — Folio / Publishing House:** a configured publishing Program sharing the House foundation.
 3. **Pre-alpha 02 — Hearth / Shared Home:** a resident-side Program for solo homes, families, shared households, and renters.
+4. **Pre-alpha 03 — Keystone / Property Steward:** an owner-side Program for owner-occupiers, small landlords, and property stewards.
 
 The commercial direction for this run is a one-time licence to the purchased build, without a monthly subscription or consultancy requirement. Price, supported platforms, support scope, and entitlement to future major versions remain open until the build is supportable.
 
 This sequence is a bounded proving track across the deeper phases below. It does not waive release, privacy, recovery, or outside-testing gates.
 
-Commercial proof is staggered rather than parallel: Pre-alpha 00 establishes the shared loop once, Publishing House takes the first paid-candidate path, and Shared Home then reuses the same House contracts with a narrow resident-side scope. The sequence exists to reduce implementation and support stress, not to defer Shared Home into an undefined future.
+Commercial proof is staggered rather than parallel: Pre-alpha 00 establishes the shared loop once, Publishing House takes the first paid-candidate path, Shared Home reuses the same House contracts with a narrow resident-side scope, and Property Steward then proves the owner-side sibling without merging authority. The sequence exists to reduce implementation and support stress, not to place any of the three focus Programs into an undefined future.
 
 There is no current public build. A first closed outside candidate before the end of 2026 is an aspiration only and remains subordinate to the release gates.
 
@@ -220,7 +221,26 @@ Exit evidence:
 - responsibility and handover history remain understandable;
 - exported records remain usable outside Systead.
 
-## Phase 9 — Closed outside testing
+## Phase 9 — Program 03 extraction
+
+Objectives:
+
+- separate owner-side property records and workflows from Core and resident-side Shared Home;
+- establish property, unit, tenancy, condition, inspection, maintenance, vendor, document, obligation, cost, and handover contracts;
+- create synthetic owner-occupier, single-property, and small rental-operator fixtures;
+- prove bounded record exchange with Shared Home without silent authority expansion;
+- keep payments, legal advice, jurisdiction-specific compliance, surveillance, and enterprise portfolio management outside the initial scope;
+- validate export and removal behaviour.
+
+Exit evidence:
+
+- Program 03 operates in a clean synthetic House;
+- property terminology does not contaminate Core;
+- owner and resident records may refer to the same event without becoming the same authority;
+- maintenance and handover history remain understandable;
+- exported records remain usable outside Systead.
+
+## Phase 10 — Closed outside testing
 
 Objectives:
 
@@ -240,7 +260,7 @@ Exit evidence:
 - support capacity exists;
 - backup, restore, and exit proven on another machine.
 
-## Phase 10 — Alpha foundations
+## Phase 11 — Alpha foundations
 
 Possible objectives:
 
@@ -256,16 +276,15 @@ Possible objectives:
 
 ## Later directions
 
-Only after Core and desktop boundaries are stable:
+Only after the first three focus Program contracts and desktop boundaries are stable:
 
-- **Keystone / Property Steward:** owner-side property and small rental-operator continuity, separate from resident authority;
 - **Chronicle / Archive & Legacy:** sources, people, places, timelines, provenance, oral history, collections, and preservation;
 - **Sanctuary / Animal Care:** multi-animal, refuge, fostering, treatment-history, document, and handover continuity without claiming veterinary authority;
 - mobile companion for Today, capture, search, reading, and approvals;
 - controlled shared Rooms or read-only views;
 - encrypted self-hosted synchronization;
 - Program and plugin SDK;
-- additional specialist Programs beyond Publishing and Shared Home;
+- additional specialist Programs beyond Publishing, Shared Home, and Property Steward;
 - optional organisation authority models.
 
 ## Roadmap exclusions

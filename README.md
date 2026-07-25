@@ -597,6 +597,7 @@ The answer is not to reduce the ambition. It is to contain it through architectu
 - backup, recovery, audit, and portability foundations;
 - shared Rooms, Desks, and modules;
 - Program 01: Publishing;
+- synthetic focus contracts for Program 02: Shared Home and Program 03: Property Steward;
 - a public repository and documentation layer;
 - a public product site.
 

@@ -61,7 +61,7 @@ Shared Home owns the resident-side domain schema and workflows that give those s
 
 ## Relationship to owner-side property operations
 
-Shared Home remains resident-side. Owner-side and small rental-operator workflows are explored as a sibling Program with the descriptive working label **Property Steward** and internal codename **Keystone**.
+Shared Home remains resident-side. Owner-side and small rental-operator workflows belong to focused sibling **Program 03**, with the descriptive working label **Property Steward** and internal codename **Keystone**.
 
 The two Programs may reuse bounded modules and record contracts:
 

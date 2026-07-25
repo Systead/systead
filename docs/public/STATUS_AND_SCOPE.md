@@ -1,6 +1,6 @@
 # Status and scope
 
-**Status date:** 19 July 2026
+**Status date:** 25 July 2026
 **Maturity:** Running private pre-alpha
 **Public access:** Closed
 
@@ -8,7 +8,7 @@
 
 A private flagship Systead House is running under real daily use.
 
-The current private line contains broader House capabilities and the first specialist publishing Program at varying levels of completeness.
+The current private line contains broader House capabilities and the first specialist publishing Program at varying levels of completeness. A separate synthetic local browser run now exercises the House loop across the three focus directions: Publishing, Shared Home, and Property Steward.
 
 ## What is being tested
 
@@ -23,7 +23,8 @@ The current private line contains broader House capabilities and the first speci
 - external effects;
 - recovery;
 - progressive disclosure;
-- separation between Core, private House configuration, and Program 01.
+- separation between Core, private House configuration, and Program 01;
+- resident-side Shared Home and owner-side Property Steward contracts without authority leakage.
 
 ## What is not available
 
