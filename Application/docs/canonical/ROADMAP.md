@@ -5,7 +5,19 @@
 
 The roadmap is ordered by trust and dependency rather than marketing urgency.
 
-Systead is built as the broader platform now. Program 01: Publishing is the first focused proof and likely first route to adoption, not the definition of the platform.
+Systead is built as the broader platform now. Program 01: Publishing and Program 02: Shared Home are the first focused proofs and likely first routes to adoption, not the definition of the platform.
+
+## Founding alpha run
+
+The thin product sequence is:
+
+1. **Alpha 00 — House Loop:** Today, capture, search, review, records, export, and recovery entry.
+2. **Alpha 01 — Publishing House:** a configured publishing Program sharing the House foundation.
+3. **Alpha 02 — Shared Home:** a resident-side Program for solo homes, families, shared households, and renters.
+
+The commercial direction for this run is a one-time licence to the purchased build, without a monthly subscription or consultancy requirement. Price, supported platforms, support scope, and entitlement to future major versions remain open until the build is supportable.
+
+This sequence is a bounded proving track across the deeper phases below. It does not waive release, privacy, recovery, or outside-testing gates.
 
 ## Phase 0 — Product truth and public boundary
 
@@ -177,7 +189,26 @@ Exit evidence:
 - release operations remain reviewable and bounded;
 - working-name status remains visible until changed deliberately.
 
-## Phase 8 — Closed outside testing
+## Phase 8 — Program 02 extraction
+
+Objectives:
+
+- separate resident-side shared-home records and workflows from Core;
+- establish home, responsibility, maintenance, inventory, cost, document, and handover contracts;
+- create synthetic solo, family, co-rent, and renter fixtures;
+- define role-aware visibility without covert surveillance;
+- keep tenancy law, payment processing, and landlord administration outside the initial scope;
+- validate export and removal behaviour.
+
+Exit evidence:
+
+- Program 02 operates in a clean synthetic House;
+- shared-home terminology does not contaminate Core;
+- one resident cannot silently broaden access to another resident's private records;
+- responsibility and handover history remain understandable;
+- exported records remain usable outside Systead.
+
+## Phase 9 — Closed outside testing
 
 Objectives:
 
@@ -197,7 +228,7 @@ Exit evidence:
 - support capacity exists;
 - backup, restore, and exit proven on another machine.
 
-## Phase 9 — Alpha foundations
+## Phase 10 — Alpha foundations
 
 Possible objectives:
 
@@ -219,7 +250,7 @@ Only after Core and desktop boundaries are stable:
 - controlled shared Rooms or read-only views;
 - encrypted self-hosted synchronization;
 - Program and plugin SDK;
-- additional specialist Programs;
+- additional specialist Programs beyond Publishing and Shared Home;
 - optional organisation authority models.
 
 ## Roadmap exclusions

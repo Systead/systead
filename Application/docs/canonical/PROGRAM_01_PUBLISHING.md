@@ -2,6 +2,7 @@
 
 **Current internal working name:** AuthorMachine
 **Public release name:** Undecided
+**Public alpha label:** Publishing House
 **Maturity:** Private pre-alpha / active extraction target
 
 ## Purpose
@@ -19,6 +20,30 @@ Use:
 - **publishing Program** for general public explanation.
 
 Do not imply that AuthorMachine is the final release name until a naming decision is formally recorded.
+
+Publishing House is the plain-language public label for the Program during the founding alpha. It describes the capability without replacing the architectural name or locking the final release identity.
+
+## Founding-alpha profiles
+
+The first configuration profiles are:
+
+- **Publishing House** for a small press or imprint operating several books;
+- **Author Studio** for a solo author managing a long-lived body of work;
+- **Author-Publisher** for an operator who owns both the creative and release workflow.
+
+Profiles configure the same Program. They are not separate products and must not fork canonical record types.
+
+## Founding-alpha desks
+
+The first bounded desks are:
+
+- catalogue and project cockpit;
+- manuscript and canon;
+- editions and production;
+- rights, metadata, and release;
+- decisions, evidence, and review.
+
+Alpha 01 is successful when these desks can share House memory, make current standing understandable, and export their records. It is not required to automate external publishing platforms.
 
 ## Why this Program comes first
 

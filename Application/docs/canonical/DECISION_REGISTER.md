@@ -1,6 +1,6 @@
 # Decision register
 
-**Updated:** 19 July 2026
+**Updated:** 25 July 2026
 
 The register records product decisions that should not be reinterpreted casually in code, interface copy, or lower-level documents.
 
@@ -48,6 +48,9 @@ The register records product decisions that should not be reinterpreted casually
 | SYS-040 | The untouched private v10 source must not be uploaded directly to public main; it requires protected intake, inventory, classification, synthetic fixtures, and reviewed extraction. | Locked repository-safety decision |
 | SYS-041 | Public material must state when AuthorMachine, House Steward, feature lists, or screenshots are working and provisional rather than final release commitments. | Locked public-claim decision |
 | SYS-042 | The primary active tagline is “Local intelligence. Built for home.” | Active working brand decision |
+| SYS-043 | The founding alpha is sequenced as Alpha 00 House Loop, Alpha 01 Publishing House, and Alpha 02 Shared Home. | Active alpha decision |
+| SYS-044 | The founding-alpha commercial direction is a one-time licence to the purchased build, with no monthly subscription or consultancy requirement. | Active packaging decision |
+| SYS-045 | Publishing House and Shared Home are working public alpha labels; neither label changes the durable House/replaceable Program architecture. | Active naming decision |
 
 ## Open decisions
 
@@ -61,10 +64,10 @@ The register records product decisions that should not be reinterpreted casually
 | OPEN-006 | Encryption-at-rest scope and key handling | Security design not finalized. |
 | OPEN-007 | Hosted synchronization or optional cloud services | Must preserve local ownership; not committed. |
 | OPEN-008 | Closed-alpha entry date and tester count | No date; gated by evidence and support capacity. |
-| OPEN-009 | Pricing and packaging | Not decided. Program 01 may become the first commercial wedge without redefining Systead. |
+| OPEN-009 | Pricing and packaging | One-time purchased-build licence is the active direction. Price, support scope, and future-major-version terms are not decided. |
 | OPEN-010 | Contribution model and public issue intake | Not decided. |
 | OPEN-011 | Mobile architecture | Deferred until desktop/Core boundaries stabilize. |
-| OPEN-012 | Final public name for Program 01 | AuthorMachine remains the internal working name; release identity undecided. |
+| OPEN-012 | Final public name for Program 01 | Publishing House is the working alpha label; AuthorMachine remains the internal working name; final release identity is undecided. |
 | OPEN-013 | Final public name for House Steward | Working name only; authority model remains canonical. |
 
 
@@ -88,3 +91,17 @@ The register records product decisions that should not be reinterpreted casually
 **Decision:** Programs may provide deep specialist capability but cannot own the operator's general memory, bypass Core safety, or make unrelated House records unusable when removed.
 **Reason:** Systead's continuity promise depends on the House outlasting individual Programs.
 **Consequences:** Program APIs, storage, permissions, export, and uninstall behaviour must be evaluated against this rule.
+
+## DEC-2026-07-25-ALPHA-SEQUENCE — Prove the House through two immediate Programs
+
+**Status:** Accepted
+**Decision:** The founding alpha proceeds through Alpha 00 House Loop, Alpha 01 Publishing House, and Alpha 02 Shared Home. The homepage may present both Programs immediately after the platform promise.
+**Reason:** Publishing is the fastest internally proven commercial wedge, while Shared Home makes the same continuity model legible to co-renters, families, solo households, and renters. Showing both prevents either domain from being mistaken for the whole platform.
+**Consequences:** This supersedes only the late-page placement requirement in DEC-2026-07-19-PLATFORM-FIRST. Systead remains the parent platform; both Programs remain subordinate to the House and Trust Kernel.
+
+## DEC-2026-07-25-FOUNDING-LICENCE — Sell a durable build, not access or advice
+
+**Status:** Accepted direction
+**Decision:** Founding-alpha packaging is a one-time product licence. The purchased build remains usable without an active subscription, and consultancy is not required. Future major versions may be separate optional purchases.
+**Reason:** This matches the local-first ownership promise and creates a direct revenue path without introducing recurring-service obligations before the product boundary is stable.
+**Consequences:** The site may state the model but not a price, lifetime-update entitlement, support promise, or release date until those terms are proven and recorded.

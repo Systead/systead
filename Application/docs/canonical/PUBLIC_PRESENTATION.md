@@ -3,23 +3,25 @@
 
 ## Primary rule
 
-Public presentation must introduce Systead as the platform and broader product direction before presenting any specialist Program.
+Public presentation must introduce Systead as the platform and broader product direction before presenting any specialist Program as a standalone product.
 
 > **Programs solve particular domains. Systead preserves the whole.**
+
+The homepage may surface the two active alpha Programs immediately after the human promise. This gives visitors a concrete route into the platform without allowing a Program to redefine Systead.
 
 ## Required explanation order
 
 1. Human promise.
-2. Problem Systead addresses.
-3. Who recognises the problem.
-4. What changes inside a House.
-5. Signature interactions.
-6. Platform, House, Steward, Program, Connector, and Exit distinctions.
-7. Broader vision and maturity horizons.
-8. Programs as optional specialist depth.
-9. Program 01 and its provisional working name.
-10. Architecture and safety machinery.
-11. Current proof and honest status.
+2. The active alpha Programs as concrete entry points.
+3. Problem Systead addresses.
+4. Who recognises the problem.
+5. What changes inside a House.
+6. Signature interactions.
+7. Platform, House, Steward, Program, Connector, and Exit distinctions.
+8. Broader vision and maturity horizons.
+9. Architecture and safety machinery.
+10. Current proof and honest status.
+11. Founding-alpha commercial contract.
 
 ## Homepage role
 
@@ -30,6 +32,7 @@ It should answer:
 - Why does Systead need to exist?
 - What human and operational failures does it address?
 - Who is it for?
+- Which active Program gives this person a useful first configuration?
 - What is a House?
 - What can the House do that disconnected tools cannot?
 - How do Programs fit underneath the platform?
@@ -38,9 +41,21 @@ It should answer:
 
 ## Program placement
 
-Program 01 should remain visible as the first proof domain, but it must occupy a subordinate section after the platform, House, audience, and vision have been established.
+Program 01 and Program 02 may appear near the top as the current proof domains, provided the page first states the platform promise and makes their relationship to the shared House explicit.
 
-The current internal name AuthorMachine must always be labelled provisional in public material.
+The current internal name AuthorMachine must always be labelled provisional if used in public material. Publishing House and Shared Home are working public alpha labels rather than locked final product names.
+
+## Commercial-language rule
+
+The founding-alpha direction is a one-time product licence for the purchased build:
+
+- no monthly subscription;
+- no consultancy requirement;
+- the purchased build remains usable;
+- future major versions may be separate optional purchases;
+- pricing remains unpublished until the build and support boundary are credible.
+
+Public material must not invent a lifetime-update promise, a support service, or a release date.
 
 ## Language rule
 

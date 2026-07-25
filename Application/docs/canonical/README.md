@@ -33,15 +33,16 @@ Read [STATUS.md](STATUS.md) first.
 10. [DIFFERENTIATION.md](DIFFERENTIATION.md) — category boundaries and defensible product distinction.
 11. [HOUSE_STEWARD.md](HOUSE_STEWARD.md) — intelligence, authority ladder, proposal, execution, and verification behaviour.
 12. [PROGRAM_01_PUBLISHING.md](PROGRAM_01_PUBLISHING.md) — first specialist Program and current AuthorMachine working-name scope.
-13. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
-14. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
-15. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
-16. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
-17. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
-18. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
-19. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
-20. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
-21. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
+13. [PROGRAM_02_SHARED_HOME.md](PROGRAM_02_SHARED_HOME.md) — resident-side continuity for solo homes, families, shared households, and renters.
+14. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
+15. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
+16. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
+17. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
+18. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
+19. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
+20. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
+21. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
+22. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
 
 ## Product and public presentation
 
