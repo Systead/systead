@@ -47,6 +47,19 @@ Programs 01, 02, and 03 may appear near the top as the current focus domains, pr
 
 The current internal name AuthorMachine must always be labelled provisional if used in public material. Publishing House, Shared Home, and Property Steward are working public pre-alpha labels rather than locked final product names.
 
+When multiple Programs or probes are presented as a family, each card should act as a Program passport and show:
+
+- sequence or probe standing;
+- descriptive Program label;
+- explicit **Working name** field;
+- intended operator and pressure;
+- representative Desks or modules;
+- concrete uses;
+- profiles where meaningful;
+- maturity language that distinguishes focus, serious probe, and wild architecture probe.
+
+The same visual grammar may be reused across maturity levels, but styling and copy must not make an unscheduled probe appear as built or equally prioritized.
+
 ## Commercial-language rule
 
 The founding-alpha direction is a one-time product licence for the purchased build:

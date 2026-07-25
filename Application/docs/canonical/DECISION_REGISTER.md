@@ -58,6 +58,7 @@ The register records product decisions that should not be reinterpreted casually
 | SYS-050 | Archive & Legacy and Animal Care are approved product directions for architecture probing but are not scheduled releases. | Active exploration decision |
 | SYS-051 | The intended product shelf begins with a genuinely useful free Systead application and House foundation; specialist Programs are optional one-time purchases. | Active packaging direction |
 | SYS-052 | The delivery target is one canonical local Windows House with an optional explicitly paired, revocable Android companion over local Wi-Fi; the browser run is only a proving prototype. | Active delivery direction |
+| SYS-053 | Program-family cards use a shared passport grammar with an explicit working-name field and visible maturity; visual consistency must not imply equal readiness. | Active presentation decision |
 
 ## Open decisions
 
@@ -147,3 +148,10 @@ The register records product decisions that should not be reinterpreted casually
 **Decision:** The intended first delivery is an installable local Windows House with durable local storage. An Android companion may be explicitly paired over the same local Wi-Fi for narrowly permissioned capture and consultation. The desktop remains canonical; local access is off by default, revocable, encrypted, and reviewable. A PWA companion should prove the workflow before a native Android package is justified.
 **Reason:** This preserves local ownership, keeps the first product operable without a cloud account, and avoids maintaining separate desktop, Android, and web products before the real phone workflow is proven.
 **Consequences:** The current browser run is labelled as a prototype. Desktop storage, backup, recovery, device identity, pairing, permission scope, and audit must be designed before LAN access is enabled. Hosted synchronization remains optional later work.
+
+## DEC-2026-07-25-PROGRAM-PASSPORTS — Give every Program the same readable identity
+
+**Status:** Accepted presentation decision
+**Decision:** Focus Programs and planned probes use a consistent passport card showing sequence or standing, descriptive label, explicit working name, intended operator, Desks or modules, concrete uses, profiles, and maturity.
+**Reason:** A visible working-name field prevents codenames from being mistaken for final brands. A repeated information structure makes very different domains comparable without hiding what each Program actually contains.
+**Consequences:** Folio, Hearth, and Keystone remain visually primary. Chronicle and Sanctuary are marked serious but unscheduled. Sourcehouse, Collection Steward, Restoration Workshop, Field Station, Community House, and Production House remain visibly lower-priority architecture probes. Shared styling cannot be used as evidence of implementation or release readiness.

@@ -196,6 +196,7 @@
   align-items: end;
 }
 .program-entry-head h2,
+.planned-programs-head h2,
 .alpha-proof-head h2,
 .alpha-runs-head h2,
 .foundation-copy h2,
@@ -215,6 +216,7 @@
   letter-spacing: -.06em;
 }
 .program-entry-head > p,
+.planned-programs-head > p,
 .alpha-proof-head > p,
 .alpha-runs-head > p { color: #5f6963; font-size: 1rem; line-height: 1.7; }
 .program-entry-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 82px; }
@@ -242,7 +244,34 @@
 .program-state { color: var(--product-moss); font-size: .59rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
 .program-entry-copy h3 { margin: 52px 0 21px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.7rem, 4.4vw, 4.7rem); font-weight: 400; letter-spacing: -.055em; }
 .program-entry-copy > p { color: #5c6761; font-size: .91rem; line-height: 1.7; }
+.working-name {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: baseline;
+  margin: 0 0 25px;
+  padding: 13px 0;
+  border-top: 1px solid var(--product-line);
+  border-bottom: 1px solid var(--product-line);
+}
+.working-name span,
+.card-section-label {
+  color: #8b8f88;
+  font-size: .53rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.working-name strong {
+  color: var(--product-moss);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-align: right;
+}
+.card-section-label { display: block; margin-top: 30px; }
 .desk-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 34px; }
+.card-section-label + .desk-tags { margin-top: 10px; }
 .desk-tags span { padding: 7px 9px; color: #667069; background: #f1eee6; border: 1px solid #d8d1c5; border-radius: 999px; font-size: .54rem; font-weight: 760; }
 .program-uses { display: grid; gap: 9px; margin: 26px 0 34px; padding: 24px 0 0; color: #5f6963; border-top: 1px solid var(--product-line); font-size: .68rem; line-height: 1.55; list-style: none; }
 .program-uses li { position: relative; padding-left: 18px; }
@@ -253,6 +282,57 @@
 .profile-line strong { font-family: Georgia, "Times New Roman", serif; font-size: .98rem; font-weight: 400; }
 .program-link,
 .product-text-link { display: inline-flex; gap: 16px; width: fit-content; margin-top: 32px; color: var(--product-moss); font-size: .65rem; font-weight: 850; letter-spacing: .07em; text-decoration: none; text-transform: uppercase; }
+
+.planned-programs { padding: 138px 0; background: var(--product-paper-deep); border-top: 1px solid var(--product-line); }
+.planned-programs-head {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 90px;
+  align-items: end;
+}
+.planned-passport-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 82px; }
+.planned-passport-card {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  min-height: 670px;
+  background: #fbfaf6;
+  border: 1px solid var(--product-line);
+  border-top: 4px solid #9b8a70;
+  box-shadow: 0 20px 60px rgba(24,32,28,.065);
+}
+.planned-passport-card.archive-passport { border-top-color: #897857; }
+.planned-passport-card.animal-passport { border-top-color: #7c9976; }
+.planned-passport-card.wild-passport { border-top-color: #9c9a91; box-shadow: none; }
+.planned-passport-card.wild-passport .program-state { color: #6f756f; }
+.planned-passport-card.wild-passport .program-entry-number strong { color: #bbb8af; }
+.planned-passport-copy { display: flex; flex-direction: column; padding: clamp(30px, 4vw, 48px); }
+.planned-passport-copy h3 {
+  margin: 48px 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 4vw, 4.1rem);
+  font-weight: 400;
+  line-height: .98;
+  letter-spacing: -.05em;
+}
+.planned-passport-copy > p { color: #5c6761; font-size: .84rem; line-height: 1.7; }
+.planned-passport-copy .program-uses { margin-bottom: 32px; }
+.planned-passport-copy .profile-line { margin-top: auto; }
+.archive-passport .program-uses li::before { background: #9c7f52; }
+.animal-passport .program-uses li::before { background: #7c9976; }
+.wild-passport .program-uses li::before { background: #999991; }
+.planned-programs-note {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 35px;
+  margin-top: 24px;
+  padding: 25px 28px;
+  color: #5f6963;
+  background: rgba(255,255,255,.36);
+  border: 1px solid var(--product-line);
+  font-size: .72rem;
+  line-height: 1.65;
+}
+.planned-programs-note strong { color: var(--product-moss); font-size: .59rem; letter-spacing: .1em; text-transform: uppercase; }
 
 .house-foundation { padding: 138px 0; color: #eef1ed; background: #111815; }
 .house-foundation-grid { display: grid; grid-template-columns: .86fr 1.14fr; gap: 100px; align-items: start; }
@@ -389,10 +469,11 @@
 .program-horizon { padding: 130px 0; background: var(--product-paper-deep); }
 .program-horizon-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 90px; align-items: end; }
 .program-horizon-head > p { color: #626c66; line-height: 1.7; }
-.program-horizon-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; background: var(--product-line); border: 1px solid var(--product-line); }
+.program-horizon-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 70px; background: var(--product-line); border: 1px solid var(--product-line); }
 .program-horizon-grid article { min-height: 330px; padding: 30px; background: #f8f5ee; }
 .program-horizon-grid span { color: #8a7457; font-size: .56rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
-.program-horizon-grid strong { display: block; margin: 76px 0 16px; font-family: Georgia, "Times New Roman", serif; font-size: 1.7rem; font-weight: 400; }
+.program-horizon-grid strong { display: block; margin: 62px 0 12px; font-family: Georgia, "Times New Roman", serif; font-size: 1.7rem; font-weight: 400; }
+.program-horizon-grid em { display: block; padding: 10px 0; color: var(--product-moss); border-top: 1px solid var(--product-line); border-bottom: 1px solid var(--product-line); font-size: .57rem; font-style: normal; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .program-horizon-grid p { color: #626c66; font-size: .7rem; line-height: 1.65; }
 .programs-next { padding: 90px 0; background: var(--product-paper); }
 .programs-next-grid { display: flex; align-items: center; justify-content: space-between; gap: 50px; }
@@ -480,6 +561,7 @@
   .alpha-page-hero-grid { grid-template-columns: 1fr; }
   .program-launcher { max-width: 850px; transform: none; }
   .program-entry-head,
+  .planned-programs-head,
   .alpha-proof-head,
   .alpha-runs-head,
   .house-foundation-grid,
@@ -496,15 +578,18 @@
   .profile-cards,
   .household-detail .profile-cards { grid-template-columns: repeat(2, 1fr); }
   .program-entry-grid { grid-template-columns: 1fr; }
+  .program-horizon-grid { grid-template-columns: repeat(2, 1fr); }
   .alpha-run-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 840px) {
   .program-entry-grid,
+  .planned-passport-grid,
   .alpha-run-grid,
   .alpha-close-grid,
   .alpha-study-secondary,
   .program-horizon-grid { grid-template-columns: 1fr; }
   .program-entry-card { min-height: auto; }
+  .planned-passport-card { min-height: auto; }
   .positioning-bar .wrap { grid-template-columns: 1fr; gap: 14px; padding-block: 28px; }
   .program-detail-grid,
   .alpha-contract-grid { grid-template-columns: 1fr; gap: 45px; }
@@ -536,6 +621,7 @@
   .launcher-core { padding: 26px; }
   .core-rail { grid-template-columns: repeat(3, 1fr); }
   .program-entry,
+  .planned-programs,
   .house-foundation,
   .ownership-section,
   .product-belief,
@@ -553,8 +639,11 @@
   .alpha-price-state,
   .alpha-faq { padding-block: 92px; }
   .program-entry-card { grid-template-columns: 64px 1fr; }
+  .planned-passport-card { grid-template-columns: 64px 1fr; }
   .program-entry-number { padding-inline: 15px; }
   .program-entry-copy h3 { margin-top: 38px; }
+  .planned-passport-copy h3 { margin-top: 38px; }
+  .planned-programs-note { grid-template-columns: 1fr; gap: 10px; }
   .foundation-row,
   .desk-list > div { grid-template-columns: 45px 1fr; }
   .foundation-row strong,

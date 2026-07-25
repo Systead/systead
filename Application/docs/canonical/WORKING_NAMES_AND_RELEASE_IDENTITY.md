@@ -46,6 +46,17 @@ The following names are internal navigation aids for proving runs and architectu
 | Program probe 04 | Archive & Legacy | **Chronicle** | Approved direction / unscheduled probe |
 | Program probe 05 | Animal Care | **Sanctuary** | Approved direction / unscheduled probe |
 
+Lower-priority architecture probes also use explicit working labels:
+
+| Probe | Descriptive label | Working name | Standing |
+|---|---|---|---|
+| Wild probe 01 | Research & Evidence | **Sourcehouse** | Architecture only |
+| Wild probe 02 | Collections & Provenance | **Collection Steward** | Architecture only |
+| Wild probe 03 | Restoration & Conservation | **Restoration Workshop** | Architecture only |
+| Wild probe 04 | Fieldwork & Observation | **Field Station** | Architecture only |
+| Wild probe 05 | Community Operations | **Community House** | Architecture only |
+| Wild probe 06 | Creative Production | **Production House** | Architecture only |
+
 Codename rules:
 
 - a codename does not create a public availability claim;

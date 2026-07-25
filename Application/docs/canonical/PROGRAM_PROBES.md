@@ -58,11 +58,11 @@ Sanctuary does not diagnose, prescribe, replace veterinary records, or claim cli
 
 These remain lower-priority questions rather than approved Programs:
 
-- **Sourcehouse:** historian, genealogist, or investigative research with claims, citations, conflicts, and timelines;
-- **Collection Steward:** private collections, small museums, provenance, condition, conservation, and exhibition history;
-- **Restoration Workshop:** objects, heritage buildings, materials, interventions, photographs, craftspeople, and reversible decisions;
-- **Field Station:** expeditions, ecological monitoring, samples, permits, equipment, observations, and handovers;
-- **Community House:** clubs, cooperatives, associations, decisions, members, shared assets, and institutional memory;
-- **Creative Production:** film, music, games, and other multi-output creative projects adjacent to Publishing.
+- **Research & Evidence / Sourcehouse:** historian, genealogist, or investigative research with claims, citations, conflicts, and timelines;
+- **Collections & Provenance / Collection Steward:** private collections, small museums, provenance, condition, conservation, and exhibition history;
+- **Restoration & Conservation / Restoration Workshop:** objects, heritage buildings, materials, interventions, photographs, craftspeople, and reversible decisions;
+- **Fieldwork & Observation / Field Station:** expeditions, ecological monitoring, samples, permits, equipment, observations, and handovers;
+- **Community Operations / Community House:** clubs, cooperatives, associations, decisions, members, shared assets, and institutional memory;
+- **Creative Production / Production House:** film, music, games, and other multi-output creative projects adjacent to Publishing.
 
 No probe should enter implementation merely because it is interesting. It should earn priority through repeated pain, reachable operators, strong Core reuse, bounded authority, low integration burden, and a credible one-time purchase.

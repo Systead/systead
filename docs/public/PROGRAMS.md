@@ -60,6 +60,15 @@ Nothing is currently available for public download, purchase, or supported use. 
 
 ## Future Program probes
 
-Archive & Legacy / **Chronicle** and Animal Care / **Sanctuary** are approved architecture probes. Research, collections, restoration, fieldwork, community operations, and creative production remain wilder lower-priority probes.
+Archive & Legacy / **Chronicle** and Animal Care / **Sanctuary** are approved architecture probes.
+
+Lower-priority working labels are:
+
+- Research & Evidence / **Sourcehouse**;
+- Collections & Provenance / **Collection Steward**;
+- Restoration & Conservation / **Restoration Workshop**;
+- Fieldwork & Observation / **Field Station**;
+- Community Operations / **Community House**;
+- Creative Production / **Production House**.
 
 They are not announced products or release commitments.
