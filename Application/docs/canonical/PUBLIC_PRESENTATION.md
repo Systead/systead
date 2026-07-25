@@ -84,3 +84,5 @@ Technical language belongs lower on the page or in documentation:
 ## Visual rule
 
 The public identity should remain recognisably Systead rather than a Stokknes Publishing derivative. Use the approved Systead brand assets, generous spacing, architectural hierarchy, warm dark presentation, and restrained technical detail.
+
+When public-safe interface studies exist, the website should show the product rather than rely on copy alone. The House overview, review-before-action view, and Publishing cockpit may be presented as a bounded sequence with synthetic-data and pre-alpha captions. A Shared Home concept must be labelled as a planned Program view until an equivalent public-safe study exists.

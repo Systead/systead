@@ -19,6 +19,16 @@ The commercial direction for this run is a one-time licence to the purchased bui
 
 This sequence is a bounded proving track across the deeper phases below. It does not waive release, privacy, recovery, or outside-testing gates.
 
+Commercial proof is staggered rather than parallel: Alpha 00 establishes the shared loop once, Publishing House takes the first paid-alpha path, and Shared Home then reuses the same House contracts with a narrow resident-side scope. The sequence exists to reduce implementation and support stress, not to defer Shared Home into an undefined future.
+
+Stress constraints for the founding run:
+
+- do not maintain two independent Core implementations;
+- do not open payment, legal, landlord-administration, or cloud-collaboration scope to accelerate Shared Home;
+- do not sell before installation, migration, recovery, and readable exit are credible for the enabled build;
+- prefer a small invited proving group over a broad unsupported launch;
+- let each Program add domain depth without creating a second product infrastructure.
+
 ## Phase 0 — Product truth and public boundary
 
 **Current state:** Active / substantially established

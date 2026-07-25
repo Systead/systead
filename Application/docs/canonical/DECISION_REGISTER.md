@@ -51,6 +51,7 @@ The register records product decisions that should not be reinterpreted casually
 | SYS-043 | The founding alpha is sequenced as Alpha 00 House Loop, Alpha 01 Publishing House, and Alpha 02 Shared Home. | Active alpha decision |
 | SYS-044 | The founding-alpha commercial direction is a one-time licence to the purchased build, with no monthly subscription or consultancy requirement. | Active packaging decision |
 | SYS-045 | Publishing House and Shared Home are working public alpha labels; neither label changes the durable House/replaceable Program architecture. | Active naming decision |
+| SYS-046 | Commercial proof is staggered: build Alpha 00 once, take Publishing House through the first paid alpha, then bring Shared Home through the same foundation. | Active sequencing decision |
 
 ## Open decisions
 
@@ -105,3 +106,10 @@ The register records product decisions that should not be reinterpreted casually
 **Decision:** Founding-alpha packaging is a one-time product licence. The purchased build remains usable without an active subscription, and consultancy is not required. Future major versions may be separate optional purchases.
 **Reason:** This matches the local-first ownership promise and creates a direct revenue path without introducing recurring-service obligations before the product boundary is stable.
 **Consequences:** The site may state the model but not a price, lifetime-update entitlement, support promise, or release date until those terms are proven and recorded.
+
+## DEC-2026-07-25-STAGGERED-PROGRAMS — One foundation, two commercial proofs
+
+**Status:** Accepted direction
+**Decision:** Publishing House and Shared Home are both active starting Programs, but they are not developed as two independent full products in parallel. Alpha 00 proves the shared House loop. Publishing House proceeds through the first paid-alpha path because it is closest to the existing private proving line. Shared Home follows through the same Core and House contracts, beginning with a narrow resident-side continuity scope.
+**Reason:** This reaches a credible paid build sooner, reuses the strongest existing evidence, and prevents two simultaneous support, migration, and recovery burdens from overwhelming a solo operator.
+**Consequences:** Shared Home remains visible and actively specified. Its first commercial scope prioritizes renter, co-rent, household responsibility, maintenance evidence, services, shared costs, and handover—not payments, legal administration, surveillance, or broad property management.
