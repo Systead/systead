@@ -39,6 +39,8 @@ It should answer:
 - Where is the vision heading?
 - What exists now and what remains unproven?
 
+The public status must state that Systead is a private pre-alpha and is not currently available for public download, testing, purchase, or supported use. Commercial language describes intended terms, not a live offer.
+
 ## Program placement
 
 Program 01 and Program 02 may appear near the top as the current proof domains, provided the page first states the platform promise and makes their relationship to the shared House explicit.
@@ -49,6 +51,8 @@ The current internal name AuthorMachine must always be labelled provisional if u
 
 The founding-alpha direction is a one-time product licence for the purchased build:
 
+- the Systead application and useful House foundation are intended to be free;
+- specialist Programs are optional one-time purchases;
 - no monthly subscription;
 - no consultancy requirement;
 - the purchased build remains usable;

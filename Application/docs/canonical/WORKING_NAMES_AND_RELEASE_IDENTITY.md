@@ -33,6 +33,27 @@ Public material must state, where relevant, that:
 
 **Program 01: Publishing** is the stable architectural label used when the product name is undecided.
 
+## Internal pre-alpha codenames
+
+The following names are internal navigation aids for proving runs and architecture probes. They are not cleared release brands and should not appear without a pre-alpha or working-name qualifier.
+
+| Sequence | Descriptive label | Internal codename | Standing |
+|---|---|---|---|
+| Pre-alpha 00 | House Loop | **First House** | Active private proving run |
+| Pre-alpha 01 | Publishing House | **Folio** | First commercial candidate |
+| Pre-alpha 02 | Shared Home | **Hearth** | Second active domain proof |
+| Program probe 03 | Property Steward | **Keystone** | Owner-side architecture probe |
+| Program probe 04 | Archive & Legacy | **Chronicle** | Approved direction / unscheduled probe |
+| Program probe 05 | Animal Care | **Sanctuary** | Approved direction / unscheduled probe |
+
+Codename rules:
+
+- a codename does not create a public availability claim;
+- a codename does not imply trademark clearance;
+- descriptive labels remain primary in public explanations;
+- release naming requires the naming-change procedure below;
+- codenames may be replaced without preserving customer-facing compatibility.
+
 ## House Steward
 
 **House Steward** is the current working name for the intelligence and assistance layer. The name may change before release.

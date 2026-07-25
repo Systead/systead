@@ -6,7 +6,7 @@ When implementation, interface copy, a prototype, a screenshot, a private config
 
 ## Current status
 
-Systead is a **running private pre-alpha** under real daily use and active stress testing as of **19 July 2026**.
+Systead is a **running private pre-alpha** under real daily use and active stress testing as of **25 July 2026**.
 
 That means:
 
@@ -16,6 +16,7 @@ That means:
 - Program 01's current internal name, AuthorMachine, is not locked as its release name;
 - private features and screenshots do not create a public release promise;
 - no supported installer, public tester package, stable API, production-security guarantee, support commitment, or release date is claimed.
+- nothing is currently available for public download, purchase, or supported public use.
 
 Read [STATUS.md](STATUS.md) first.
 
@@ -34,15 +35,16 @@ Read [STATUS.md](STATUS.md) first.
 11. [HOUSE_STEWARD.md](HOUSE_STEWARD.md) — intelligence, authority ladder, proposal, execution, and verification behaviour.
 12. [PROGRAM_01_PUBLISHING.md](PROGRAM_01_PUBLISHING.md) — first specialist Program and current AuthorMachine working-name scope.
 13. [PROGRAM_02_SHARED_HOME.md](PROGRAM_02_SHARED_HOME.md) — resident-side continuity for solo homes, families, shared households, and renters.
-14. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
-15. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
-16. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
-17. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
-18. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
-19. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
-20. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
-21. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
-22. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
+14. [PROGRAM_PROBES.md](PROGRAM_PROBES.md) — bounded owner-side property, archive, animal-care, and other future-domain probes.
+15. [WORKING_NAMES_AND_RELEASE_IDENTITY.md](WORKING_NAMES_AND_RELEASE_IDENTITY.md) — what is locked, provisional, or legally future-facing.
+16. [OPERATING_PRINCIPLES.md](OPERATING_PRINCIPLES.md) — non-negotiable product behaviour.
+17. [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md) — records, commands, storage, integration, knowledge, and recovery contracts.
+18. [PUBLIC_PRIVATE_BOUNDARIES.md](PUBLIC_PRIVATE_BOUNDARIES.md) — what may cross into repositories, websites, prompts, exports, and services.
+19. [PRIVATE_V10_INTAKE.md](PRIVATE_V10_INTAKE.md) — required procedure before private v10 material enters public integration work.
+20. [V10_HANDOFF_BRIEF.md](V10_HANDOFF_BRIEF.md) — direct instructions for the developer or agent receiving the private build.
+21. [STRESS_TEST_PROTOCOL.md](STRESS_TEST_PROTOCOL.md) — pressure tests and evidence.
+22. [RELEASE_READINESS.md](RELEASE_READINESS.md) — outside-testing and release gates.
+23. [ROADMAP.md](ROADMAP.md) — staged direction without invented dates.
 
 ## Product and public presentation
 

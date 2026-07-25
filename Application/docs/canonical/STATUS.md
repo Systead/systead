@@ -1,6 +1,6 @@
 # Current status
 
-**Status date:** 19 July 2026
+**Status date:** 25 July 2026
 **Development label:** Running private pre-alpha
 **Active phase:** Early private stress testing and architecture extraction
 **Public testing:** Closed
@@ -8,6 +8,8 @@
 ## One-sentence public status
 
 > Systead is a running private pre-alpha being stress-tested under real daily workload; it is not yet available as a supported tester build.
+
+Nothing is currently available for public download or public use.
 
 ## What exists
 
@@ -99,3 +101,5 @@ Public material must not say without new evidence:
 ## Next credible transition
 
 The next credible label is **closed technical pre-alpha** or **private alpha candidate** only after the relevant readiness gates are satisfied and documented.
+
+A first closed outside candidate before the end of 2026 is an aspiration, not a release promise. Readiness, privacy, installation, migration, recovery, and exit gates take precedence over the calendar.

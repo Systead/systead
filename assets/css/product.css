@@ -360,12 +360,37 @@
 .commercial-order-steps article > span { color: #d1ae7e; font-size: .63rem; font-weight: 850; }
 .commercial-order-steps strong { display: block; margin-bottom: 8px; font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; font-weight: 400; }
 .commercial-order-steps p { max-width: 680px; color: #aab8b0; font-size: .72rem; line-height: 1.65; }
+.property-split { padding: 130px 0; background: #ece9e2; }
+.property-split-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: 100px; }
+.property-split h2,
+.program-horizon h2 { margin: 15px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.2rem, 5.5vw, 6.3rem); font-weight: 400; line-height: .96; letter-spacing: -.06em; }
+.property-split-grid > div:first-child > p:last-child { max-width: 600px; margin-top: 30px; color: #626c66; line-height: 1.72; }
+.property-lanes { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #c8c5bd; border: 1px solid #c8c5bd; }
+.property-lanes article { min-height: 355px; padding: 30px; background: #faf8f3; }
+.property-lanes article:nth-child(2) { background: #f1eee7; }
+.property-lanes article > span,
+.shared-property-modules > span { color: #668da2; font-size: .56rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+.property-lanes h3 { margin: 62px 0 14px; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; font-weight: 400; }
+.property-lanes p { color: #626c66; font-size: .7rem; line-height: 1.65; }
+.property-lanes ul { margin: 26px 0 0; padding: 20px 0 0 18px; color: #65706a; border-top: 1px solid var(--product-line); font-size: .65rem; line-height: 1.85; }
+.shared-property-modules { grid-column: 1 / -1; padding: 28px 30px; background: #20372e; }
+.shared-property-modules > span { color: #cab083; }
+.shared-property-modules strong { display: block; margin: 12px 0 10px; color: #e2e7e3; font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; font-weight: 400; line-height: 1.45; }
+.shared-property-modules p { color: #a7b5ad; }
 .program-contract { padding: 130px 0; color: #eef1ed; background: #183028; }
 .program-contract-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 100px; }
 .contract-list { border-top: 1px solid rgba(255,255,255,.16); }
 .contract-list > div { display: grid; grid-template-columns: 120px 1fr; gap: 28px; padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.16); }
 .contract-list span { color: #c6a47a; font-size: .58rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
 .contract-list strong { color: #bec9c2; font-size: .76rem; font-weight: 500; line-height: 1.6; }
+.program-horizon { padding: 130px 0; background: var(--product-paper-deep); }
+.program-horizon-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 90px; align-items: end; }
+.program-horizon-head > p { color: #626c66; line-height: 1.7; }
+.program-horizon-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; background: var(--product-line); border: 1px solid var(--product-line); }
+.program-horizon-grid article { min-height: 330px; padding: 30px; background: #f8f5ee; }
+.program-horizon-grid span { color: #8a7457; font-size: .56rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+.program-horizon-grid strong { display: block; margin: 76px 0 16px; font-family: Georgia, "Times New Roman", serif; font-size: 1.7rem; font-weight: 400; }
+.program-horizon-grid p { color: #626c66; font-size: .7rem; line-height: 1.65; }
 .programs-next { padding: 90px 0; background: var(--product-paper); }
 .programs-next-grid { display: flex; align-items: center; justify-content: space-between; gap: 50px; }
 .programs-next-grid span { color: var(--product-moss); font-size: .59rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
@@ -444,7 +469,9 @@
   .alpha-price-grid,
   .alpha-faq-grid,
   .commercial-order-grid,
-  .alpha-control-intro { grid-template-columns: 1fr; gap: 55px; }
+  .alpha-control-intro,
+  .property-split-grid,
+  .program-horizon-head { grid-template-columns: 1fr; gap: 55px; }
   .profile-cards,
   .household-detail .profile-cards { grid-template-columns: repeat(2, 1fr); }
 }
@@ -452,7 +479,8 @@
   .program-entry-grid,
   .alpha-run-grid,
   .alpha-close-grid,
-  .alpha-study-secondary { grid-template-columns: 1fr; }
+  .alpha-study-secondary,
+  .program-horizon-grid { grid-template-columns: 1fr; }
   .program-entry-card { min-height: auto; }
   .positioning-bar .wrap { grid-template-columns: 1fr; gap: 14px; padding-block: 28px; }
   .program-detail-grid,
@@ -477,6 +505,8 @@
   .alpha-scope,
   .boundary-columns { grid-template-columns: 1fr; }
   .household-example-grid { grid-template-columns: 1fr; }
+  .property-lanes { grid-template-columns: 1fr; }
+  .shared-property-modules { grid-column: auto; }
   .launcher-core { padding: 26px; }
   .core-rail { grid-template-columns: repeat(3, 1fr); }
   .program-entry,
@@ -485,7 +515,11 @@
   .product-belief,
   .alpha-close,
   .program-detail,
+  .property-split,
+  .commercial-order,
   .program-contract,
+  .program-horizon,
+  .alpha-control-study,
   .alpha-contract,
   .alpha-runs,
   .alpha-boundaries,

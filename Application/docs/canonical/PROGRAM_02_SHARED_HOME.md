@@ -59,6 +59,22 @@ Generic people, documents, records, decisions, tasks, evidence, review, search, 
 
 Shared Home owns the resident-side domain schema and workflows that give those shared capabilities domestic meaning. Removing the Program must not make unrelated House memory unreadable or trap the operator's data.
 
+## Relationship to owner-side property operations
+
+Shared Home remains resident-side. Owner-side and small rental-operator workflows are explored as a sibling Program with the descriptive working label **Property Steward** and internal codename **Keystone**.
+
+The two Programs may reuse bounded modules and record contracts:
+
+- Property Record;
+- Maintenance & Evidence;
+- Inventory & Condition;
+- Important Documents;
+- Tenancy & Handover.
+
+Reuse does not imply shared authority. A resident record and an owner record may refer to the same property, issue, document, or event only through an explicit link, declared visibility, and reviewable history.
+
+Someone who both occupies a home and owns rental property may install both Programs in one House. Neither Program silently grants the other access to its private records.
+
 ## Founding-alpha evidence
 
 Alpha 02 is successful when synthetic solo, family, co-rent, and renter Houses can:

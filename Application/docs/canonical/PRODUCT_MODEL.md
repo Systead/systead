@@ -281,6 +281,19 @@ This list describes current direction and private-build evidence. It is not a fi
 
 When Program 01 reveals a capability that applies across domains—such as generic decision logs, source-aware knowledge, review queues, commands, contact identity, backup, or recovery—the generic contract should move into Core. Publishing-specific rules remain in Program 01.
 
+### Active Program 02 and bounded probes
+
+**Program 02: Shared Home** is the resident-side companion proof, internally codenamed **Hearth**.
+
+Owner-side property operation remains a sibling Program probe, **Property Steward / Keystone**, so resident and owner records may reuse bounded property modules without silently sharing authority.
+
+Approved unscheduled probes also include:
+
+- **Archive & Legacy / Chronicle**;
+- **Animal Care / Sanctuary**.
+
+These probes test the architecture. They are not public releases, available downloads, final names, or delivery commitments.
+
 ## 12. Stokknes House and private v10
 
 **Stokknes House** is the private flagship environment and proving ground.

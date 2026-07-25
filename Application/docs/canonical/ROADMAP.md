@@ -7,19 +7,21 @@ The roadmap is ordered by trust and dependency rather than marketing urgency.
 
 Systead is built as the broader platform now. Program 01: Publishing and Program 02: Shared Home are the first focused proofs and likely first routes to adoption, not the definition of the platform.
 
-## Founding alpha run
+## Private pre-alpha run
 
 The thin product sequence is:
 
-1. **Alpha 00 — House Loop:** Today, capture, search, review, records, export, and recovery entry.
-2. **Alpha 01 — Publishing House:** a configured publishing Program sharing the House foundation.
-3. **Alpha 02 — Shared Home:** a resident-side Program for solo homes, families, shared households, and renters.
+1. **Pre-alpha 00 — First House / House Loop:** Today, capture, search, review, records, export, and recovery entry.
+2. **Pre-alpha 01 — Folio / Publishing House:** a configured publishing Program sharing the House foundation.
+3. **Pre-alpha 02 — Hearth / Shared Home:** a resident-side Program for solo homes, families, shared households, and renters.
 
 The commercial direction for this run is a one-time licence to the purchased build, without a monthly subscription or consultancy requirement. Price, supported platforms, support scope, and entitlement to future major versions remain open until the build is supportable.
 
 This sequence is a bounded proving track across the deeper phases below. It does not waive release, privacy, recovery, or outside-testing gates.
 
-Commercial proof is staggered rather than parallel: Alpha 00 establishes the shared loop once, Publishing House takes the first paid-alpha path, and Shared Home then reuses the same House contracts with a narrow resident-side scope. The sequence exists to reduce implementation and support stress, not to defer Shared Home into an undefined future.
+Commercial proof is staggered rather than parallel: Pre-alpha 00 establishes the shared loop once, Publishing House takes the first paid-candidate path, and Shared Home then reuses the same House contracts with a narrow resident-side scope. The sequence exists to reduce implementation and support stress, not to defer Shared Home into an undefined future.
+
+There is no current public build. A first closed outside candidate before the end of 2026 is an aspiration only and remains subordinate to the release gates.
 
 Stress constraints for the founding run:
 
@@ -256,6 +258,9 @@ Possible objectives:
 
 Only after Core and desktop boundaries are stable:
 
+- **Keystone / Property Steward:** owner-side property and small rental-operator continuity, separate from resident authority;
+- **Chronicle / Archive & Legacy:** sources, people, places, timelines, provenance, oral history, collections, and preservation;
+- **Sanctuary / Animal Care:** multi-animal, refuge, fostering, treatment-history, document, and handover continuity without claiming veterinary authority;
 - mobile companion for Today, capture, search, reading, and approvals;
 - controlled shared Rooms or read-only views;
 - encrypted self-hosted synchronization;
