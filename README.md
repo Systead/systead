@@ -1,3 +1,9 @@
+# Website service first
+
+Working locally from the SD card? Double-click `START_PREVIEW.cmd` in this repository. See [CONTRIBUTING.md](CONTRIBUTING.md) for portable preview, editing, checks and manual Git upload.
+
+Systead’s current commercial focus is bounded website design and build. Start with [the website service](https://systead.com/services.html) and [the estimate planner](https://systead.com/estimate.html). Software House and Programs remain early-stage. The following material describes that longer-term software direction.
+
 
 <p align="center">
   <picture>
@@ -23,10 +29,10 @@
 ---
 
 > [!WARNING]
-> **Systead is a running private pre-alpha.** A private flagship House exists and is under real daily stress testing. There is no supported public installer, tester package, stable migration contract, production-security guarantee, support commitment, or release date yet.
+> **Systead software is a running private pre-alpha.** A private flagship House exists and is under real daily stress testing. There is no supported public installer, tester package, stable migration contract, production-security guarantee, support commitment, or release date yet.
 
 > [!IMPORTANT]
-> **AuthorMachine is an internal working name.** It currently identifies Program 01: Publishing and the private v10 proving line. The eventual release name, package, included features, pricing, licensing, and release identity remain undecided.
+> **AuthorMachine is an internal working name.** It identifies the private Stokknes House implementation lineage, which spans more than publishing. Folio is the working name for the reusable Publishing Program. The eventual release name, package, included features, pricing, licensing, and release identity remain undecided.
 
 # The first 60 seconds
 
@@ -76,7 +82,15 @@ It is especially relevant to someone who says:
 
 A private flagship House is running under real daily workload. It is being stress-tested for persistence, indexing, record integrity, command safety, backup, restore, recovery, and hidden assumptions tied to one operator or publishing workflow.
 
-The current private publishing line is commonly called **AuthorMachine v10** internally. It is evidence that a working system exists. It is not a public release contract.
+The private whole-operation Stokknes House build has used **AuthorMachine** and **Stokknes OS** internally. Publishing is one domain within it. It is evidence that a working system exists. It is not a public release contract.
+
+# The business, product and private House
+
+Systead is the software and services venture. Stokknes House is the founder’s private whole-operation environment, where publishing, freelance work, household responsibilities and Systead business work can be coordinated. Stokknes Publishing House is a separate publishing operation within that wider private context.
+
+The Publishing Program is reusable software, with Folio as its working name. The separately planned Web House website service is a commissioned deliverable, not a paid House Program. Its planner shows provisional pricing and produces a project brief, with no booking or checkout.
+
+See [Systead and Stokknes](docs/public/SYSTEAD_AND_STOKKNES.md), [the House relationship](house.html#stokknes-house), and [the website-service direction](services.html).
 
 # Why Systead exists
 
@@ -371,7 +385,7 @@ They add specialist records, workflows, interfaces, tools, imports, exports, and
 
 The first specialist Program serves authors and publishing operations.
 
-Its current internal working name is **AuthorMachine**.
+Its current Program working name is **Folio**. AuthorMachine refers to the broader private implementation lineage.
 
 The name identifies the private v10 line and current development discussions. It is not locked as the public release name.
 
@@ -753,3 +767,9 @@ Publishing is the first evidence that one Program can become deep.
 It is only one Program.
 
 > **The platform is Systead. The lived environment is the House. Programs provide specialist depth. The operator remains the authority.**
+
+## Website languages
+
+The top-right flag selector supports English, Norwegian Bokmål and Spanish. It remembers the choice on this device and carries `?lang=en`, `?lang=nb` or `?lang=es` through website links. Prices remain in EUR. Language changes preserve calculator selections, supplier amounts and custom project labels. The project brief uses the selected language.
+
+Edit website translations in `assets/i18n/messages.js`, keyed by the original English text. When changing English copy, update the matching keys and both translations. Technical repository documents and the private House interface are outside this visitor-language switch. No external translation service is called.

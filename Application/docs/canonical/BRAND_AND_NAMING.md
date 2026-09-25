@@ -39,7 +39,7 @@ Do not present “Systead House” as a separate parent product.
 
 The first specialist Program serves publishing.
 
-**AuthorMachine** is the current internal working name for the private v10 line and Program 01 heritage.
+**Folio** is the current Program working name. **AuthorMachine** and **Stokknes OS** identify the broader private Stokknes House implementation lineage.
 
 The final public release name is undecided.
 
@@ -56,7 +56,7 @@ House Steward is a working name for the intelligence and assistance layer. The a
 
 ## Stokknes House
 
-Stokknes House is the private flagship and proving ground.
+Stokknes House is the private flagship and proving ground across the founder’s whole operation. Stokknes Publishing House is the separate publishing imprint. Use **Publishing Program** for reusable software; reserve the qualified **Stokknes Publishing House** name for the imprint. “Publishing House” may remain a generic Program profile for a small press.
 
 It is not a public product, template, seed dataset, or release identity.
 

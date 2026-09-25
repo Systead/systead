@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head><link rel="stylesheet" href="assets/i18n/languages.css"><script defer src="assets/i18n/messages.js"></script><script defer src="assets/i18n/site.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://systead.com/alpha.html">
   <title>Private Pre-alpha — Systead</title>
   <meta name="description" content="The private Systead pre-alpha: current status, proving sequence, and the intended one-time product licence. Nothing is available for public use yet.">
   <meta name="theme-color" content="#0b100e">
@@ -11,22 +12,11 @@
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/product.css">
+  <link rel="stylesheet" href="assets/css/positioning.css">
 </head>
 <body class="alpha-page">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand-lockup" href="index.html" aria-label="Systead home"><img src="assets/img/brand/systead-emblem.webp" alt="" width="42" height="42"><span>SYSTEAD</span></a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="programs.html">Programs</a>
-        <a href="house.html">The House</a>
-        <a href="why.html">Why Systead</a>
-        <a href="principles.html">Principles</a>
-        <a href="alpha.html" aria-current="page">Pre-alpha</a>
-      </nav>
-      <div class="status-pill"><span></span>Private pre-alpha</div>
-    </div>
-  </header>
+  <header class="site-header"><div class="wrap nav"><a class="brand-lockup" href="index.html" aria-label="Systead home"><img src="assets/img/brand/systead-emblem.webp" alt="" width="42" height="42"><span>SYSTEAD</span></a><nav class="nav-links" aria-label="Main navigation"><a href="services.html">Website service</a><a href="estimate.html">Estimate</a><a href="index.html#work">Selected work</a><a href="programs.html">Software</a><a href="why.html">About</a></nav><details class="mobile-nav"><summary>Menu</summary><nav class="mobile-nav-links" aria-label="Mobile navigation"><a href="services.html">Website service</a><a href="estimate.html">Estimate</a><a href="index.html#work">Selected work</a><a href="programs.html">Software</a><a href="why.html">About</a></nav></details><div class="language-picker" translate="no"><button class="language-toggle" type="button" aria-label="Choose language: English" aria-expanded="false" aria-controls="site-languages"><img src="assets/i18n/en.svg" alt="" width="24" height="16"><span class="language-code">EN</span><span class="language-chevron" aria-hidden="true">▾</span></button><div class="language-options" id="site-languages" hidden><button type="button" data-language="en" lang="en" aria-pressed="true"><img src="assets/i18n/en.svg" alt="">English</button><button type="button" data-language="nb" lang="nb" aria-pressed="false"><img src="assets/i18n/nb.svg" alt="">Norsk</button><button type="button" data-language="es" lang="es" aria-pressed="false"><img src="assets/i18n/es.svg" alt="">Español</button></div></div></div></header>
 
   <main id="main">
     <section class="alpha-page-hero">
@@ -40,7 +30,7 @@
           <div class="alpha-hero-facts">
             <div><span>Commercial direction</span><strong>One-time licence</strong></div>
             <div><span>House foundation</span><strong>Useful free base</strong></div>
-            <div><span>Primary candidate</span><strong>Folio · Publishing House</strong></div>
+            <div><span>Primary candidate</span><strong>Folio · Publishing Program</strong></div>
             <div><span>Resident-side proof</span><strong>Hearth · Shared Home</strong></div>
             <div><span>Owner-side proof</span><strong>Keystone · Property Steward</strong></div>
             <div><span>Current state</span><strong>Private pre-alpha 00</strong></div>
@@ -88,8 +78,8 @@
         </article>
         <article>
           <div><span>Run 01 · Folio</span><strong>Next</strong></div>
-          <h3>Publishing House</h3>
-          <p>Extract the first clean reusable Program from the private AuthorMachine and Stokknes proving line.</p>
+          <h3>Publishing Program</h3>
+          <p>Extract reusable publishing workflows from the broader private Stokknes House build, replacing private records with synthetic fixtures.</p>
           <ul><li>Catalogue and project state</li><li>Production and release</li><li>Decisions and file standing</li><li>Assisted import without consultancy dependency</li></ul>
         </article>
         <article>
@@ -153,8 +143,10 @@
         <div>
           <details open><summary>Can I download or use Systead now?</summary><p>No. The current system is a private pre-alpha under real internal use. There is no public tester package or supported installer yet.</p></details>
           <details><summary>Is Systead becoming a subscription?</summary><p>The intended commercial direction is a one-time product licence. Hosted or synchronization services, if they ever exist, would need their own separate justification.</p></details>
-          <details><summary>Does the alpha require consultancy?</summary><p>No. A bounded import path and clear documentation are product requirements. Personal implementation services are not the route being pursued.</p></details>
-          <details><summary>Is AuthorMachine the release name?</summary><p>No. AuthorMachine remains the internal name for the private publishing proving line. Folio is the pre-alpha codename; Publishing House is the descriptive working label. None is a cleared release name.</p></details>
+          <details><summary>Does the alpha require consultancy?</summary><p>No. A bounded import path and clear documentation are product requirements. The separately planned website service delivers client websites; it is not a prerequisite for using Systead software.</p></details>
+          <details><summary>Is AuthorMachine the release name?</summary><p>No. AuthorMachine is a historical internal name for the wider private Stokknes House build. Folio is the current working name for the reusable Publishing Program extracted from its publishing workflows. Neither is an announced release name.</p></details>
+          <details><summary>Is Stokknes House the Systead demo?</summary><p>No. Stokknes House is the founder’s private operational environment. Pre-alpha 00 is a separate synthetic product prototype. The public interface studies illustrate the product direction; they do not expose private House records. <a href="house.html#stokknes-house">Read the relationship.</a></p></details>
+          <details><summary>Can I commission a website?</summary><p>The <a href="services.html">website service</a> is Systead’s current service focus. <a href="estimate.html">Prepare an estimate and brief</a>, then agree a written scope, fixed price and delivery slot. No checkout or booking commitment is created here.</p></details>
           <details><summary>What is intended to be free?</summary><p>The Systead application and a useful local House foundation: capture, generic records, search, decisions, review, backup, recovery, and readable exit. Specialist Programs provide the paid domain depth. Final public licence terms remain open.</p></details>
           <details><summary>Is Shared Home already a released product?</summary><p>No. It is the second active proving direction and exists in the private pre-alpha 00 synthetic House. Its purpose is to prove profiles, shared responsibility, tenancy evidence, and clean exit.</p></details>
           <details><summary>Is Property Steward separate from Shared Home?</summary><p>Yes. Hearth is resident-side household continuity; Keystone is owner-side property continuity. They may exchange an explicitly shared maintenance or handover record, but not silently share private House data or authority.</p></details>
@@ -167,7 +159,7 @@
   <footer class="home-footer product-footer">
     <div class="wrap home-footer-bottom">
       <p>Systead is a private pre-alpha and is not available for public use. Licence direction, price, platform support, Program names, and enabled scope remain provisional.</p>
-      <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="programs.html">Programs</a><a href="house.html">House</a><a href="principles.html">Principles</a></nav>
+      <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="programs.html">Programs</a><a href="house.html">House</a><a href="principles.html">Principles</a><a href="services.html">Website service</a><a href="house.html#stokknes-house">Systead &amp; Stokknes</a><a href="vision.html">Vision</a></nav>
       <p>© 2026 Marius Johan Stokknes</p>
     </div>
   </footer>

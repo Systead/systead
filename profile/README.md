@@ -1,3 +1,7 @@
+# Website service first
+
+Systead’s current commercial focus is bounded website design and build. Start with [the website service](https://systead.com/services.html) and [the estimate planner](https://systead.com/estimate.html). Software House and Programs remain early-stage. The following material describes that longer-term software direction.
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Systead/systead/main/assets/img/brand/systead-compact-logo.png" alt="Systead" width="520">
@@ -30,13 +34,17 @@ Systead aims to preserve:
 
 ## Program 01
 
-The first specialist Program serves publishing. Its current internal working name is **AuthorMachine**.
+The first specialist Program serves publishing. Its current working name is **Folio**. AuthorMachine is part of the broader private Stokknes House implementation lineage.
 
 The final release name, package, included features, pricing, licensing, and release identity remain undecided. Publishing is the first proving domain—not the definition or limit of Systead.
 
+## Separate operations
+
+Stokknes House is the founder’s private whole-operation environment. Stokknes Publishing House is the publishing imprint. Systead develops reusable software and a separately scoped website service as its current commercial focus. See [the relationship](https://systead.com/house.html#stokknes-house).
+
 ## Status
 
-Systead is a **running private pre-alpha** under real daily stress testing. There is no supported public installer, tester package, production-security guarantee, or release date yet.
+Systead software is a **running private pre-alpha** under real daily stress testing. There is no supported public installer, tester package, production-security guarantee, or release date yet.
 
 - [Website](https://systead.com)
 - [Repository](https://github.com/Systead/systead)

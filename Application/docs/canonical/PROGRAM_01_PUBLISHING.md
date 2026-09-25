@@ -1,8 +1,9 @@
 # Program 01: Publishing
 
-**Current internal working name:** AuthorMachine
+**Current Program working name:** Folio
+**Private source lineage:** AuthorMachine / Stokknes House
 **Public release name:** Undecided
-**Public alpha label:** Publishing House
+**Public descriptive label:** Publishing Program
 **Maturity:** Private pre-alpha / active extraction target
 
 ## Purpose
@@ -21,7 +22,7 @@ Use:
 
 Do not imply that AuthorMachine is the final release name until a naming decision is formally recorded.
 
-Publishing House is the plain-language public label for the Program during the founding alpha. It describes the capability without replacing the architectural name or locking the final release identity.
+Publishing Program is the plain-language software label. Stokknes Publishing House is the separate author-led imprint. “Publishing House” remains a generic configuration profile for presses; it must not be used to equate the software with the founder’s operation. The broader Stokknes House build includes responsibilities beyond publishing.
 
 ## Founding-alpha profiles
 

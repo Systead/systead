@@ -24,9 +24,15 @@ A Program is optional specialist depth inside the House.
 
 ## Program 01 naming
 
-AuthorMachine is the current internal working name for Program 01: Publishing and the private v10 line.
+Folio is the current working name for Program 01: Publishing. AuthorMachine is a historical internal name for the wider private Stokknes House implementation lineage. Publishing is one domain inside that House.
 
 It is not a locked public release name. Feature presence in the private build is not a release promise.
+
+## Private operation and product
+
+Stokknes House coordinates the founder’s wider private operations. Stokknes Publishing House is the publishing operation; Systead is the software and services venture. Their work may be coordinated from that House without merging their identities or records. The synthetic Systead alpha is a separate product prototype.
+
+The website service is commissioned work under its own scope and terms, not a paid House Program. See [the current relationship map](../../../docs/public/SYSTEAD_AND_STOKKNES.md).
 
 ## Future Programs
 

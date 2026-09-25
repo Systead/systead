@@ -24,7 +24,7 @@ Programs may not:
 
 The first Program serves authors and publishing operations.
 
-Its current internal working name is **AuthorMachine**. This name identifies the private v10 line and current development discussions. It is not locked as the public release name.
+Its current working name is **Folio**. AuthorMachine identifies the broader private Stokknes House lineage from which publishing workflows are extracted. The Publishing Program is software; Stokknes Publishing House is the founder’s publishing operation. Neither the private House nor the imprint is the Program itself.
 
 The final release name, package boundaries, included features, price, licence, supported platforms, and release identity remain undecided.
 
@@ -45,6 +45,8 @@ Property Steward is the owner-side focus Program for owner-occupiers, small land
 Its internal pre-alpha codename is **Keystone**. It focuses on properties, units, tenancies, condition, inspections, maintenance, vendors, documents, obligations, costs, and handover.
 
 Shared Home and Property Steward may refer to the same building or maintenance issue only through explicit links and visible authority. A resident's household is not the owner's asset register.
+
+The separately planned website service is commissioned work, not a House Program. See [Systead and Stokknes](SYSTEAD_AND_STOKKNES.md).
 
 ## Commercial direction
 
